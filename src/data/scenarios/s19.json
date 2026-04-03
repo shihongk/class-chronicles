@@ -1,0 +1,148 @@
+{
+  "id": "S19",
+  "level": "upper_sec",
+  "profile": "invisible_understanding",
+  "subject": "Mathematics",
+  "topic": "Simultaneous Equations",
+  "contextNote": "Sec 3 Math, 24 students. You modelled solving simultaneous equations using both substitution and elimination — showing that for x + 2y = 5 and 2x − y = 1, substitution gives x = 1, y = 2 by isolating x, while elimination gives the same result by multiplying and subtracting. Students are now 23 minutes into a set of simultaneous equation problems. Most have correct solutions on their pages, but the working is sparse, erased, or missing entirely.",
+  "students": [
+    {
+      "name": "Rajan",
+      "role": "fast",
+      "note": "Correct solutions with minimal working. Has written x = 3, y = 1 with no method steps shown."
+    },
+    {
+      "name": "Nur Atiqah",
+      "role": "middle",
+      "note": "Correct solution pairs written neatly. No substitution or elimination steps visible — just the answers."
+    },
+    {
+      "name": "Wei Jie",
+      "role": "middle",
+      "note": "Correct solution with erased working. Faint substitution lines visible under the eraser marks."
+    },
+    {
+      "name": "Siti",
+      "role": "stalled",
+      "note": "Solutions written but incorrect. No working shown. Answers appear guessed."
+    }
+  ],
+  "ep1": {
+    "situation": "23 minutes into the lesson. You circulate and the gap is not in the answers — it is in what is missing. Rajan has correct solutions for three problems but his page shows almost nothing: x = 3, y = 1 with no method steps, no substitution chain, no elimination working. He looks up and says 'done' before you reach him. Nur has correct solution pairs written neatly at the bottom of each problem — (1, 2), (3, 1), (−1, 4) — but the space above each answer is blank. She cannot explain how she got them when you ask. Wei Jie has correct solutions but you can see faint lines under heavy eraser marks — he worked through substitution, got the answer, then erased the method. Siti has written solutions for every problem but they are wrong: x = 5, y = 0 for the first problem, x = 2, y = 2 for the second. No working is visible. A quick scan of the class: 8 students have correct solutions with full working. 10 students have correct solutions with no or minimal working. 6 students have incorrect solutions with no working. You have about 17 minutes of lesson time remaining.",
+    "evidence": "The gap is not in getting answers — most students have something written. The gap is in the visibility of method: students are arriving at solutions (or guessing them) without showing the substitution or elimination logic. The correct-answer group may be using intuition, mental arithmetic, or trial-and-error rather than the taught methods. The incorrect group has no working to diagnose.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Method reveal MCQ: answer then steps",
+        "elaboration": "Stop the class and project a new system: 'x + 2y = 5, 2x − y = 1. What is the solution?' Ask students to write the answer first. Then ask a second question: 'How did you find it? Choose: (a) I used substitution — I isolated one variable and substituted into the other equation. (b) I used elimination — I multiplied to match coefficients and added or subtracted. (c) I used trial and error — I tried values until they worked. (d) I am not sure how I found it.' Ask students to write both answers on paper. Use the pattern to see who has a method and who is guessing.",
+        "theoryKey": "Two_Step_MCQ",
+        "tradeoff": "The two-step structure separates answer-getting from method awareness — it exposes students who have correct answers but no conscious method. It gives you whole-class evidence of who can name and explain their approach. But it halts the class and may embarrass students like Siti whose guessed answers are now visibly wrong. Rajan, who has a method but does not show it, may feel the question is beneath him."
+      },
+      {
+        "id": "B",
+        "label": "Dual-method scaffolds: sub tree and elim prompts",
+        "elaboration": "Distribute two differentiated task cards without stopping the class. One group receives a substitution scaffold: a step-by-step tree showing 'Step 1: Isolate x from Eq1 → x = 5 − 2y. Step 2: Substitute into Eq2 → 2(5 − 2y) − y = 1. Step 3: Solve for y. Step 4: Substitute back to find x.' The other group receives an elimination prompt card: 'Step 1: Multiply Eq1 by 2 → 2x + 4y = 10. Step 2: Subtract Eq2 → 5y = 9. Step 3: Solve for y. Step 4: Substitute back.' Ask both groups to re-solve the same system using their assigned method and show every step. Then ask: 'Which method did you actually use the first time?'",
+        "theoryKey": "Tomlinson_Respectful_Tasks",
+        "tradeoff": "The dual-method scaffolds make both methods visible and give students a structured way to show their working. The comparison question at the end surfaces whether students were using a method or guessing. But distributing two different cards creates logistical noise, and students who were guessing may simply copy the scaffold steps without understanding the method. Siti may produce correct-looking working that masks continued guessing."
+      },
+      {
+        "id": "C",
+        "label": "Pairs method chains: explain your steps aloud",
+        "elaboration": "Pause the class and assign shoulder partners. Ask each pair to explain their solution using the stem: 'I found x = ___ and y = ___ by ___. The first step was ___ because ___. The next step was ___ because ___.' The listener must ask: 'Could you have used the other method? What would the first step be?' Circulate and listen for pairs where the explanation reveals a genuine method versus pairs where the student says 'I just knew' or 'I tried numbers.' After 3 minutes, run a brief IRF probe with the whole class using the clearest and most opaque explanations you heard.",
+        "theoryKey": "Accountable_Talk",
+        "tradeoff": "Pair talk forces students to verbalise their method, which surfaces invisible reasoning that written work hides. The stem ensures students go beyond the answer to the process. But students who guessed may construct a post-hoc explanation that sounds like a method without being one. In weak pairs where both students guessed, the talk will reinforce the illusion of understanding rather than exposing it."
+      }
+    ]
+  },
+  "ep2": {
+    "A": {
+      "consequence": "The responses come in and the pattern is stark. 18 of 24 students have the correct solution. But on the method question, 8 chose substitution, 4 chose elimination, and 8 chose trial and error or 'not sure.' Nur chose (d) — 'I am not sure how I found it' — despite having correct answers for every problem. Wei Jie chose (a) substitution, but when you ask him to write the first step, he hesitates and cannot reproduce it — he erased the working and cannot reconstruct it from memory. Rajan chose (b) elimination and can explain it clearly: 'I multiplied Eq1 by 2 to match the x-coefficient, then subtracted to eliminate x and solve for y.' Siti chose (c) trial and error — she tried x = 5, y = 0 because 'they looked right.' The evidence is now precise: a third of the class has correct answers with no conscious method, a third has a method but erased it, and Siti is guessing. 15 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "Logic reteach: model both method branches",
+          "elaboration": "Address the invisible method gap directly with the whole class. Write the same system on the board — x + 2y = 5, 2x − y = 1 — and model both branches side by side. Left branch: substitution — 'Isolate x: x = 5 − 2y. Substitute: 2(5 − 2y) − y = 1. Simplify: 10 − 4y − y = 1. Solve: 5y = 9, y = 9/5.' Right branch: elimination — 'Multiply Eq1 by 2: 2x + 4y = 10. Subtract Eq2: 5y = 9, y = 9/5.' Connect them: 'Both methods give the same y because they are the same equation — just rearranged differently.' Ask all students to re-solve the next problem showing every step of whichever method they choose.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Process-level feedback (Hattie & Timperley) makes both methods explicit and gives students a model to follow. It is efficient and will reach the students who have correct answers but no visible method. But it reteaches Rajan who already has a method, and Siti — who is guessing — may copy the board steps without understanding why the method works."
+        },
+        {
+          "id": "2",
+          "label": "AQS peer logic: affirm solution, question steps",
+          "elaboration": "Use the MCQ evidence to form pairs: students who named and can explain a method (like Rajan) are paired with students who have correct answers but no method (like Nur). The stronger student gives AQS feedback: Affirm the solution ('Your answer x = 1, y = 2 is correct'), Question the method ('How did you find it? Can you write the first step?'), Suggest the branch ('Try substitution: isolate x from Eq1 first, then substitute into Eq2'). Circulate and listen for pairs where the method is genuinely surfaced versus pairs where the stronger student just gives the steps. After 4 minutes, ask one pair to share their AQS exchange.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task — explaining a method is harder than using it. The structure ensures feedback targets the method gap specifically. But Siti, who is guessing, has no solution to affirm and no method to question — the AQS structure does not give her an entry point."
+        }
+      ]
+    },
+    "B": {
+      "consequence": "The scaffold cards go out and the room shifts. Rajan receives the elimination card and works through it quickly, showing every step. He then writes a note in the margin: 'I actually used substitution the first time — elimination is slower for this one.' Nur receives the substitution tree and follows it step by step, producing correct working for the first time. But when you ask 'Did you use this method before?', she says 'No, I just looked at the numbers.' Wei Jie receives the substitution tree and re-solves the problem, this time leaving the working visible. His steps are correct but mechanical — he follows the tree without varying from it. Siti receives the substitution tree and copies each step carefully. Her final answer is now correct. But when you cover the card and ask her to start the next problem, she stares at the blank page and does not write anything. The room is on-task but quiet. 16 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "IRF method compare: sub vs elim, same answer?",
+          "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, you said you used substitution the first time but the elimination card gave the same answer — why do both methods work?' (Initiation). Then ask a second student: 'Can you show where the two methods connect? At what point do they produce the same equation?' (Response). Then ask a third student: 'And why does it matter which method you choose? When would you prefer one over the other?' (Feedback). Build a class-constructed explanation linking both methods to the same underlying logic. Write the connection on the board.",
+          "theoryKey": "IRF_Chains",
+          "tradeoff": "The IRF chain leverages Rajan's insight about method equivalence and builds a shared explanation of why both methods work. It gives the middle group a conceptual anchor beyond the procedural steps. But the chain is driven by students who can articulate their reasoning — Siti, who just copied the scaffold, may follow the chain without connecting it to her own working."
+        },
+        {
+          "id": "2",
+          "label": "Self-check dual-method: solve one system two ways",
+          "elaboration": "Give a new system: '3x + y = 7, x − 2y = 0.' Ask students to solve it twice — once using substitution and once using elimination — without the scaffold card. Then ask them to write a self-check: 'I got x = ___, y = ___ using substitution. I got x = ___, y = ___ using elimination. I know both are correct because ___. The method I prefer is ___ because ___.' Collect the responses and scan them to see who can execute both methods independently and who is still dependent on the scaffold.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "The dual-method self-check tests whether students have internalised the methods or are still scaffold-dependent. It will reveal Wei Jie's mechanical reliance on the tree and Siti's inability to work without the card. But students who were guessing before may now produce correct-looking working by copying the scaffold pattern without understanding it."
+        }
+      ]
+    },
+    "C": {
+      "consequence": "The pairs begin talking and the room gets louder. Rajan explains his elimination method to his partner with precision: 'I matched the x-coefficients by multiplying Eq1 by 2, then subtracted Eq2 to eliminate x. That left me with 5y = 9.' His partner nods and writes it down. Nur is paired with another student who also has correct answers but no method. They compare answers — both correct — and agree: 'We both got (1, 2).' Neither can explain how. Wei Jie begins explaining substitution to his partner but stops halfway: 'I isolated x... then I put it in the other equation... and then I got y.' He cannot reconstruct the algebra he erased. Siti tells her partner 'I tried x = 5 and y = 0 because 5 + 0 = 5.' Her partner says 'but that does not work for the second equation' — Siti looks at the second equation for the first time. You circulate and hear the pattern: 8 pairs have genuine method explanations. 10 pairs are comparing answers without methods. The talk has revealed the gap but not yet closed it. 15 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "AQS on mirror-logic pairs: surface the method gap",
+          "elaboration": "Write the most common exchange on the board anonymously: 'We both got x = 1, y = 2. We checked and they match.' Ask the class to give AQS feedback: Affirm what is correct ('The solution is right and checking it is good practice'), Question what is missing ('How did you find x = 1, y = 2? What was the first algebraic step?'), Suggest the method ('Write the first step of substitution or elimination — isolate one variable or match one coefficient'). Take responses from multiple students and build a complete AQS response. Then ask all pairs to add the method steps to their explanation.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "The AQS structure makes the method gap explicit and gives the answer-only pairs a concrete model of what a method explanation looks like. It is based on real student talk, which makes it concrete and non-threatening. But it interrupts the pair work momentum. Siti's guessing strategy has been partially exposed by her partner — the AQS feedback does not address her conceptual gap directly."
+        },
+        {
+          "id": "2",
+          "label": "Solo logic proofs: prove solutions using two methods",
+          "elaboration": "Stop the pair talk and ask everyone to work individually. Write on the board: 'Prove that x = 1, y = 2 is the solution to x + 2y = 5 and 2x − y = 1. Show your proof using substitution AND elimination. Every step must be written.' Give students 4 minutes to write, then collect the responses.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Solo written proof gives you the clearest, most honest picture of each student's method knowledge — uncontaminated by pair talk or copying. Rajan's proof will show full method fluency. But the move to individual work kills the emerging talk momentum, and students who were guessing will now be visibly stuck. Siti, whose guessing strategy was just challenged by her partner, may freeze entirely."
+        }
+      ]
+    }
+  },
+  "ep3": {
+    "A1": {
+      "outcome": "You write both method branches on the board side by side and model every step explicitly. The room goes quiet as students watch. Nur looks at the substitution branch and you see the moment of recognition — she has been doing the algebra mentally and not writing it down. She picks up her pen and re-solves the next problem using substitution, writing every step: 'x = 5 − 2y → 2(5 − 2y) − y = 1 → 10 − 5y = 1 → y = 9/5.' Wei Jie follows the elimination branch and re-solves his problem, this time leaving the working visible. His steps are correct. Rajan copies the board notes compliantly but his body language shows mild disengagement — he already had a method and the reteach confirms what he knew. Siti watches the board carefully and copies both branches line by line. When you circulate and ask 'Can you try the next problem?', she starts the substitution branch correctly — 'isolate x: x = ...' — then stalls at the substitution step. She needs the board example to continue. On the next problem, 20 of 24 students now show visible method steps, up from 8. The majority gap has been addressed. But Siti is still dependent on copying, and Rajan is under-challenged.",
+      "tradeoff": "The whole-class reteach with dual method branches is efficient and reaches the majority who had correct answers but invisible methods. Process-level feedback (Hattie & Timperley) made the method explicit and gave students a model to follow. Nur and Wei Jie made clear gains. But the reteach treats the class as uniform — Rajan is under-challenged and Siti remains dependent on the board example rather than building genuine method understanding.",
+      "reflection": "Why did you choose to model both methods simultaneously rather than focusing on one? What were you prioritising?\n\nAre you satisfied with the outcome? Most students now show visible working, but Rajan is disengaged and Siti cannot work without the board example. What does this tell you about whole-class reteaching when the gap is in method visibility rather than conceptual understanding?\n\nHow do you design a lesson so that students who can get correct answers are pushed to articulate and justify their method — not just reproduce it?"
+    },
+    "A2": {
+      "outcome": "You pair Rajan with Nur and ask Rajan to give AQS feedback on Nur's working. Rajan looks at Nur's page — correct answers, no steps — and begins: 'Your solutions are right. But I cannot see how you got them. Can you write the first step?' Nur looks at her page and says: 'I just... saw it.' Rajan responds: 'Try substitution — isolate x from the first equation.' Nur writes 'x = 5 − 2y' and then continues, producing the full substitution chain for the first time. She looks surprised at her own working. Wei Jie is paired with a student who used elimination. His partner asks 'Can you show me your first step?' Wei Jie tries to reconstruct the erased working: 'I think I isolated y... then substituted...' He writes it haltingly but gets the correct chain. Siti is paired with a student who cannot explain the method clearly — her partner says 'just put the numbers in' without showing the algebra. Siti copies her partner's answer. The room is engaged and Nur and Wei Jie are making real gains. But Siti has not moved from copying to method, and three pairs where both students had correct answers but no method affirmed each other without surfacing the gap.",
+      "tradeoff": "AQS feedback activated the expertise in the room. Rajan's questioning pushed Nur to surface and write her implicit method for the first time, and Wei Jie reconstructed his erased working through peer dialogue. But Siti's partner could not model the method clearly, and she is still copying. Pairs where both students had invisible methods reinforced the answer-only pattern rather than exposing it.",
+      "reflection": "Why did you choose peer feedback over whole-class reteaching? What were you hoping would happen?\n\nAre you satisfied with the outcome? Nur and Wei Jie made genuine gains, but Siti is still copying and some pairs reinforced the invisible-method pattern. What does this tell you about the conditions needed for productive peer feedback when the gap is in method visibility?\n\nHow do you design pair groupings so that students with invisible methods are always paired with students who can model and explain the method — not just share the answer?"
+    },
+    "B1": {
+      "outcome": "You pause the class and ask Rajan: 'You said you used substitution the first time but the elimination card gave the same answer — why do both methods work?' Rajan responds: 'Because both methods are just rearranging the same two equations. Substitution replaces one variable with an expression. Elimination removes one variable by adding or subtracting. Either way, you end up with one equation and one unknown.' You ask a second student to show where the methods connect: 'In substitution, after you substitute, you get 10 − 5y = 1. In elimination, after you subtract, you also get 5y = 9. They are the same equation — just written differently.' A third student connects to method choice: 'You use elimination when the coefficients are easy to match. You use substitution when one variable is already isolated.' The IRF chain produces a rich, class-built explanation of method equivalence. Nur listens carefully and re-attempts the next problem, choosing substitution and writing every step. Wei Jie follows the chain and writes the connection in his notes. Siti watches but does not contribute. When you ask 'Does that make sense?', she nods quickly without speaking. Her scaffold-produced working is on her page, but she has not written any new reasoning. The chain has deepened understanding for the middle group and stretched Rajan, but Siti's dependence on the scaffold remains unaddressed.",
+      "tradeoff": "The IRF chain leverages Rajan's insight about method equivalence and builds a rich, class-constructed explanation linking both methods to the same underlying logic. It stretched Rajan and deepened Nur's and Wei Jie's understanding. But the chain is driven by students who can articulate their reasoning — Siti's scaffold dependence is not surfaced or addressed by the discussion.",
+      "reflection": "Why did you choose to run an IRF chain using Rajan's method comparison insight? What were you hoping the class would learn?\n\nAre you satisfied with the outcome? The chain produced strong method reasoning, but Siti's dependence on the scaffold remains unaddressed. What does this tell you about the limits of whole-class discussion when some students are still working mechanically from a scaffold?\n\nHow do you design IRF probes that include students who are still at the procedural stage rather than leaving them as passive observers?"
+    },
+    "B2": {
+      "outcome": "You write the new system on the board — '3x + y = 7, x − 2y = 0' — and ask students to solve it twice without the scaffold card. Rajan completes both methods quickly and writes a detailed self-check: 'Substitution: from Eq2, x = 2y. Substitute into Eq1: 6y + y = 7, y = 1, x = 2. Elimination: multiply Eq2 by 3: 3x − 6y = 0. Subtract from Eq1: 7y = 7, y = 1, x = 2. Both give (2, 1). I prefer elimination here because the x-coefficient in Eq2 is already 1 — easy to match.' His response shows deep method fluency and metacognitive awareness. Nur solves using substitution correctly and writes: 'I isolated y from Eq1: y = 7 − 3x. Substituted into Eq2. Got x = 2, y = 1. I tried elimination but got confused matching coefficients.' Wei Jie solves using the substitution tree pattern but cannot complete the elimination: his self-check says 'I used substitution. I tried elimination but did not know which equation to multiply.' Siti writes '3x + y = 7' and stops. Her self-check is blank. The scaffold removal has revealed a clear split: Rajan and Nur have genuine method fluency; Wei Jie has one method but not the other; Siti cannot work without the scaffold. 14 minutes remain.",
+      "tradeoff": "Scaffold removal tests method internalisation honestly. Rajan and Nur demonstrated genuine fluency across both methods. The self-check reflection (AfL Triangle) gives you individual evidence of method preference and metacognitive awareness. But Wei Jie has one method without the other — the scaffold gave him access to substitution without building elimination fluency. Siti cannot work without the scaffold, and the removal has left her with a blank page.",
+      "reflection": "Why did you choose to remove the scaffold and test dual-method fluency immediately? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur succeeded, but Wei Jie has only one method and Siti cannot work independently. What does this tell you about the difference between scaffold-guided procedure and genuine method understanding?\n\nHow do you design the transition from scaffold to independence so that students like Wei Jie and Siti are not left stranded when the support is removed?"
+    },
+    "C1": {
+      "outcome": "You write the anonymous exchange on the board: 'We both got x = 1, y = 2. We checked and they match.' You ask the class to give AQS feedback. Several students affirm the checking habit. Nur raises her hand and questions: 'How did you find x = 1, y = 2? What was the first algebraic step?' A third student suggests: 'Write the first step of substitution — isolate x from Eq1: x = 5 − 2y. Then substitute into Eq2.' You write the complete AQS response on the board and ask all pairs to add the method steps to their explanation. Nur re-attempts and writes the substitution chain correctly for the first time. Wei Jie follows the AQS feedback and reconstructs his erased working. Rajan listens with mild interest — he was already correct. Siti copies the AQS response from the board line by line. When you ask her to attempt the next problem independently, she writes 'isolate x: x = ...' and then stalls — she cannot continue without the board example. The AQS process has made the method gap explicit for the whole class, but Siti is still copying rather than reasoning, and her guessing strategy has not been directly addressed.",
+      "tradeoff": "The AQS structure made the invisible method gap explicit and gave the answer-only pairs a concrete model of what a method explanation looks like. Nur and Wei Jie made genuine gains. But Siti is still copying from the board rather than reasoning independently, and her underlying guessing strategy has not been surfaced or corrected. The AQS feedback served the middle group but missed the most fundamental gap in the room.",
+      "reflection": "Why did you choose to use AQS feedback on the common answer-only exchange rather than addressing the guessing strategy directly? What were you prioritising?\n\nAre you satisfied with the outcome? Nur and Wei Jie made gains, but Siti is still copying and her guessing strategy remains unaddressed. What does this tell you about the limits of whole-class feedback when some students are not just hiding their method but do not have one?\n\nHow do you design feedback that distinguishes between students who have an implicit method and students who are guessing — when both groups produce the same surface behaviour?"
+    },
+    "C2": {
+      "outcome": "The room goes quiet as students write their individual proofs. Rajan writes a complete, fluent proof: 'Substitution: isolate x from Eq1 → x = 5 − 2y. Substitute into Eq2 → 2(5 − 2y) − y = 1 → 10 − 5y = 1 → y = 9/5, x = 7/5. Elimination: multiply Eq1 by 2 → 2x + 4y = 10. Subtract Eq2 → 5y = 9 → y = 9/5, x = 7/5. Both methods confirm the same solution.' His proof is complete and precise. Nur writes the substitution proof correctly and attempts elimination: 'Multiply Eq1 by 2: 2x + 4y = 10. Subtract Eq2: 5y = 9.' She gets the right answer but writes 'I am not sure I did elimination correctly.' Her substitution is solid; her elimination is fragile. Wei Jie writes the substitution proof correctly but leaves the elimination blank: 'I used substitution. I do not know how to start elimination.' Siti writes 'x + 2y = 5' and stops. Her page is otherwise blank. The individual writing has given you the clearest picture of each student's method knowledge — from Rajan's dual-method fluency to Siti's complete absence of method. But the move to solo writing has revealed that the pair talk produced surface agreement rather than genuine method transfer for most students.",
+      "tradeoff": "Individual written proof synthesis gives you the clearest, most honest evidence of each student's method knowledge. Rajan demonstrated full dual-method fluency. But the move to solo writing revealed that the pair talk did not build elimination for Wei Jie or any method for Siti. The talk produced answer-comparison rather than method transfer for the majority of pairs.",
+      "reflection": "Why did you move from pair talk to individual written proof? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan showed full fluency, but Wei Jie has only substitution and Siti has no method at all. What does this tell you about when collaborative talk builds genuine method understanding versus surface-level answer agreement?\n\nHow do you design a lesson that builds method visibility for students who can get correct answers intuitively — without leaving students like Siti, who are guessing, further behind?"
+    }
+  }
+}
