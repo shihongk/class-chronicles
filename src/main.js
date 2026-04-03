@@ -134,12 +134,12 @@ const LEVELS = [
 ];
 
 const PROFILES = [
-  { value: 'mixed_readiness',        label: 'Mixed Readiness',        desc: 'Wide spread — some ready, some not' },
-  { value: 'fast_finishers',         label: 'Fast Finishers',         desc: 'Most finish quickly, reasoning is thin' },
-  { value: 'quiet_class',            label: 'Quiet Class',              desc: 'Compliant but silent — hard to read' },
-  { value: 'hidden_thinking',        label: 'Hidden Thinking',          desc: 'Correct answers, invisible process' },
-  { value: 'diverse_profiles',       label: 'Diverse Learning Profiles',desc: 'Different reps and access needs in the same room' },
-  { value: 'invisible_understanding',label: 'Invisible Understanding',  desc: 'Fluent but no visible evidence' }
+  { value: 'mixed_readiness',        label: 'Mixed Readiness',           desc: 'A wide spread of readiness in the same room — some students are already ahead, others are stuck at the first step, and the middle group has a patterned error. The challenge is responding to all three tiers at once.' },
+  { value: 'fast_finishers',         label: 'Fast Finishers',            desc: 'Most students finish quickly and correctly, but their reasoning is thin — minimal working, no justification, and early disengagement. The challenge is extending depth, not just pace.' },
+  { value: 'quiet_class',            label: 'Quiet Class',               desc: 'The room is silent and compliant — students complete tasks without talking, questioning, or showing their thinking. Correct answers mask whether understanding is genuine or surface-level.' },
+  { value: 'hidden_thinking',        label: 'Hidden Thinking',           desc: 'Students arrive at correct answers but show no working — they erase steps, skip methods, or cannot explain how they got there when asked. The process is invisible, not the understanding.' },
+  { value: 'diverse_profiles',       label: 'Diverse Learning Profiles', desc: 'Students in the same class access the same concept through different modes — some through graphs, others through tables or verbal reasoning. The challenge is bridging across representations, not just adjusting difficulty.' },
+  { value: 'invisible_understanding',label: 'Invisible Understanding',   desc: 'Students produce correct final answers and graphs, but the reasoning behind them is absent — no labels, no explanation of mechanism, no evidence of how they got there. Unlike hidden thinking, the understanding itself may be shallow.' }
 ];
 
 // Valid (level, profile) combinations per design
@@ -326,7 +326,10 @@ function renderEp1() {
         <div class="episode__situation mt-4">${s.ep1.situation}</div>
         <div class="episode__evidence"><strong>What you notice:</strong> ${s.ep1.evidence}</div>
       </div>
-      <div class="choice-cards">${choicesHtml}</div>
+      <div class="choice-prompt" id="choice-prompt">
+        <span class="choice-prompt__icon">↓</span> Choose your approach
+      </div>
+      <div class="choice-cards" id="choice-cards-ep1">${choicesHtml}</div>
       <div class="episode__actions">
         <button class="btn btn--secondary" id="btn-back">← Back</button>
         <button class="btn btn--primary" id="btn-confirm" ${state.ep1Choice ? '' : 'disabled'}>Confirm →</button>
@@ -344,6 +347,8 @@ function renderEp1() {
       card.setAttribute('aria-pressed', 'true');
       state.ep1Choice = card.dataset.choice;
       document.getElementById('btn-confirm').disabled = false;
+      const prompt = document.getElementById('choice-prompt');
+      if (prompt) prompt.classList.add('choice-prompt--done');
       saveState();
     };
     card.addEventListener('click', activate);
@@ -384,6 +389,9 @@ function renderEp2() {
         <div class="episode__context-label">After your first move</div>
         <div class="episode__situation">${branch.consequence}</div>
       </div>
+      <div class="choice-prompt" id="choice-prompt">
+        <span class="choice-prompt__icon">↓</span> Choose your next move
+      </div>
       <div class="choice-cards">${choicesHtml}</div>
       <div class="episode__actions">
         <button class="btn btn--secondary" id="btn-back">← Back</button>
@@ -401,6 +409,8 @@ function renderEp2() {
       card.setAttribute('aria-pressed', 'true');
       state.ep2Choice = card.dataset.choice;
       document.getElementById('btn-confirm').disabled = false;
+      const prompt = document.getElementById('choice-prompt');
+      if (prompt) prompt.classList.add('choice-prompt--done');
       saveState();
     };
     card.addEventListener('click', activate);

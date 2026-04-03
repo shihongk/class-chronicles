@@ -1,0 +1,148 @@
+{
+  "id": "S21",
+  "level": "lower_sec",
+  "profile": "invisible_understanding",
+  "subject": "Mathematics",
+  "topic": "Probability",
+  "contextNote": "Sec 2 Math, 24 students. You modelled basic probability using a coin flip — drawing the sample space {H, T}, showing P(H) = 1/2, and working through a two-coin tree diagram. Students are now 20 minutes into a set of spinner and card probability questions. Most have correct fractions, but when you ask how they got there, the sample space and event logic disappears.",
+  "students": [
+    {
+      "name": "Rajan",
+      "role": "fast",
+      "note": "All probabilities correct, done quickly. No tree diagram, no sample space listed — just the fractions written."
+    },
+    {
+      "name": "Nur Atiqah",
+      "role": "middle",
+      "note": "Correct fractions for most questions. Has not drawn a tree or listed the sample space. When asked how she got P = 1/6, she says 'there are 6 outcomes.'"
+    },
+    {
+      "name": "Wei Jie",
+      "role": "middle",
+      "note": "Correct probabilities but erases his event lists before you reach him. Faint pencil marks visible."
+    },
+    {
+      "name": "Siti",
+      "role": "stalled",
+      "note": "Correct answer for the first question — but the process is completely blank. When asked how she got it, she shrugs."
+    }
+  ],
+  "ep1": {
+    "situation": "20 minutes into the lesson. You circulate and the answers look right — but the reasoning is invisible. Rajan has all probabilities correct and is sitting quietly, pen down. His page shows only the final fractions: '1/6', '1/2', '2/3' — no tree diagram, no sample space, no event list. Nur has correct fractions for most questions but has not drawn any tree or listed any sample space. When you pause beside her and ask 'How did you get P = 1/6?', she says 'there are 6 outcomes' — correct, but she cannot show where the 6 comes from. Wei Jie has correct probabilities but you notice faint pencil marks where event lists have been erased. He erases whenever you approach. Siti has the correct answer for the first question but the process is completely blank. When you ask how she got it, she shrugs and looks at the floor. A quick scan of the class: 9 students have correct probabilities with no working shown. 10 students have correct probabilities with partial working. 5 students, including Siti, have correct answers but cannot explain their process at all. You have about 20 minutes of lesson time remaining.",
+    "evidence": "The probabilities are mostly correct, but the sample space and event logic is hidden. Students are arriving at correct fractions without showing — or perhaps without using — the systematic method. The gap is not in arithmetic but in whether students understand why the probability is what it is. Siti's correct answer with no process suggests guessing rather than reasoning.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Event tree reveal diagnostic",
+        "elaboration": "Stop the class and project a new problem: 'Two dice are rolled. What is the probability of getting an even sum?' Ask two questions in sequence: '(1) What is the probability?' Then: '(2) How did you find it? Choose: (a) I listed all possible outcomes in a sample space and counted the favourable ones. (b) I drew a tree diagram. (c) I guessed based on the number of outcomes. (d) I am not sure.' Ask students to write both answers on paper. Use the pattern to see who understands the sample space method and who is arriving at correct probabilities by guessing.",
+        "theoryKey": "Two_Step_MCQ",
+        "tradeoff": "The two-step structure exposes the sample space gap directly — you get whole-class evidence of who understands the systematic method and who is guessing. But it halts the class and interrupts students who are working productively. Siti may guess the probability correctly again, which would mask her lack of understanding."
+      },
+      {
+        "id": "B",
+        "label": "Sample space scaffolds: tree, list, formula",
+        "elaboration": "Distribute differentiated task cards without stopping the class. Struggling students like Siti receive a tree diagram scaffold: 'Step 1: Draw the first branch — outcomes for die 1: 1, 2, 3, 4, 5, 6. Step 2: Draw the second branch from each — outcomes for die 2: 1, 2, 3, 4, 5, 6. Step 3: Count total outcomes: ___. Step 4: Circle the outcomes where the sum is even. Step 5: P(even sum) = ___/___.' Middle students like Nur receive an event list prompt: 'List all outcomes where the sum is even: (1,1), (1,3), ... How many are there? Total outcomes = ___. P = ___/___.' Fast finishers like Rajan receive an extension: 'Prove that P(even sum) = 1/2 for any two dice. Explain why this must be true using the structure of the sample space.'",
+        "theoryKey": "Vygotsky_ZPD_Bruner",
+        "tradeoff": "The scaffolds make the sample space logic visible for students who are guessing or hiding their working. The extension gives Rajan a genuine challenge. But the tree diagram scaffold may lead Siti to fill in blanks mechanically without understanding why the sample space method works. Rajan may not engage with the extension if he sees it as optional."
+      },
+      {
+        "id": "C",
+        "label": "Pairs probability logic: explain your sample space",
+        "elaboration": "Pause the class and assign shoulder partners. Ask each pair to explain their method using the stem: 'I found P = ___ by first ___ because ___. The sample space has ___ outcomes because ___.' The listener must ask: 'How do you know you have listed all the outcomes?' Circulate and listen for pairs where the sample space logic is explicit versus pairs where students are describing the answer without the method. After 3 minutes, select two contrasting pairs and run a brief IRF probe: 'What did you notice about these two explanations? Which one shows the sample space most clearly?'",
+        "theoryKey": "Accountable_Talk",
+        "tradeoff": "Accountable Talk forces students to make the hidden sample space logic explicit through talk. The stem structure ensures students address the method directly. But students who are guessing — like Siti — may have nothing to explain, and may echo their partner's reasoning without understanding it. Pairs where both students are guessing will reinforce the gap rather than close it."
+      }
+    ]
+  },
+  "ep2": {
+    "A": {
+      "consequence": "The responses come in and the pattern is revealing. 17 of 24 students got the correct probability (1/2). But on the method question, only 9 of 24 chose option (a) or (b) — a systematic method. 8 students chose option (c) — they guessed based on the number of outcomes. Nur got the correct probability but chose option (c) — she knows there are 36 outcomes but cannot show where they come from. Rajan got both right and chose option (a) with a clear explanation: 'I listed the sample space — 36 outcomes total, 18 with even sums. P = 18/36 = 1/2.' Wei Jie got the correct probability but chose option (c) — he guessed. Siti got the correct probability but chose option (d) — she does not know how she got it. The evidence is now precise: the majority are arriving at correct probabilities without the sample space method, and Siti's correct answer is not evidence of understanding. 18 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "Whole-class reteach of sample space and event logic",
+          "elaboration": "Address the sample space gap directly with the whole class. Draw the tree diagram on the board for two dice: 'Die 1 has 6 outcomes. For each outcome of die 1, die 2 has 6 outcomes. Total: 6 × 6 = 36 outcomes.' Then list the favourable outcomes: 'Even sum: (1,1), (1,3), (1,5), (2,2), (2,4), (2,6)... — 18 outcomes total. P(even sum) = 18/36 = 1/2.' Emphasise: 'We list the sample space to make sure we count all outcomes systematically — guessing can miss outcomes or double-count.' Ask all students to re-attempt the problem using the tree or list method.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Process-level feedback (Hattie & Timperley) addresses the sample space gap directly and shows the systematic method. It is efficient and will reach the 8 students who are guessing. But it reteaches Rajan who already understands, and Siti may copy the tree from the board without building genuine understanding of why the sample space method works."
+        },
+        {
+          "id": "2",
+          "label": "AQS peer feedback on sample space reasoning",
+          "elaboration": "Use the diagnostic evidence to form pairs: students who chose option (a) or (b) correctly (like Rajan) are paired with students who chose option (c) (like Nur and Wei Jie). The stronger student gives AQS feedback: Affirm what is correct ('You got the right probability'), Question the method ('How did you find the total number of outcomes? Can you show the sample space?'), Suggest the approach ('Try drawing a tree diagram — die 1 has 6 branches, and each branch has 6 more for die 2, giving 36 total outcomes'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. The structure ensures feedback is specific and actionable. But Siti, who does not know how she got her answer, cannot be helped by a peer who questions her method — she has no method to question."
+        }
+      ]
+    },
+    "B": {
+      "consequence": "The scaffold cards go out and the room shifts. Siti picks up the tree diagram scaffold and begins filling in the blanks carefully. She draws the first branch (die 1: 1–6) and the second branch (die 2: 1–6 from each). She counts 36 total outcomes and circles the even sums. She gets P = 18/36 = 1/2 — correct. But when you ask 'Why do we multiply 6 × 6 to get 36?', she points to the card and says 'Because it says to.' Nur works through the event list prompt and lists the even-sum outcomes correctly. She looks pleased. Wei Jie receives the event list prompt but works through it slowly — he lists some outcomes but misses several. Rajan reads the extension card and engages immediately. He writes: 'P(even sum) = 1/2 for any two dice because exactly half of all possible sums are even — the sample space is symmetric, and for every odd sum there is a corresponding even sum.' The room is on-task but quiet. 19 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "IRF probe: why does the sample space have 36 outcomes?",
+          "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your extension work — why does the sample space for two dice have exactly 36 outcomes?' (Initiation). Then ask a second student: 'Can you connect that to the tree diagram — what does each branch represent?' (Response). Then ask a third student: 'And why do we multiply 6 × 6 rather than add 6 + 6?' (Feedback). Build a class-constructed explanation of why the sample space has 36 outcomes and why the multiplication principle applies. Write the connection on the board.",
+          "theoryKey": "IRF_Chains",
+          "tradeoff": "The IRF chain leverages Rajan's extension work and builds a shared explanation of the multiplication principle for sample spaces. It gives the middle group a concrete, class-built understanding of why the method works. But the chain is driven by students who can articulate their reasoning — Siti, who was following the scaffold mechanically, may follow the chain without connecting it to her own understanding."
+        },
+        {
+          "id": "2",
+          "label": "Scaffold removal: new probability with method choice",
+          "elaboration": "Give a new problem: 'A spinner has 4 equal sections (1, 2, 3, 4) and a coin is flipped. What is the probability of getting an odd number and heads?' Ask students to solve it using any method and then write a self-check: 'I used ___ because ___. I know my probability is correct because ___. I check by ___.' Collect the responses and scan them to see who can transfer the sample space method without support and who is still dependent on the scaffold.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "Scaffold removal tests transfer directly — if students can solve the new problem without the scaffold, the scaffold has done its job. The self-check reflection (AfL Triangle) builds metacognitive awareness. But Siti, who was following the scaffold mechanically, will likely stall on the new problem without the blanks to guide her. Wei Jie, who missed some outcomes in the list, may not be ready for scaffold removal either."
+        }
+      ]
+    },
+    "C": {
+      "consequence": "The pairs begin talking and the room gets louder. Rajan explains the sample space to his partner with precision: 'There are 36 outcomes because die 1 has 6 possibilities and die 2 has 6 possibilities — 6 × 6 = 36. Of those, 18 have even sums. P = 18/36 = 1/2.' His partner nods and writes it down. Nur is paired with another student who also has correct probabilities but no method. They talk through the approach: 'There are 36 outcomes.' 'I agree.' Neither student explains why there are 36 or how to list the favourable ones. Wei Jie says to his partner: 'I got 1/2 but I am not sure how.' His partner says: 'Me too.' Wei Jie asks: 'Is there a way to list them?' His partner says: 'I think you draw a tree.' Wei Jie nods but neither student explains how. Siti echoes her partner's answer without writing anything new. You circulate and hear the pattern: 7 pairs have the correct sample space logic and are explaining it clearly. 11 pairs are confirming correct probabilities without the method. The talk has partially surfaced the hidden thinking, but the depth varies. 18 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "AQS feedback on guess-based reasoning",
+          "elaboration": "Write the most common shallow explanation on the board anonymously: 'I found P = 1/2 because there are 36 outcomes and half are even.' Ask the class to give AQS feedback: Affirm what is correct ('The probability and the total outcomes are right'), Question the missing logic ('How do you know half are even? Have you listed the favourable outcomes?'), Suggest the approach ('Try listing the even-sum outcomes: (1,1), (1,3), (1,5)... — count them and divide by 36'). Take responses from multiple students and build a complete AQS response. Then ask all students to re-attempt the problem using the tree or list method.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "The AQS structure turns the pair talk evidence into a structured, whole-class teachable moment. It makes the missing sample space logic explicit and actionable. But publicly displaying guess-based reasoning — even anonymously — may embarrass the students whose approach it came from. The move also interrupts the pair work momentum."
+        },
+        {
+          "id": "2",
+          "label": "Solo sample space proof: list outcomes and justify probability",
+          "elaboration": "Stop the pair talk and ask everyone to work individually. Write on the board: 'For two dice, list all outcomes where the sum is even. Show your sample space. Then explain in writing: why is P(even sum) = 1/2?' Give students 3 minutes to write, then collect the responses. Scan them to see who has genuine sample space understanding and who was borrowing reasoning from their partner during the talk.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Moving from collaborative talk to individual written proof gives you clean evidence of each student's understanding. It reveals whether the pair talk produced genuine learning or just social agreement. But it kills the collaborative energy. Siti, who did not write anything during the pair work, will likely produce nothing or copy a memorised phrase."
+        }
+      ]
+    }
+  },
+  "ep3": {
+    "A1": {
+      "outcome": "You draw the tree diagram on the board and work through the sample space explicitly. The room goes quiet as students watch. Nur looks at the board and you see the moment of recognition — she can see that the 36 outcomes come from the 6 × 6 structure of the tree, and that listing the favourable outcomes is the systematic way to find the probability. She re-attempts the problem using the tree method and writes: 'Total outcomes: 6 × 6 = 36. Even sums: (1,1), (1,3), (1,5), (2,2), (2,4), (2,6), (3,1), (3,3), (3,5), (4,2), (4,4), (4,6), (5,1), (5,3), (5,5), (6,2), (6,4), (6,6) = 18. P = 18/36 = 1/2.' Wei Jie follows the reteach and re-attempts correctly. He writes: 'Sample space has 36 outcomes. 18 have even sums. P = 1/2.' Rajan copies the board notes compliantly but his body language shows disengagement — he already knows this. Siti watches the board carefully and copies the tree from the board. When you circulate and ask 'Can you try a new problem?', she hesitates and does not write anything without the board example in front of her. On the next problem, 21 of 24 students attempt it correctly using the sample space method, up from 9. The majority gap has been addressed. But Siti is still dependent on copying, and Rajan is under-challenged.",
+      "tradeoff": "The whole-class reteach is efficient and reaches the majority who were guessing or hiding their method. Process-level feedback (Hattie & Timperley) addressed the specific gap directly. Nur and Wei Jie made clear gains. But the reteach treats the class as uniform — Rajan is under-challenged and Siti remains dependent on copying rather than building genuine understanding of why the sample space method works.",
+      "reflection": "Why did you choose to reteach the sample space method to the whole class rather than targeting the students who were guessing? What were you prioritising?\n\nAre you satisfied with the outcome? Most students now use the sample space method, but Rajan is disengaged and Siti is still copying. What does this tell you about whole-class reteaching in an invisible-understanding classroom?\n\nHow do you design a lesson so that the sample space logic is visible from the start — not just after you notice it is missing?"
+    },
+    "A2": {
+      "outcome": "You pair Rajan with Nur and ask Rajan to give AQS feedback on Nur's approach. Rajan looks at Nur's page and begins: 'You got the right probability — 1/2 is correct. But you said there are 36 outcomes without showing where they come from. Can you show the sample space?' Nur draws a partial tree and writes: '6 × 6 = 36 outcomes.' Rajan confirms and asks: 'Now list the even-sum outcomes.' Nur lists them and gets the correct count. Wei Jie is paired with a student who chose option (a) correctly. His partner looks at Wei Jie's page and says: 'You guessed — can you show the tree?' Wei Jie draws the tree with his partner's guidance and gets the correct probability. Siti is paired with a student who can explain the steps but not the conceptual basis. Her partner says 'Draw the tree and count the outcomes' but cannot explain why the tree has 36 branches. Siti copies the tree from her partner's page. When you ask her 'Why does the tree have 36 outcomes?', she says 'Because my partner drew it that way.' The room is engaged and several students are making real gains. But Siti has not moved from copying to understanding, and two pairs where both students were guessing reinforced the gap.",
+      "tradeoff": "AQS feedback activated the expertise in the room. Rajan deepened Nur's understanding and Wei Jie's partner helped him move from guessing to a systematic method. But Siti is still copying and cannot explain the sample space logic independently. Pairs where both students were guessing reinforced the gap rather than closing it.",
+      "reflection": "Why did you choose peer feedback over whole-class reteaching? What were you hoping would happen?\n\nAre you satisfied with the outcome? Nur and Wei Jie made genuine gains, but Siti is still copying and some pairs reinforced guessing. What conditions are needed for AQS peer feedback to work in an invisible-understanding classroom?\n\nWhat would you need to put in place before the next lesson to ensure Siti can access the sample space method independently?"
+    },
+    "B1": {
+      "outcome": "You pause the class and ask Rajan: 'From your extension work — why does the sample space for two dice have exactly 36 outcomes?' Rajan responds: 'Because the outcomes are independent — die 1 has 6 possibilities and die 2 has 6 possibilities, and each combination is a separate outcome. 6 × 6 = 36 by the multiplication principle.' You ask a second student to connect this to the tree diagram: 'In the tree, each branch of die 1 has 6 sub-branches for die 2 — so there are 6 groups of 6, which is 36.' A third student adds: 'And we multiply rather than add because the outcomes are combined — we are not choosing one die or the other, we are rolling both.' The IRF chain produces a rich, class-built explanation of the multiplication principle. Nur listens carefully and re-attempts the problem using the tree method. Wei Jie follows the chain and nods. Siti watches but does not contribute. When you ask 'Does that make sense?', she nods quickly without speaking. Her scaffold card still shows the blanks filled in correctly, but she has not written any new reasoning. The chain has deepened understanding for the middle group and stretched Rajan, but Siti's conceptual gap remains unaddressed.",
+      "tradeoff": "The IRF chain leverages Rajan's extension work and builds a rich, class-constructed explanation of the multiplication principle for sample spaces. It stretched Rajan and deepened Nur's and Wei Jie's understanding. But the chain is driven by students who can articulate their reasoning — Siti's conceptual gap is not surfaced or addressed by the discussion.",
+      "reflection": "Why did you choose to run an IRF chain using Rajan's extension work? What were you hoping the class would learn?\n\nAre you satisfied with the outcome? The chain produced strong sample space reasoning, but Siti's conceptual gap remains unaddressed. What does this tell you about the limits of method-comparison discussion when some students are still following scaffolds mechanically?\n\nHow do you design extension tasks so that fast finishers contribute to the class's learning without the discussion bypassing students who are still dependent on scaffolds?"
+    },
+    "B2": {
+      "outcome": "You write the new problem on the board — 'A spinner has 4 equal sections (1, 2, 3, 4) and a coin is flipped. What is the probability of getting an odd number and heads?' — and ask students to solve it using any method with a self-check. Rajan completes it quickly and writes a detailed self-check: 'Sample space: 4 × 2 = 8 outcomes. Favourable: (1, H), (3, H) = 2 outcomes. P = 2/8 = 1/4. I know this is correct because I listed all 8 outcomes and counted the favourable ones. I check by verifying the sample space is complete.' Nur attempts the problem and uses the event list method — she lists all 8 outcomes and identifies the favourable ones correctly. Her self-check says: 'I listed all outcomes. I know my probability is correct because I counted carefully.' The scaffold has helped her internalise the method. Wei Jie attempts the problem but lists only some outcomes — he misses (2, H) and (4, H) in his list. His self-check says: 'I listed the outcomes. I got P = 2/6.' Siti writes the problem on her page and stops. Her self-check is blank. The scaffold removal has revealed a clear split: Rajan and Nur can transfer the method; Wei Jie's listing is incomplete; Siti cannot work without the scaffold. 17 minutes remain.",
+      "tradeoff": "Scaffold removal tests transfer directly and honestly. Rajan and Nur demonstrated genuine understanding — they could apply the sample space method to a new problem and explain the reasoning. The self-check reflection (AfL Triangle) gives you individual evidence of reasoning. But Wei Jie's listing is incomplete — he has the method but not the systematic completeness. Siti cannot work without the scaffold.",
+      "reflection": "Why did you choose to remove the scaffold and test transfer immediately? What were you hoping to learn?\n\nAre you satisfied with the outcome? Rajan and Nur succeeded, but Wei Jie's listing is incomplete and Siti cannot work independently. What does this tell you about the timing of scaffold removal?\n\nWith 17 minutes remaining and two students who cannot work without support, what is your next move?"
+    },
+    "C1": {
+      "outcome": "You write the shallow explanation on the board: 'I found P = 1/2 because there are 36 outcomes and half are even.' You ask the class to give AQS feedback. Several students affirm the probability and the total. Nur raises her hand and questions: 'How do you know half are even? Have you listed the favourable outcomes?' A third student suggests: 'Try listing the even-sum outcomes: (1,1), (1,3), (1,5)... — count them and divide by 36.' You write the complete AQS response on the board and ask all students to re-attempt the problem using the tree or list method. Nur re-attempts correctly and lists the even-sum outcomes. Wei Jie follows the AQS feedback and lists some outcomes. Rajan listens with mild interest — he was already correct. Siti copies the corrected method from the board line by line. When you ask her to attempt a new problem independently, she hesitates and does not write anything without the board example. The AQS process has made the sample space logic explicit for the whole class, but Siti is still copying rather than reasoning independently.",
+      "tradeoff": "The AQS structure turned the pair talk evidence into a concrete, whole-class teachable moment. It made the missing sample space logic explicit and actionable. Nur and Wei Jie made genuine gains. But Siti is still copying from the board rather than reasoning independently. The AQS feedback served the middle group but did not address Siti's more fundamental understanding gap.",
+      "reflection": "Why did you choose to use AQS feedback on the common guess-based approach rather than reteaching directly? What were you hoping the structure would do?\n\nAre you satisfied with the outcome? Nur and Wei Jie made gains, but Siti is still copying. What does this tell you about the limits of whole-class feedback when a student has a fundamental understanding gap?\n\nHow do you make the sample space logic visible in an invisible-understanding classroom without relying on students to volunteer their reasoning?"
+    },
+    "C2": {
+      "outcome": "The room goes quiet as students write their individual sample space proofs. Rajan writes a complete, detailed proof: 'Sample space for two dice: 36 outcomes (6 × 6). Even sums: (1,1), (1,3), (1,5), (2,2), (2,4), (2,6), (3,1), (3,3), (3,5), (4,2), (4,4), (4,6), (5,1), (5,3), (5,5), (6,2), (6,4), (6,6) = 18 outcomes. P(even sum) = 18/36 = 1/2. This must be 1/2 because the sample space is symmetric — for every odd sum there is a corresponding even sum.' His proof is complete and precise. Nur writes: 'Total outcomes: 36. Even sums: 18. P = 18/36 = 1/2. I listed the even-sum outcomes to count them.' Her proof is correct and clear — the pair talk has helped her articulate the sample space method. Wei Jie writes: '36 outcomes. Even sums: (1,1), (1,3)...' He stops after listing 6 outcomes — he cannot complete the list systematically. His proof is incomplete. Siti writes: 'P = 1/2.' She has the answer but no sample space, no list, and no explanation. The individual writing has given you the clearest picture of each student's understanding — from Rajan's complete proof to Siti's single fraction. But the move to solo writing has revealed that the pair talk did not build the systematic listing for Wei Jie or the sample space logic for Siti.",
+      "tradeoff": "Individual written proofs give you the clearest, most honest evidence of each student's understanding of the sample space method. Rajan and Nur demonstrated genuine understanding. But the move to solo writing revealed that the pair talk did not build the systematic listing for Wei Jie or the sample space logic for Siti. The pair talk produced surface agreement rather than genuine conceptual reasoning for most students.",
+      "reflection": "Why did you move from pair talk to individual written proofs? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur showed genuine understanding, but Wei Jie's listing is incomplete and Siti has only the answer. What does this tell you about when pair talk builds genuine method understanding versus surface-level answer confirmation?\n\nHow do you design a lesson that makes the sample space logic visible from the start — so that students are reasoning about the method, not just arriving at correct probabilities?"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "S22",
+  "level": "jc",
+  "profile": "mixed_readiness",
+  "subject": "Economics",
+  "topic": "Firms and Decisions",
+  "contextNote": "JC2 Economics, 24 students. You modelled the profit-maximising firm — showing TC and TR curves, deriving MR = MC as the profit-maximising condition, and introducing the shutdown rule: a firm shuts down in the short run if P < AVC. Students are now 28 minutes into a set of firm decision questions including a short essay on the shutdown decision. The room shows a clear readiness split.",
+  "students": [
+    {
+      "name": "Rajan",
+      "role": "fast",
+      "note": "Profit maximisation correct and shutdown rule applied correctly. Done early, sitting quietly."
+    },
+    {
+      "name": "Nur Atiqah",
+      "role": "middle",
+      "note": "TC and TR graphs drawn correctly. Shutdown question left blank — unsure whether to compare P with AVC or ATC."
+    },
+    {
+      "name": "Wei Jie",
+      "role": "middle",
+      "note": "MC calculation has a sign error — has written MC as negative when it should be positive. Shutdown answer based on wrong MC."
+    },
+    {
+      "name": "Siti",
+      "role": "stalled",
+      "note": "AVC calculation blank. Has written the formula AVC = TVC/Q but has not substituted any values."
+    }
+  ],
+  "ep1": {
+    "situation": "28 minutes into the lesson. You circulate and the readiness gap is stark. Rajan has the profit-maximising output correct, has calculated profit correctly, and has applied the shutdown rule: 'P = 10 < AVC = 12, so the firm shuts down in the short run.' He is done and sitting quietly. Nur has drawn the TC and TR curves correctly and identified the profit-maximising output, but the shutdown question is blank. When you ask her, she says 'I don't know if I compare price with AVC or ATC.' Wei Jie has a sign error in his MC calculation — he has written MC = −2 when the marginal cost should be positive. His shutdown answer is based on the wrong MC value. Siti has written AVC = TVC/Q on her page but has not substituted any values. Her page is otherwise blank. A quick scan of the class: 8 students have correct profit maximisation and shutdown answers like Rajan. 10 students have correct graphs but cannot apply the shutdown rule like Nur. 4 students have calculation errors like Wei Jie. 2 students are stalled like Siti. You have about 12 minutes of lesson time remaining.",
+    "evidence": "The gap splits across two dimensions: calculation accuracy (sign errors in MC) and conceptual understanding (AVC vs ATC in the shutdown rule). The stalled group has not moved beyond writing the formula. The majority error is not in the graphs but in applying the shutdown condition correctly.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Two-step shutdown diagnostic",
+        "elaboration": "Stop the class and project a new scenario: 'P = 10, Q = 20, AVC = 8, ATC = 12.' Ask two questions in sequence: '(1) Should the firm produce or shut down in the short run?' Then: '(2) Why? Choose: (a) Produce — P > AVC, so the firm covers variable costs and contributes to fixed costs. (b) Shut down — P < ATC, so the firm is making a loss. (c) Produce — P > ATC, so the firm is profitable. (d) I am not sure.' Ask students to write both answers on paper. Use the pattern to see who understands the AVC shutdown rule and who is confusing it with the ATC break-even condition.",
+        "theoryKey": "Two_Step_MCQ",
+        "tradeoff": "The two-step structure reveals both the shutdown decision and the reasoning behind it. It gives you whole-class evidence of who understands the AVC rule and who is confusing it with ATC. But it halts the class and interrupts Rajan, who is already done. Wei Jie's MC error is in the calculation, not the shutdown rule — the diagnostic may not surface his specific error."
+      },
+      {
+        "id": "B",
+        "label": "Tiered decision scaffolds: AVC, MC, policy essay",
+        "elaboration": "Distribute differentiated task cards without stopping the class. Stalled students like Siti receive an AVC calculation scaffold: 'Step 1: TVC = TC − TFC = ___. Step 2: AVC = TVC ÷ Q = ___. Step 3: Compare P with AVC: if P > AVC, produce; if P < AVC, shut down.' Middle students like Nur receive a shutdown decision prompt: 'The shutdown rule: compare P with AVC (not ATC). If P > AVC, the firm covers variable costs — produce even at a loss. If P < AVC, shut down.' Fast finishers like Rajan receive a policy essay extension: 'Explain why a firm might continue to produce even when making a loss. Under what conditions would it shut down? Use the AVC rule to support your argument.'",
+        "theoryKey": "Tomlinson_Respectful_Tasks",
+        "tradeoff": "The tiered scaffolds give every student an entry point at their current level of readiness. The policy essay challenges Rajan with genuine analytical reasoning. But the AVC scaffold may lead Siti to fill in blanks mechanically without understanding why the shutdown rule uses AVC rather than ATC. Wei Jie's MC error is not addressed by the scaffold."
+      },
+      {
+        "id": "C",
+        "label": "Accountable Talk: explain the shutdown decision",
+        "elaboration": "Pause the class and assign shoulder partners. Ask each pair to explain the shutdown decision using the stem: 'The firm should ___ because ___. The key comparison is ___ because ___.' The listener must ask: 'Why do we compare price with AVC and not ATC?' Circulate and listen for pairs where the AVC reasoning is explicit versus pairs where students are describing the decision without the economic logic. After 3 minutes, select two contrasting pairs and run a brief IRF probe: 'What did you notice about these two explanations? Which one shows the shutdown logic most clearly?'",
+        "theoryKey": "Accountable_Talk",
+        "tradeoff": "Accountable Talk forces students to articulate the shutdown logic explicitly, which may surface the AVC vs ATC confusion. The 'why AVC and not ATC?' question targets the key conceptual distinction directly. But students with calculation errors like Wei Jie will explain incorrect reasoning confidently, and their partners may not catch the upstream error. Siti has nothing to explain."
+      }
+    ]
+  },
+  "ep2": {
+    "A": {
+      "consequence": "The responses come in and the pattern is clear. 11 of 24 students got the correct shutdown decision (produce — P > AVC). But on the reasoning question, only 6 of 24 chose option (a) — the correct AVC reasoning. 8 students chose option (b) — they compared P with ATC and concluded the firm should shut down because it is making a loss. Nur got the correct decision but chose option (b) — she is confusing the shutdown rule with the break-even condition. Rajan got both right and explained clearly: 'P = 10 > AVC = 8, so the firm covers its variable costs and contributes to fixed costs. It should produce even though it is making a loss, because shutting down would mean losing all fixed costs.' Wei Jie got the wrong decision because his MC error led to a wrong AVC. Siti chose option (d). The evidence is now precise: the majority gap is in understanding why the shutdown rule uses AVC rather than ATC. 10 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "Whole-class reteach: AVC shutdown rule vs ATC break-even",
+          "elaboration": "Address the AVC vs ATC confusion directly with the whole class. Write both conditions on the board: 'Shutdown rule (short run): if P < AVC, shut down — the firm cannot cover variable costs, so every unit produced increases the loss. Break-even condition: if P = ATC, the firm makes zero economic profit. These are different conditions.' Explain the logic: 'In the short run, fixed costs are sunk — you pay them whether you produce or not. So the relevant comparison is P vs AVC. If P > AVC, producing is better than shutting down.' Ask all students to re-attempt the shutdown question using the correct rule.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Process-level feedback (Hattie & Timperley) addresses the AVC vs ATC confusion directly and explains the economic logic. It is efficient and will reach the 8 students who chose option (b). But it reteaches Rajan who already understands, and Wei Jie's MC calculation error is not addressed by the conceptual reteach."
+        },
+        {
+          "id": "2",
+          "label": "AQS peer feedback on shutdown reasoning",
+          "elaboration": "Use the diagnostic evidence to form pairs: students who chose option (a) correctly (like Rajan) are paired with students who chose option (b) (like Nur). The stronger student gives AQS feedback: Affirm what is correct ('You identified that the firm is making a loss — that is right'), Question the confusion ('But why do we compare P with AVC and not ATC for the shutdown decision?'), Suggest the logic ('In the short run, fixed costs are sunk — you pay them either way. So the question is whether producing covers variable costs. If P > AVC, produce'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. The structure ensures feedback is specific and actionable. But Wei Jie's MC calculation error means his shutdown answer is wrong for a different reason — his partner may address the AVC vs ATC confusion without noticing the upstream calculation error. Siti has nothing for a peer to affirm."
+        }
+      ]
+    },
+    "B": {
+      "consequence": "The scaffold cards go out and the room shifts. Siti picks up the AVC calculation scaffold and begins filling in the blanks carefully. She calculates TVC = TC − TFC correctly and gets AVC = TVC/Q. She compares P with AVC and gets the correct shutdown decision. But when you ask 'Why do we compare P with AVC and not ATC?', she points to the card and says 'Because it says to.' Nur receives the shutdown decision prompt and reads it carefully. She re-attempts the question and gets it right — the prompt has clarified the AVC vs ATC distinction. Wei Jie receives the shutdown decision prompt but his MC error is not addressed — he applies the correct shutdown rule to the wrong AVC value. Rajan reads the policy essay extension and engages immediately. He writes: 'A firm continues to produce at a loss in the short run because fixed costs are sunk — they are paid regardless of output. As long as P > AVC, producing generates revenue that covers variable costs and contributes to fixed costs, reducing the total loss. The firm shuts down only when P < AVC, because then every unit produced increases the loss.' The room is on-task but quiet. 11 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "IRF probe: why does the shutdown rule use AVC and not ATC?",
+          "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your essay — why does the shutdown rule compare P with AVC rather than ATC?' (Initiation). Then ask a second student: 'Can you connect that to the concept of sunk costs — what happens to fixed costs if the firm shuts down?' (Response). Then ask a third student: 'And why does producing at a loss sometimes make sense in the short run?' (Feedback). Build a class-constructed explanation of the AVC shutdown rule and the sunk cost logic. Write the key reasoning on the board.",
+          "theoryKey": "IRF_Chains",
+          "tradeoff": "The IRF chain leverages Rajan's essay work and builds a shared explanation of the sunk cost logic behind the AVC shutdown rule. It gives the middle group a concrete, class-built understanding of why the rule uses AVC. But Wei Jie's MC calculation error is still not addressed — he will apply the correct rule to the wrong value. Siti may follow the chain without connecting it to her own calculation."
+        },
+        {
+          "id": "2",
+          "label": "Self-check: new firm scenario with shutdown decision",
+          "elaboration": "Give a new scenario: 'P = 8, TFC = 100, TVC = 120, Q = 20.' Ask students to calculate AVC, compare with P, and make the shutdown decision. Then write a self-check: 'I calculated AVC = ___. I compared P with AVC because ___. My decision is ___ because ___.' Collect the responses and scan them to see who can apply the shutdown rule correctly and who has calculation errors.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "The self-check application tests whether students can apply the shutdown rule correctly in a new scenario. It will reveal Wei Jie's MC error directly — he will calculate AVC incorrectly. But Siti, who just completed the scaffold successfully, may stall on the new scenario without the blanks to guide her. The move to solo work removes the scaffold before she has internalised the logic."
+        }
+      ]
+    },
+    "C": {
+      "consequence": "The pairs begin talking and the room gets louder. Rajan explains the shutdown logic to his partner with precision: 'The key comparison is P vs AVC, not P vs ATC. Fixed costs are sunk — you pay them whether you produce or not. So the question is whether producing covers variable costs. If P > AVC, producing is better than shutting down because you are at least covering your variable costs and contributing to fixed costs.' His partner nods and writes it down. Nur is paired with another student who also has the correct graphs but the wrong shutdown reasoning. They talk through the decision: 'I think we compare P with ATC.' 'I agree.' Neither student questions the AVC vs ATC distinction. Wei Jie says to his partner: 'I got a negative MC — is that right?' His partner says: 'I don't think so.' Wei Jie looks at his calculation and corrects the sign error. Siti echoes her partner's answer without writing anything new. You circulate and hear the pattern: 5 pairs have the correct AVC reasoning. 13 pairs are using ATC instead of AVC. The talk has partially surfaced the confusion, but the majority are reinforcing the wrong comparison. 10 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "AQS feedback on ATC-based shutdown reasoning",
+          "elaboration": "Write the most common incorrect reasoning on the board anonymously: 'The firm should shut down because P < ATC — it is making a loss.' Ask the class to give AQS feedback: Affirm what is correct ('The firm is making a loss — that is right, P < ATC'), Question the confusion ('But does making a loss mean the firm should shut down in the short run? What is the relevant comparison?'), Suggest the correction ('In the short run, compare P with AVC, not ATC. Fixed costs are sunk — you pay them either way. If P > AVC, produce'). Take responses from multiple students and build a complete AQS response. Then ask all students to re-attempt the shutdown question using the correct rule.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "The AQS structure makes the AVC vs ATC distinction explicit and gives the majority of pairs a concrete correction. It is based on real student reasoning, which makes it concrete. But it interrupts the pair work momentum. Siti, who was echoing her partner, will likely copy the AQS response from the board without engaging with the economic logic."
+        },
+        {
+          "id": "2",
+          "label": "Solo shutdown essay: apply the AVC rule with reasoning",
+          "elaboration": "Stop the pair talk and ask everyone to work individually. Write on the board: 'P = 10, AVC = 8, ATC = 12. Should the firm produce or shut down in the short run? Explain your reasoning using the AVC rule and the concept of sunk costs.' Give students 3 minutes to write, then collect the responses. Scan them to see who has genuine understanding of the AVC shutdown rule and who was borrowing reasoning from their partner during the talk.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Moving from collaborative talk to individual written reasoning gives you clean evidence of each student's understanding. It reveals whether the pair talk produced genuine learning or just social agreement. But it kills the collaborative energy. Siti, who did not write anything during the pair work, will likely produce nothing or copy a memorised phrase."
+        }
+      ]
+    }
+  },
+  "ep3": {
+    "A1": {
+      "outcome": "You write both conditions on the board and explain the sunk cost logic. The room goes quiet as students watch. Nur looks at the board and you see the moment of recognition — she can see that the shutdown rule uses AVC because fixed costs are sunk. She re-attempts the question and writes: 'P = 10 > AVC = 8, so the firm should produce. Fixed costs are sunk — the firm pays them whether it produces or not. Producing covers variable costs and contributes to fixed costs, reducing the total loss.' Wei Jie watches the reteach but his MC calculation error is not addressed — he re-attempts with the wrong AVC value. Rajan copies the board notes compliantly but his body language shows disengagement. Siti watches the board carefully and copies the explanation, but when you circulate and ask 'Can you try a new scenario?', she hesitates and does not write anything without the board example. On the next problem, 17 of 24 students now apply the AVC rule correctly, up from 6. The majority gap has been addressed. But Wei Jie's calculation error persists, and Siti is still dependent on copying.",
+      "tradeoff": "The whole-class reteach is efficient and reaches the majority who were confusing AVC with ATC. Process-level feedback (Hattie & Timperley) addressed the specific conceptual gap directly. Nur made a clear gain. But the reteach did not address Wei Jie's upstream calculation error, and Siti remains dependent on copying rather than understanding the economic logic.",
+      "reflection": "Why did you choose to reteach the AVC vs ATC distinction to the whole class rather than targeting the students who were confused? What were you prioritising?\n\nAre you satisfied with the outcome? Most students now apply the AVC rule, but Wei Jie's calculation error persists and Siti is still copying. What does this tell you about the limits of conceptual reteaching when some students have upstream calculation errors?\n\nHow do you design a lesson so that the shutdown logic is clear from the start — not just after you notice the AVC vs ATC confusion?"
+    },
+    "A2": {
+      "outcome": "You pair Rajan with Nur and ask Rajan to give AQS feedback on Nur's shutdown reasoning. Rajan looks at Nur's page and begins: 'You identified that the firm is making a loss — that is right. But you compared P with ATC. Why do we use AVC for the shutdown decision?' Nur pauses and says: 'Because fixed costs are sunk?' Rajan confirms: 'Exactly — you pay fixed costs whether you produce or not. So the question is whether producing covers variable costs. If P > AVC, produce.' Nur re-attempts and writes the correct reasoning. Wei Jie is paired with a student who got both questions right. His partner looks at Wei Jie's calculation and says: 'Your MC is negative — that is wrong. MC should be positive here.' Wei Jie corrects the sign error and re-attempts the shutdown decision correctly. Siti is paired with a student who can explain the steps but not the economic logic. Her partner says 'Compare P with AVC' but cannot explain why. Siti copies the comparison from her partner's page. The room is engaged and several students are making real gains. But Siti has not moved from copying to understanding.",
+      "tradeoff": "AQS feedback activated the expertise in the room. Rajan deepened Nur's understanding of the AVC shutdown rule, and Wei Jie's partner caught the upstream calculation error — a gain that the whole-class reteach would have missed. But Siti is still copying and cannot explain the economic logic independently.",
+      "reflection": "Why did you choose peer feedback over whole-class reteaching? What were you hoping would happen?\n\nAre you satisfied with the outcome? Nur and Wei Jie made genuine gains, but Siti is still copying. What does this tell you about the conditions needed for productive peer feedback in a mixed-readiness economics classroom?\n\nHow do you ensure that the stalled student — who cannot calculate AVC — gets access to the economic logic, not just the comparison?"
+    },
+    "B1": {
+      "outcome": "You pause the class and ask Rajan: 'From your essay — why does the shutdown rule compare P with AVC rather than ATC?' Rajan responds: 'Because fixed costs are sunk in the short run — you pay them whether you produce or not. So the relevant question is whether producing covers variable costs. If P > AVC, producing is better than shutting down because you are at least covering your variable costs and contributing to fixed costs.' You ask a second student to connect this to the sunk cost concept: 'Sunk costs are costs that cannot be recovered — fixed costs in the short run are sunk because you have already committed to them. So they should not affect the shutdown decision.' A third student adds: 'The shutdown decision is only about variable costs — if P > AVC, produce; if P < AVC, shut down.' The IRF chain produces a rich, class-built explanation of the AVC shutdown rule. Nur listens carefully and re-attempts the question correctly. Wei Jie follows the chain but his calculation error is still not addressed. Siti watches but does not contribute. The chain has deepened understanding for the middle group and stretched Rajan, but Wei Jie's calculation error and Siti's understanding gap remain unaddressed.",
+      "tradeoff": "The IRF chain leverages Rajan's essay work and builds a rich, class-constructed explanation of the sunk cost logic behind the AVC shutdown rule. It stretched Rajan and deepened Nur's understanding. But the chain is driven by students who can articulate their reasoning — Wei Jie's calculation error and Siti's understanding gap are not surfaced or addressed by the discussion.",
+      "reflection": "Why did you choose to run an IRF chain using Rajan's essay work? What were you hoping the class would learn?\n\nAre you satisfied with the outcome? The chain produced strong economic reasoning, but Wei Jie's calculation error and Siti's understanding gap remain unaddressed. What does this tell you about the limits of conceptual discussion when some students have upstream calculation errors?\n\nHow do you design extension tasks so that fast finishers contribute to the class's learning without the discussion bypassing students who are still stuck on the calculation?"
+    },
+    "B2": {
+      "outcome": "You write the new scenario on the board — 'P = 8, TFC = 100, TVC = 120, Q = 20' — and ask students to calculate AVC, compare with P, and make the shutdown decision with a self-check. Rajan completes it quickly and writes a detailed self-check: 'AVC = TVC/Q = 120/20 = 6. P = 8 > AVC = 6, so produce. Fixed costs are sunk — producing covers variable costs and contributes to fixed costs. I check by confirming P > AVC.' Nur calculates AVC correctly and applies the shutdown rule: 'AVC = 6. P = 8 > AVC = 6. Produce — P covers variable costs.' Her self-check says: 'I compared P with AVC because fixed costs are sunk.' The scaffold has helped her internalise the rule. Wei Jie calculates AVC incorrectly — he uses TC instead of TVC and gets AVC = 220/20 = 11. His shutdown decision is wrong. His self-check says: 'AVC = 11. P = 8 < AVC = 11. Shut down.' Siti writes the formula AVC = TVC/Q and stops. Her self-check is blank. The transfer task has revealed a clear split: Rajan and Nur can apply the shutdown rule correctly; Wei Jie has a calculation error that leads to the wrong decision; Siti cannot work without the scaffold. 9 minutes remain.",
+      "tradeoff": "Scaffold removal tests genuine understanding of the shutdown rule. Rajan and Nur demonstrated genuine understanding — they could calculate AVC correctly and apply the rule with the correct economic reasoning. The self-check reflection (AfL Triangle) gives you individual evidence of reasoning. But Wei Jie's calculation error — using TC instead of TVC — leads to the wrong shutdown decision. Siti cannot work without the scaffold.",
+      "reflection": "Why did you choose to test the shutdown rule with a new scenario rather than a follow-up question on the same data? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur succeeded, but Wei Jie's calculation error leads to the wrong decision and Siti cannot work independently. What does this tell you about the difference between understanding the shutdown rule and being able to calculate AVC correctly?\n\nHow do you design practice tasks that build both the calculation accuracy and the conceptual understanding of the shutdown rule?"
+    },
+    "C1": {
+      "outcome": "You write the incorrect reasoning on the board: 'The firm should shut down because P < ATC — it is making a loss.' You ask the class to give AQS feedback. Several students affirm that the firm is making a loss. Nur raises her hand and questions: 'But does making a loss mean the firm should shut down? What is the relevant comparison?' A third student suggests: 'In the short run, compare P with AVC, not ATC. Fixed costs are sunk — you pay them either way. If P > AVC, produce.' You write the complete AQS response on the board and ask all students to re-attempt the shutdown question using the correct rule. Nur re-attempts and writes the correct reasoning. Wei Jie follows the AQS feedback but his calculation error means he applies the correct rule to the wrong AVC value. Rajan listens with mild interest — he was already correct. Siti copies the AQS response from the board line by line. When you ask her to attempt a new scenario independently, she hesitates and does not write anything without the board example. The AQS process has made the AVC shutdown rule explicit for the whole class, but Wei Jie's calculation error and Siti's understanding gap remain unaddressed.",
+      "tradeoff": "The AQS structure made the AVC vs ATC distinction explicit and gave the majority of pairs a concrete correction. Nur made a genuine gain. But Wei Jie's calculation error means he is now applying the correct rule to the wrong value — the AQS feedback has not helped him. Siti is still copying rather than reasoning independently.",
+      "reflection": "Why did you choose to use AQS feedback on the common ATC-based reasoning rather than addressing the calculation errors directly? What were you prioritising?\n\nAre you satisfied with the outcome? Nur made a genuine gain, but Wei Jie's calculation error persists and Siti is still copying. What does this tell you about the relationship between calculation accuracy and conceptual understanding in economics?\n\nHow do you design feedback that addresses both the calculation error and the conceptual confusion simultaneously?"
+    },
+    "C2": {
+      "outcome": "The room goes quiet as students write their individual shutdown essays. Rajan writes a complete, detailed essay: 'P = 10 > AVC = 8, so the firm should produce in the short run. Fixed costs are sunk — the firm pays them whether it produces or not. Producing generates revenue of P = 10 per unit, which covers variable costs of AVC = 8 per unit and contributes 2 per unit to fixed costs. Shutting down would mean losing all fixed costs with no contribution. The firm should only shut down if P < AVC, because then every unit produced increases the total loss.' Nur writes: 'P = 10 > AVC = 8. Produce. Fixed costs are sunk — producing covers variable costs and contributes to fixed costs.' Her essay is correct and clear — the pair talk has helped her articulate the AVC logic. Wei Jie writes: 'P = 10 < AVC = 12. Shut down.' His calculation error (using ATC instead of AVC) leads to the wrong decision. Siti writes: 'P = 10, AVC = ?' She cannot calculate AVC and leaves the essay blank. The individual writing has given you the clearest picture of each student's understanding — from Rajan's complete essay to Siti's incomplete calculation. But the move to solo writing has revealed that the pair talk did not correct Wei Jie's calculation error or build Siti's calculation confidence.",
+      "tradeoff": "Individual written essays give you the clearest, most honest evidence of each student's understanding of the shutdown rule. Rajan and Nur demonstrated genuine understanding. But the move to solo writing revealed that the pair talk did not correct Wei Jie's calculation error or build Siti's calculation confidence. The pair talk produced surface agreement rather than genuine understanding for most students.",
+      "reflection": "Why did you move from pair talk to individual written essays? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur showed genuine understanding, but Wei Jie's calculation error leads to the wrong decision and Siti cannot calculate AVC. What does this tell you about when pair talk builds genuine economic understanding versus surface-level agreement?\n\nHow do you design a lesson that addresses both the calculation accuracy and the conceptual understanding of the shutdown rule — so that students are reasoning about the economics, not just applying a formula?"
+    }
+  }
+}

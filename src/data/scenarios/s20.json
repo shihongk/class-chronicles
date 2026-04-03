@@ -1,0 +1,148 @@
+{
+  "id": "S20",
+  "level": "lower_sec",
+  "profile": "diverse_profiles",
+  "subject": "Mathematics",
+  "topic": "Geometry Proofs",
+  "contextNote": "Sec 2 Math, 24 students. You modelled a parallel lines proof — showing that alternate angles are equal using a diagram, labelled equations, and a written reason chain. Students are now 22 minutes into a set of 'prove the lines are parallel' questions. The class has visibly different working styles — some draw diagrams immediately, others write equations, others describe the reasoning in words.",
+  "students": [
+    {
+      "name": "Rajan",
+      "role": "fast",
+      "note": "Labelled equations and reason chain complete and correct. Has not drawn the diagram. Done early."
+    },
+    {
+      "name": "Nur Atiqah",
+      "role": "middle",
+      "note": "Diagram drawn correctly with angles marked. Has not written the labels or the reason chain. Cannot connect the diagram to the proof."
+    },
+    {
+      "name": "Wei Jie",
+      "role": "middle",
+      "note": "Has written 'the angles are equal because they are alternate' verbally but has no diagram and no labelled equations."
+    },
+    {
+      "name": "Siti",
+      "role": "stalled",
+      "note": "Partial diagram — has drawn the parallel lines but has not marked any angles or written any labels or reasons."
+    }
+  ],
+  "ep1": {
+    "situation": "22 minutes into the lesson. You circulate and the working styles are strikingly different. Rajan has a complete proof — labelled angles (∠1 = ∠2 = 65°), the equation ∠1 = ∠2, and the reason 'alternate angles, AB ∥ CD' — but has not drawn the diagram at all. Nur has drawn a clear diagram with the parallel lines, transversal, and angles correctly marked, but her labels are missing and she has not written any reason chain. She can visualise the proof but cannot translate it into a formal argument. Wei Jie has written 'the angles are equal because they are alternate angles, so the lines must be parallel' — a correct verbal description — but has no diagram and no labelled equations anywhere on his page. Siti has drawn the parallel lines and transversal but has not marked any angles, written any labels, or started the reason chain. A quick scan of the class: 7 students have complete proofs like Rajan. 8 students have diagrams but no labels or reasons like Nur. 5 students have verbal descriptions but no representations like Wei Jie. 4 students are partially started like Siti. You have about 18 minutes of lesson time remaining.",
+    "evidence": "The gap is not in understanding the concept of alternate angles — most students can describe or show the relationship in some form. The gap is in representation: students are working in their preferred mode and not connecting across modes. A complete proof requires all three — diagram, labels, and reason chain — and most students cannot integrate them.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Two-step proof representation diagnostic",
+        "elaboration": "Stop the class and project a new diagram: two lines cut by a transversal with ∠1 = 72° marked. Ask two questions in sequence: '(1) Are the lines parallel? How do you know?' Then: '(2) How did you show it? Choose: (a) I drew a diagram and marked the angles. (b) I wrote the equation ∠1 = ∠2 and the reason. (c) I explained it in words. (d) I am not sure.' Ask students to write both answers on paper. Use the pattern to see which representation each student defaults to and whether they can connect the representation to a complete proof.",
+        "theoryKey": "Two_Step_MCQ",
+        "tradeoff": "The two-step structure reveals both the representation preference and the ability to connect the representation to a complete proof. It gives you whole-class evidence of who can integrate across modes. But it halts the class and may overwhelm students like Siti who are still building their first representation. The diagnostic also interrupts Rajan, who has already completed the proof."
+      },
+      {
+        "id": "B",
+        "label": "Profile-matched proof tasks: diagram, labels, verbal",
+        "elaboration": "Distribute differentiated task cards matched to each student's working style without stopping the class. Visual students like Nur receive a diagram-to-labels bridge: 'Mark the alternate angles on your diagram. Write the equation: ∠___ = ∠___ = ___°. Write the reason: alternate angles, ___ ∥ ___.' Symbolic students like Rajan receive a labels-to-diagram bridge: 'Draw the diagram that matches your proof. Mark the angles and the transversal. What does the diagram show about why the lines are parallel?' Verbal students like Wei Jie receive a verbal-to-proof bridge: 'You said the angles are equal because they are alternate. Write the equation and the reason in formal proof format: ∠1 = ∠2 (alternate angles, AB ∥ CD).' Siti receives a combined scaffold with all three representations side by side.",
+        "theoryKey": "Tomlinson_Respectful_Tasks",
+        "tradeoff": "Profile-matched tasks give every student an entry point from their preferred representation and bridge toward the others. The tasks are respectful — they all require reasoning, not just copying. But the room will go quiet as students work individually, and you lose the opportunity to gather whole-class evidence of the representation gap. Siti may copy the scaffold without building genuine understanding of the proof structure."
+      },
+      {
+        "id": "C",
+        "label": "Accountable Talk triads: connect diagram, labels, and reason",
+        "elaboration": "Pause the class and assign triads — one student who prefers diagrams, one who prefers labels/equations, one who prefers verbal reasoning. Ask each triad to explain the proof using the stem: 'The diagram shows ___ because ___. The equation ___ = ___ shows the same thing because ___. The reason is ___ because ___.' Each student must contribute from their preferred representation. Circulate and listen for triads where the connections are genuine versus triads where students are talking past each other. After 3 minutes, select one triad to share their chain with the class and run a brief IRF probe.",
+        "theoryKey": "Accountable_Talk",
+        "tradeoff": "Triad talk forces students to connect across representations through structured dialogue. The stem ensures each representation is addressed. But triad quality depends on the mix — if all three students are in the same representation mode, the connection will not be made. Siti, who is still building her first representation, may echo her triad partners without engaging with the proof structure."
+      }
+    ]
+  },
+  "ep2": {
+    "A": {
+      "consequence": "The responses come in and the representation patterns are clear. 16 of 24 students answered the proof question correctly. But only 9 of 24 could show a complete proof — diagram, equation, and reason. Of the 9 who showed a complete proof, 7 used diagrams, 4 used equations, and 3 used verbal reasoning — with some overlap. Nur drew the diagram correctly but could not connect it to the proof: she wrote 'the angles look equal' without the equation or reason. Rajan completed both parts correctly and explained: '∠1 = ∠2 = 72° (alternate angles, AB ∥ CD). The diagram shows the transversal cutting the parallel lines, and the alternate angles are on opposite sides of the transversal.' Wei Jie wrote 'alternate angles are equal so the lines are parallel' but left the equation and diagram blank. Siti drew the diagram but left everything else blank. The evidence is now precise: the majority gap is in connecting the representation to a complete proof. 16 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "Whole-class reteach: diagram-labels-reason chain",
+          "elaboration": "Address the representation-to-proof gap directly with the whole class. Draw all three representations on the board simultaneously: the diagram (parallel lines, transversal, alternate angles marked), the equation (∠1 = ∠2 = 72°), and the reason chain ('∠1 = ∠2 because alternate angles are equal when lines are parallel. Therefore AB ∥ CD.'). Connect them explicitly: 'The diagram shows where the angles are. The equation gives the values. The reason explains why they are equal and what that proves.' Ask all students to re-attempt the proof using all three representations.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Process-level feedback (Hattie & Timperley) addresses the representation-to-proof gap directly by showing all three modes simultaneously. It is efficient and will reach the 15 students who cannot produce a complete proof. But it reteaches Rajan who already understands, and the simultaneous display of three representations may overwhelm Siti who is still building her first one."
+        },
+        {
+          "id": "2",
+          "label": "AQS peer feedback: bridge representation to complete proof",
+          "elaboration": "Use the diagnostic evidence to form pairs: students who produced a complete proof (like Rajan) are paired with students who have a representation but no complete proof (like Nur). The stronger student gives AQS feedback: Affirm the representation ('Your diagram is correct — the angles are marked in the right positions'), Question the connection ('What equation and reason do you need to complete the proof?'), Suggest the structure ('Write: ∠1 = ∠2 = 72° (alternate angles, AB ∥ CD)'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. The structure ensures feedback is specific and actionable. But Wei Jie, who has only a verbal description, has nothing for a peer to affirm in terms of a representation. Siti, who has a partial diagram, may receive feedback that goes beyond her current level of understanding."
+        }
+      ]
+    },
+    "B": {
+      "consequence": "The profile-matched cards go out and the room shifts. Rajan receives the labels-to-diagram bridge and draws the diagram for the first time. He marks the alternate angles and writes: 'The diagram shows the transversal cutting the parallel lines. The alternate angles are on opposite sides of the transversal — that is why they are equal.' Nur receives the diagram-to-labels bridge and writes the equation and reason for the first time: '∠1 = ∠2 = 72° (alternate angles, AB ∥ CD).' She looks pleased. Wei Jie receives the verbal-to-proof bridge and writes the equation and reason in formal format. But when you ask 'Why are alternate angles equal?', he says 'Because they are alternate' — he can use the reason but cannot explain the geometric basis. Siti works through the combined scaffold slowly, copying each representation. The room is on-task but quiet. 17 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "IRF probe: connect all three representations to the proof",
+          "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your diagram — why are alternate angles equal when lines are parallel?' (Initiation). Then ask a second student: 'Can you show the same relationship in the equation? What does ∠1 = ∠2 mean geometrically?' (Response). Then ask a third student: 'And in words — why does equal alternate angles prove the lines are parallel?' (Feedback). Build a class-constructed explanation linking all three representations to the proof. Write the connection on the board.",
+          "theoryKey": "IRF_Chains",
+          "tradeoff": "The IRF chain leverages Rajan's diagram work and builds a shared explanation linking all three representations to the proof. It gives the middle group a concrete, class-built connection. But the chain is driven by students who can articulate their reasoning — Siti, who is still copying the scaffold, may follow the chain without connecting it to her own representations."
+        },
+        {
+          "id": "2",
+          "label": "Self-check: new diagram with complete proof",
+          "elaboration": "Give a new diagram: two lines cut by a transversal with co-interior angles marked. Ask students to write a complete proof using at least two representations and then write a self-check: 'I used ___ and ___ to prove this. I know my proof is complete because ___.' Collect the responses and scan them to see who can integrate across representations and who is still working in a single mode.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "The self-check application tests whether students can integrate across representations in a new proof. It will reveal Wei Jie's gap — he can write the reason but cannot explain the geometric basis. But Siti, who just completed the scaffold, will likely stall on the new proof without the combined scaffold to guide her."
+        }
+      ]
+    },
+    "C": {
+      "consequence": "The triads begin talking and the room gets louder. Rajan's triad works well — he explains the equation, his partner explains the diagram, and a third student connects both to the reason: 'The diagram shows the alternate angles on opposite sides of the transversal. The equation ∠1 = ∠2 gives the values. The reason is that alternate angles are equal when lines are parallel — and if they are equal, the lines must be parallel.' Nur's triad has two visual students and one verbal student. They talk about the diagram but cannot connect it to the equation or the reason — the verbal student says 'the angles look the same' and the others agree. Wei Jie's triad has two verbal students and one symbolic student. Wei Jie says 'alternate angles are equal' and his triad partners nod, but no one draws a diagram or writes an equation. Siti echoes her triad partners without contributing. You circulate and hear the pattern: 6 triads have genuine cross-representation connections. 11 triads are working in a single mode. The talk has activated some connections but the depth varies. 16 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "AQS feedback on single-mode reasoning",
+          "elaboration": "Write the most common single-mode explanation on the board anonymously: 'The angles are equal because they are alternate angles, so the lines are parallel.' Ask the class to give AQS feedback: Affirm what is correct ('The reason is right — alternate angles are equal when lines are parallel'), Question what is missing ('Where is the diagram? Where is the equation? What are the actual angle values?'), Suggest the connection ('Add: draw the diagram, mark ∠1 = ∠2 = 72°, and write the reason in formal proof format'). Take responses from multiple students and build a complete AQS response. Then ask all students to add the missing representations to their proof.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "The AQS structure makes the missing representations explicit and gives the single-mode triads a concrete model of what a complete proof looks like. It is based on real student reasoning, which makes it concrete. But it interrupts the triad work momentum. Siti, who was echoing her partners, will likely copy the AQS response from the board without making the connection herself."
+        },
+        {
+          "id": "2",
+          "label": "Solo proof synthesis: diagram, equation, and reason",
+          "elaboration": "Stop the triad talk and ask everyone to work individually. Write on the board: 'Prove that AB ∥ CD given ∠1 = ∠2 = 72°. Your proof must include: (1) A diagram with the angles marked. (2) The equation ∠1 = ∠2. (3) The reason. (4) The conclusion.' Give students 4 minutes to write, then collect the responses.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "Solo proof synthesis gives you the clearest, most honest picture of each student's ability to integrate across representations — uncontaminated by triad talk. Rajan's proof will show full integration. But the move to individual work kills the emerging talk momentum. Siti, who was echoing her partners, will likely produce a partial or copied response."
+        }
+      ]
+    }
+  },
+  "ep3": {
+    "A1": {
+      "outcome": "You draw all three representations on the board simultaneously and connect them explicitly. The room goes quiet as students watch. Nur looks at the board and you see the moment of recognition — she can see that the equation ∠1 = ∠2 corresponds to the angles she marked on her diagram, and that the reason chain explains why. She re-attempts the proof and writes: '∠1 = ∠2 = 72° (alternate angles, AB ∥ CD). The diagram shows the transversal cutting the parallel lines with the alternate angles on opposite sides.' Wei Jie watches the board and writes the equation and reason in his notes. He re-attempts the proof and gets it right. Rajan copies the board notes compliantly but his body language shows disengagement — he already understood this. Siti copies all three representations from the board carefully, but when you circulate and ask 'Can you try a new proof?', she hesitates and does not write anything without the board example in front of her. On the next problem, 19 of 24 students now produce a complete proof, up from 9. The majority gap has been addressed. But Siti is still dependent on copying, and Rajan is under-challenged.",
+      "tradeoff": "The whole-class reteach with simultaneous representations is efficient and reaches the majority who could not produce a complete proof. Process-level feedback (Hattie & Timperley) addressed the specific gap directly. Nur and Wei Jie made clear gains. But the reteach treats the class as uniform — Rajan is under-challenged and Siti remains dependent on copying rather than building genuine understanding of the proof structure.",
+      "reflection": "Why did you choose to show all three representations simultaneously rather than building from one to the others? What were you prioritising?\n\nAre you satisfied with the outcome? Most students now produce complete proofs, but Rajan is disengaged and Siti is still copying. What does this tell you about whole-class reteaching in a diverse-profiles classroom?\n\nHow do you design a lesson so that students who prefer different representations are challenged to integrate across modes — not just work in their preferred one?"
+    },
+    "A2": {
+      "outcome": "You pair Rajan with Nur and ask Rajan to give AQS feedback on Nur's diagram. Rajan looks at Nur's diagram and begins: 'Your diagram is correct — the angles are marked in the right positions. But you have not written the equation or the reason. What equation and reason do you need to complete the proof?' Nur looks at the diagram and says: '∠1 = ∠2?' Rajan confirms: 'Yes — and the reason is alternate angles, AB ∥ CD. Write that and you have a complete proof.' Nur writes the equation and reason for the first time. Wei Jie is paired with a student who has a complete proof. His partner looks at Wei Jie's verbal description and says: 'You said alternate angles — can you write the equation and draw the diagram?' Wei Jie draws a rough diagram and writes the equation. Siti is paired with a student who can explain the steps but not the geometric basis. Her partner says 'Write ∠1 = ∠2 and the reason' but cannot explain why alternate angles are equal. Siti copies the equation and reason from her partner's page. The room is engaged and several students are making real gains. But Siti has not moved from copying to understanding, and two triads where all students preferred the same representation reinforced single-mode reasoning.",
+      "tradeoff": "AQS feedback activated the expertise in the room. Rajan deepened Nur's understanding of the diagram-to-proof connection, and Wei Jie's partner helped him translate verbal reasoning into a diagram and equation. But Siti is still copying and has not built genuine understanding of the proof structure. Pairs where both students preferred the same representation reinforced single-mode reasoning.",
+      "reflection": "Why did you choose peer feedback over whole-class reteaching? What were you hoping would happen?\n\nAre you satisfied with the outcome? Nur and Wei Jie made genuine gains, but Siti is still copying and some pairs reinforced single-mode reasoning. What does this tell you about the conditions needed for productive peer feedback in a diverse-profiles classroom?\n\nHow do you design pair groupings so that students with different representation preferences are paired together — not just students with different levels of understanding?"
+    },
+    "B1": {
+      "outcome": "You pause the class and ask Rajan: 'From your diagram — why are alternate angles equal when lines are parallel?' Rajan responds: 'Because the transversal cuts the parallel lines at the same angle — the alternate angles are on opposite sides of the transversal, and the parallel lines ensure the angles are mirror images of each other.' You ask a second student to show the same relationship in the equation: 'In the equation, ∠1 = ∠2 = 72° — the values are equal because the geometric relationship forces them to be.' A third student connects to the reason chain: 'And the reason is the theorem — alternate angles are equal when lines are parallel. If the angles are equal, the lines must be parallel.' The IRF chain produces a rich, class-built explanation linking all three representations to the proof. Nur listens carefully and re-attempts the proof, connecting her diagram to the equation and reason. Wei Jie follows the chain and writes the equation and reason. Siti watches but does not contribute. When you ask 'Does that make sense?', she nods quickly without speaking. Her scaffold is still partially complete. The chain has deepened understanding for the middle group and stretched Rajan, but Siti's representation gap remains unaddressed.",
+      "tradeoff": "The IRF chain leverages Rajan's diagram work and builds a rich, class-constructed explanation linking all three representations to the proof. It stretched Rajan and deepened Nur's and Wei Jie's understanding. But the chain is driven by students who can articulate their reasoning — Siti's representation gap is not surfaced or addressed by the discussion.",
+      "reflection": "Why did you choose to run an IRF chain using Rajan's diagram work? What were you hoping the class would learn?\n\nAre you satisfied with the outcome? The chain produced strong cross-representation reasoning, but Siti's gap remains unaddressed. What does this tell you about the limits of whole-class discussion when some students are still building their first representation?\n\nHow do you design IRF probes that include students who are still working in a single mode rather than leaving them as passive observers?"
+    },
+    "B2": {
+      "outcome": "You give the new diagram — two lines cut by a transversal with co-interior angles marked — and ask students to write a complete proof using at least two representations. Rajan completes it quickly and writes a detailed self-check: 'I used the diagram and the equation. Diagram: co-interior angles on the same side of the transversal. Equation: ∠1 + ∠2 = 180° (co-interior angles, AB ∥ CD). I know this is correct because co-interior angles are supplementary when lines are parallel.' Nur uses the diagram and equation: she marks the co-interior angles and writes the equation correctly. Her self-check says: 'I used the diagram to identify the angles and the equation to show they add to 180°.' Wei Jie writes the reason and a rough diagram but cannot write the equation: his self-check says 'I used words and a diagram. I am not sure what equation to write.' Siti writes the diagram label and stops. Her self-check is blank. The transfer task has revealed a clear split: Rajan and Nur can integrate across representations; Wei Jie has representations but not the equation; Siti cannot work without the scaffold. 15 minutes remain.",
+      "tradeoff": "Scaffold removal tests integration honestly. Rajan and Nur demonstrated genuine cross-representation understanding. The self-check reflection (AfL Triangle) gives you individual evidence of reasoning. But Wei Jie has representations without the equation — the bridge task gave him access to the diagram without building the formal proof structure. Siti cannot work without the scaffold.",
+      "reflection": "Why did you choose to test integration with a self-check application? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur succeeded, but Wei Jie has representations without the equation and Siti cannot work independently. What does this tell you about the difference between representation fluency and formal proof structure?\n\nHow do you design tasks that build the connection between the diagram and the formal proof — not just the ability to draw a diagram or state a reason?"
+    },
+    "C1": {
+      "outcome": "You write the shallow explanation on the board: 'The angles are equal because they are alternate angles, so the lines are parallel.' You ask the class to give AQS feedback. Several students affirm the reason. Nur raises her hand and questions: 'Where is the diagram? Where is the equation? What are the actual angle values?' A third student suggests: 'Add: draw the diagram, mark ∠1 = ∠2 = 72°, and write the reason in formal proof format.' You write the complete AQS response on the board and ask all students to add the missing representations to their proof. Nur re-attempts and draws the diagram and writes the equation. Wei Jie follows the AQS feedback and writes the equation for the first time. Rajan listens with mild interest — he was already correct. Siti copies the AQS response from the board line by line. When you ask her to attempt a new proof independently, she hesitates and does not write anything without the board example. The AQS process has made the complete proof structure explicit for the whole class, but Siti is still copying rather than reasoning.",
+      "tradeoff": "The AQS structure made the missing representations explicit and gave the single-mode triads a concrete model of what a complete proof looks like. Nur and Wei Jie made genuine gains. But Siti is still copying from the board rather than reasoning independently. The AQS feedback served the middle group but did not address Siti's more fundamental representation gap.",
+      "reflection": "Why did you choose to use AQS feedback on the common single-mode explanation rather than addressing the representation gaps directly? What were you prioritising?\n\nAre you satisfied with the outcome? Nur and Wei Jie made gains, but Siti is still copying. What does this tell you about the limits of whole-class feedback when some students are still building their first representation?\n\nHow do you design feedback that addresses both the representation gap and the formal proof structure simultaneously?"
+    },
+    "C2": {
+      "outcome": "The room goes quiet as students write their individual proof syntheses. Rajan writes a complete, integrated proof: 'Diagram: parallel lines AB and CD cut by transversal EF. Alternate angles ∠1 and ∠2 marked on opposite sides of the transversal. Equation: ∠1 = ∠2 = 72°. Reason: alternate angles are equal when lines are parallel (AB ∥ CD). Conclusion: since ∠1 = ∠2, AB ∥ CD.' His proof is complete and precise. Nur writes the diagram and equation correctly and connects to the reason: '∠1 = ∠2 = 72° (alternate angles, AB ∥ CD). The diagram shows the angles on opposite sides of the transversal.' Her proof is correct and complete — the triad talk has helped her make the connection. Wei Jie writes the reason and a rough diagram but cannot write the equation: 'Alternate angles are equal. The diagram shows the angles. I am not sure what equation to write.' Siti draws the parallel lines and stops. Her proof is incomplete. The individual writing has given you the clearest picture of each student's integration — from Rajan's complete proof to Siti's single diagram. But the move to solo writing has revealed that the triad talk did not build the equation for Wei Jie or the proof structure for Siti.",
+      "tradeoff": "Individual written proof synthesis gives you the clearest, most honest evidence of each student's cross-representation understanding. Rajan and Nur demonstrated genuine integration. But the move to solo writing revealed that the triad talk did not build the equation for Wei Jie or the proof structure for Siti. The talk produced surface connections rather than genuine integration for most students.",
+      "reflection": "Why did you move from triad talk to individual written proof synthesis? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur showed genuine integration, but Wei Jie cannot write the equation and Siti cannot complete the proof. What does this tell you about when collaborative talk builds genuine cross-representation understanding versus surface-level agreement?\n\nHow do you design a lesson that builds the connection between the diagram and the formal proof for students who prefer different representations — without leaving any student working only in their preferred mode?"
+    }
+  }
+}
