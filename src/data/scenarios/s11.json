@@ -1,0 +1,148 @@
+{
+  "id": "S11",
+  "level": "upper_sec",
+  "profile": "mixed_readiness",
+  "subject": "Mathematics",
+  "topic": "Gradient",
+  "contextNote": "Sec 3 Math, 24 students. You modelled gradient using m = (y₂ − y₁) / (x₂ − x₁), showing that a large |m| means a steep line and a small |m| means a shallow one. Students are now 24 minutes into a set of gradient problems — calculating m from coordinates and interpreting what the value means. The room shows a clear readiness split.",
+  "students": [
+    {
+      "name": "Rajan",
+      "role": "fast",
+      "note": "Gradient calculated correctly and interpretation written for all questions. Done early, sitting quietly."
+    },
+    {
+      "name": "Nur Atiqah",
+      "role": "middle",
+      "note": "Calculation correct but interpretation incomplete — has written 'steep' for m = 4 but left the sign question blank."
+    },
+    {
+      "name": "Wei Jie",
+      "role": "middle",
+      "note": "Sign error in calculation — has written m = −2/4 = 2 (dropped the negative). Interpretation based on the wrong value."
+    },
+    {
+      "name": "Siti",
+      "role": "stalled",
+      "note": "Calculation blank. Has copied the formula from the board but has not substituted any values."
+    }
+  ],
+  "ep1": {
+    "situation": "24 minutes into the lesson. You circulate and the readiness gap is stark. Rajan has calculated the gradient correctly for all questions and written interpretations — 'positive, steep, rising left to right' — with quiet confidence. He is done and sitting with his pen down. Nur has the calculation right for most questions but her interpretation is incomplete: she has written 'steep' for m = 4 but left the sign interpretation blank, suggesting she understands magnitude but not direction. Wei Jie has a sign error running through his work — he has written m = −2/4 = 2, dropping the negative sign. His interpretations are based on the wrong value, so they are consistently wrong in a patterned way. Siti has copied the formula m = (y₂ − y₁) / (x₂ − x₁) from the board but has not substituted any values into it. Her page is otherwise blank. A quick scan of the class: 8 students are correct with full interpretations like Rajan. 10 students have correct calculations but incomplete or missing interpretations like Nur. 4 students have sign errors like Wei Jie. 2 students are stalled like Siti. You have about 16 minutes of lesson time remaining.",
+    "evidence": "The gap splits across two dimensions: calculation accuracy (sign errors) and interpretation depth (magnitude without direction). The stalled group has not moved beyond copying the formula. The majority error is not in the arithmetic but in connecting the sign of m to the direction of the line.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Two-step gradient diagnostic",
+        "elaboration": "Stop the class and project a new line through (1, 2) and (3, 6). Ask two questions in sequence: '(1) Calculate the gradient. Show your working.' Then: '(2) What does this gradient tell you about the line? Choose: (a) The line rises steeply from left to right. (b) The line falls steeply from left to right. (c) The line is shallow and rising. (d) I am not sure.' Ask students to write both answers on paper. Use the pattern to see who has the sign error, who can calculate but not interpret, and who is stalled at the formula stage.",
+        "theoryKey": "Two_Step_MCQ",
+        "tradeoff": "The two-step structure gives you precise, whole-class evidence of both the calculation gap and the interpretation gap simultaneously. It reveals whether students who get the right number can also explain what it means. But it halts the class and interrupts Rajan, who is already done and will find the diagnostic too easy."
+      },
+      {
+        "id": "B",
+        "label": "Tiered gradient tasks: calculation, interpretation, real-world",
+        "elaboration": "Distribute differentiated task cards without stopping the class. Stalled students like Siti receive a calculation scaffold: a worked example with blanks — 'Step 1: Identify (x₁, y₁) = (___, ___) and (x₂, y₂) = (___, ___). Step 2: Substitute: m = (___ − ___) / (___ − ___) = ___.' Middle students like Nur receive an interpretation prompt: 'If m is positive, the line ___. If m is negative, the line ___. If |m| > 1, the line is ___. If |m| < 1, the line is ___.' Fast finishers like Rajan receive a real-world extension: 'A road has gradient m = 0.08. What does this mean in context? A ramp has gradient m = −0.5. Describe the ramp. Which is steeper?'",
+        "theoryKey": "Tomlinson_Respectful_Tasks",
+        "tradeoff": "Every student gets immediate access to the task at their current level of readiness. The scaffolds are respectful — they all require reasoning, not just answer-getting. But the room will go quiet as students work individually, and you lose the opportunity to gather whole-class evidence of the sign error pattern. Siti may fill in the blanks mechanically without understanding the formula."
+      },
+      {
+        "id": "C",
+        "label": "Accountable Talk: what does the gradient mean?",
+        "elaboration": "Pause the class and assign shoulder partners. Ask each pair to explain their answer to the last question using the stem: 'The gradient is ___ because ___. This means the line is ___ because ___.' The listener must ask: 'What does the sign of the gradient tell you?' Circulate and listen for pairs where the sign interpretation is explicit versus pairs where students are describing steepness without direction. After 3 minutes, select two contrasting pairs — one with clear sign reasoning, one without — and run a brief IRF probe: 'What did you notice about these two explanations? Which one is more complete? Why?'",
+        "theoryKey": "Accountable_Talk",
+        "tradeoff": "Accountable Talk forces students to articulate the sign interpretation explicitly, which may surface reasoning that the calculations alone do not reveal. But students with sign errors like Wei Jie will explain incorrect reasoning confidently, and their partners may not catch the error. Siti has nothing to explain, which puts her at risk of echoing her partner without understanding."
+      }
+    ]
+  },
+  "ep2": {
+    "A": {
+      "consequence": "The responses come in and the pattern is clear. 14 of 24 students calculated the gradient correctly (m = 2). On the interpretation question, 9 of 24 chose option (a) correctly — rising steeply. 5 students chose option (b) — falling steeply — suggesting they are interpreting the magnitude correctly but getting the direction wrong. 6 students chose option (d) — not sure. Nur calculated correctly and chose option (a), but when you ask her to explain the sign, she says 'positive means going up' without connecting it to left-to-right direction. Rajan got both right and can explain clearly: 'Positive gradient means the line rises from left to right. m = 2 means for every 1 unit right, the line goes up 2 units — steep.' Wei Jie calculated m = 2 (sign error) and chose option (a) — his answer looks correct but is based on a wrong calculation. Siti left the calculation blank and chose option (d). The evidence is now precise: the majority gap is in sign interpretation, and Wei Jie's sign error is hidden behind a correct-looking answer. 14 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "Whole-class reteach: sign and steepness",
+          "elaboration": "Address the sign interpretation gap directly with the whole class. Draw two lines on the board — one with m = 2 (rising) and one with m = −2 (falling) — and label the rise and run on each. Explain: 'Positive gradient: rise is positive, line goes up from left to right. Negative gradient: rise is negative, line goes down from left to right. The magnitude tells you how steep — m = 2 is steeper than m = 0.5.' Ask all students to re-attempt the interpretation question and write one sentence connecting the sign to the direction of the line.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Process-level feedback (Hattie & Timperley) addresses the sign interpretation gap directly with a visual explanation. It is efficient and will reach the 11 students who are missing the sign-direction connection. But it reteaches Rajan who already understands, and Wei Jie's sign error in the calculation is not addressed — he will re-attempt with the wrong m value."
+        },
+        {
+          "id": "2",
+          "label": "Flex grouping with AQS peer feedback",
+          "elaboration": "Use the diagnostic evidence to form pairs: students who got both questions right (like Rajan) are paired with students who have the interpretation gap (like Nur) or the sign error (like Wei Jie). The stronger student gives AQS feedback: Affirm what is correct ('Your calculation is right'), Question the gap ('What does the sign of the gradient tell you about the direction of the line?'), Suggest the connection ('Positive m means rising left to right — the rise is positive'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "Flex grouping activates the expertise in the room and gives Rajan a cognitively demanding task. The AQS structure ensures feedback is specific. But Wei Jie's sign error is in the calculation, not just the interpretation — his partner may correct the interpretation without noticing the upstream calculation error. Siti, who left the calculation blank, has nothing for a peer to affirm."
+        }
+      ]
+    },
+    "B": {
+      "consequence": "The task cards go out and the room shifts. Siti picks up the calculation scaffold and begins filling in the blanks carefully. She identifies the coordinates correctly and substitutes them: m = (6 − 2) / (3 − 1) = 4/2 = 2. She gets the right answer. But when you ask 'What does m = 2 mean?', she looks at the scaffold and says 'It is not on the card.' Nur works through the interpretation prompt and fills in the blanks: 'positive means rising, negative means falling, |m| > 1 means steep.' She re-attempts her interpretation and gets it right. Wei Jie receives the interpretation prompt but his calculation still has the sign error — he is interpreting the wrong value. He fills in the prompt correctly in the abstract but applies it to m = 2 when the actual gradient is m = −2. Rajan reads the real-world extension and engages immediately. He writes: 'A road with m = 0.08 rises 8 cm for every 100 cm horizontal — gentle slope. A ramp with m = −0.5 falls 1 unit for every 2 units horizontal — moderate descent. The ramp is steeper because |−0.5| > |0.08|.' The room is on-task but quiet. 15 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "IRF probe: connect sign, direction, and steepness",
+          "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your real-world extension — what does a negative gradient mean in context?' (Initiation). Then ask a second student: 'Can you connect that to the graph — what does a negative gradient look like on a coordinate plane?' (Response). Then ask a third student: 'And how do you know which line is steeper — m = −0.5 or m = 0.08?' (Feedback). Build a class-constructed explanation linking sign, direction, and magnitude. Write the connection on the board.",
+          "theoryKey": "IRF_Chains",
+          "tradeoff": "The IRF chain leverages Rajan's real-world extension and builds a shared explanation linking all three aspects of gradient interpretation. It gives the middle group a concrete, class-built explanation. But Wei Jie's sign error in the calculation is still not addressed — he will apply the correct interpretation to the wrong value. Siti may follow the chain without connecting it to her own calculation."
+        },
+        {
+          "id": "2",
+          "label": "Self-check: new line with full interpretation",
+          "elaboration": "Give a new problem: 'A line passes through (2, 5) and (4, 1). Calculate the gradient and write a full interpretation: sign, direction, and steepness.' Ask students to attempt it independently and then write a self-check: 'I know the sign is correct because ___. I know the direction is correct because ___. I check my steepness by ___.' Collect the responses and scan them to see who can transfer the full interpretation without support.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "The self-check application tests whether students can integrate sign, direction, and steepness in a new problem. It will reveal Wei Jie's sign error directly — he will calculate m = −2 as m = 2 again. But Siti, who just completed the scaffold successfully, may stall on the new problem without the blanks to guide her. The move to solo work removes the scaffold before she has internalised the method."
+        }
+      ]
+    },
+    "C": {
+      "consequence": "The pairs begin talking and the room gets louder. Rajan explains to his partner with precision: 'The gradient is 2 because rise over run is 4 over 2. Positive means the line rises from left to right. m = 2 means for every 1 unit right, you go up 2 — so it is steep.' His partner nods and writes it down. Nur is paired with another student who also has the correct calculation but incomplete interpretation. They talk through the sign: 'Positive means going up.' 'I agree.' Neither student connects the sign to left-to-right direction explicitly. Wei Jie explains to his partner: 'The gradient is 2 because I got 2/4 = 2.' His partner says 'I got −2.' Wei Jie looks at his working and says 'Oh — I dropped the minus.' He corrects his calculation. Siti echoes her partner's explanation without writing anything new. You circulate and hear the pattern: 7 pairs have clear sign-direction reasoning. 11 pairs are confirming steepness without direction. The talk has partially surfaced the interpretation gap. 14 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "AQS feedback on shallow sign interpretation",
+          "elaboration": "Write the most common shallow interpretation on the board anonymously: 'The gradient is 2. This means the line is steep.' Ask the class to give AQS feedback: Affirm what is correct ('The magnitude interpretation is right — m = 2 is steep'), Question what is missing ('What does the sign tell you? Is the line rising or falling?'), Suggest the addition ('Add: positive gradient means the line rises from left to right'). Take responses from multiple students and build a complete AQS response. Then ask all students to re-attempt their interpretation with the sign-direction connection added.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "The AQS structure makes the missing sign-direction connection explicit and gives the shallow pairs a concrete model of a complete interpretation. It is based on real student reasoning, which makes it concrete. But it interrupts the pair work momentum and shifts back to teacher-led instruction. The student whose interpretation was displayed may feel exposed even though it was anonymous."
+        },
+        {
+          "id": "2",
+          "label": "Solo gradient proof: sign, direction, steepness",
+          "elaboration": "Stop the pair talk and ask everyone to work individually. Write on the board: 'For the line through (1, 2) and (3, 6): (1) Calculate the gradient. Show all working including the sign. (2) Write a complete interpretation: what does the sign tell you? What does the magnitude tell you?' Give students 3 minutes to write, then collect the responses. Scan them to see who has genuine sign-direction understanding and who was borrowing reasoning from their partner.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Moving from pair talk to individual written work gives you clean evidence of each student's understanding. It reveals whether the pair talk produced genuine learning or just social agreement. But it kills the collaborative energy. Siti, who did not write anything during the pair work, will likely produce nothing or copy a memorised phrase."
+        }
+      ]
+    }
+  },
+  "ep3": {
+    "A1": {
+      "outcome": "You draw both lines on the board and label the rise and run on each. The room goes quiet as students watch. Nur looks at the diagram and you see the moment of recognition — she can see that the negative rise means the line falls. She re-attempts her interpretation and writes: 'm = 4 means the line rises steeply from left to right. m = −2 means the line falls from left to right.' Wei Jie watches the reteach but his sign error is in the calculation, not the interpretation — he re-attempts with m = 2 (still wrong) and writes a correct interpretation for the wrong value. He does not notice the upstream error. Rajan copies the board notes compliantly but his body language shows disengagement — he already understands this. Siti watches the board carefully and copies the diagram, but when you circulate and ask 'Can you try the calculation for this line?', she hesitates and does not write anything. On the next problem, 20 of 24 students now write complete sign-direction interpretations, up from 9. The majority gap has been addressed. But Wei Jie's sign error in the calculation is still undetected, and Siti is still dependent on copying.",
+      "tradeoff": "The whole-class reteach with visual diagram is efficient and reaches the majority who were missing the sign-direction connection. Process-level feedback (Hattie & Timperley) addressed the specific interpretation gap. Nur made a clear gain. But the reteach did not surface Wei Jie's upstream calculation error, and Siti remains dependent on copying rather than calculating independently.",
+      "reflection": "Why did you choose to reteach the whole class rather than target the sign error and interpretation gap separately? What were you prioritising?\n\nAre you satisfied with the outcome? Most students now write complete interpretations, but Wei Jie's calculation error is still hidden and Siti cannot calculate independently. What does this tell you about the limits of interpretation-focused reteaching?\n\nHow do you design a lesson so that calculation errors and interpretation gaps are addressed at the same time rather than sequentially?"
+    },
+    "A2": {
+      "outcome": "You pair Rajan with Nur and ask Rajan to give AQS feedback on Nur's interpretation. Rajan looks at Nur's page and begins: 'Your calculation is right — m = 4 is correct. But your interpretation only says steep. What does the sign tell you about the direction?' Nur pauses and says: 'Positive means... going up?' Rajan confirms: 'Rising from left to right — the line goes up as you move right.' Nur re-attempts and writes a complete interpretation. Wei Jie is paired with a student who got both questions right. His partner looks at his calculation and immediately says: 'Your m is wrong — you dropped the negative. It should be m = −2, not m = 2.' Wei Jie looks at his working and corrects the sign error. He re-attempts the interpretation correctly. Siti is paired with a student who can explain the steps but not the reasoning. Her partner says 'Positive means rising, negative means falling' but cannot explain why. Siti copies the phrases from her partner's page. When you ask her 'Can you calculate the gradient for this line?', she shakes her head. The room is engaged and several students are making real gains. But Siti has not moved from copying to calculating, and two pairs where both students had the same interpretation gap reinforced the shallow reasoning.",
+      "tradeoff": "Flex grouping activated the expertise in the room. Rajan deepened Nur's interpretation and Wei Jie's partner caught the upstream sign error — a gain that the whole-class reteach would have missed. But Siti is still copying and cannot calculate independently. Pairs where both students had the same gap reinforced shallow reasoning rather than correcting it.",
+      "reflection": "Why did you choose peer feedback over whole-class reteaching? What were you hoping would happen?\n\nAre you satisfied with the outcome? Nur and Wei Jie made genuine gains, but Siti is still copying and some pairs reinforced shallow reasoning. What does this tell you about the conditions needed for productive peer feedback in mixed-readiness classrooms?\n\nHow do you ensure that the stalled student — who cannot calculate — gets access to the method, not just the interpretation?"
+    },
+    "B1": {
+      "outcome": "You pause the class and ask Rajan: 'From your real-world extension — what does a negative gradient mean in context?' Rajan responds: 'A ramp with m = −0.5 falls — for every 2 units you move right, you drop 1 unit. The negative sign means the height decreases as you move right.' You ask a second student to connect this to the graph: 'On a coordinate plane, a negative gradient means the line goes down from left to right — the y-values decrease as x increases.' A third student adds: 'And the steepness is the magnitude — |−0.5| = 0.5, which is less steep than m = 2.' The IRF chain produces a rich, class-built explanation linking sign, direction, and magnitude. Nur listens carefully and re-attempts her interpretation, adding the direction. Wei Jie follows the chain but his calculation still has the sign error — he applies the correct interpretation to m = 2 rather than m = −2. Siti watches but does not contribute. When you ask 'Does that make sense?', she nods quickly without speaking. Her calculation is still blank. The chain has deepened understanding for the middle group and stretched Rajan, but Wei Jie's upstream error and Siti's calculation gap remain unaddressed.",
+      "tradeoff": "The IRF chain leverages Rajan's extension work and builds a rich, class-constructed explanation of gradient interpretation. It stretched Rajan and deepened Nur's understanding. But the chain is driven by students who can articulate their reasoning — Wei Jie's sign error and Siti's calculation gap are not surfaced or addressed by the interpretation-focused discussion.",
+      "reflection": "Why did you choose to run an IRF chain using Rajan's real-world extension? What were you hoping the class would learn?\n\nAre you satisfied with the outcome? The chain produced strong interpretation reasoning, but Wei Jie's sign error and Siti's calculation gap remain unaddressed. What does this tell you about the limits of interpretation-focused discussion when calculation errors are still present?\n\nHow do you design extension tasks so that fast finishers contribute to the class's learning without the discussion bypassing students who are still stuck on the calculation?"
+    },
+    "B2": {
+      "outcome": "You write the new problem on the board — a line through (2, 5) and (4, 1) — and ask students to attempt it independently with a full interpretation. Rajan completes it quickly and writes a detailed self-check: 'm = (1 − 5) / (4 − 2) = −4/2 = −2. Negative gradient: line falls from left to right. |m| = 2: steep. I check by plotting the points and confirming the line falls.' His response shows deep understanding and metacognitive awareness. Nur calculates correctly — m = −2 — and writes: 'Negative means falling left to right. |m| = 2 means steep.' Her self-check says: 'I know the sign is correct because the y-value decreases.' The interpretation prompt has helped her internalise the sign-direction connection. Wei Jie calculates m = −4/2 = 2 again — the sign error persists. His self-check says: 'I know the sign is correct because I calculated it.' He does not notice the error. Siti writes the coordinates on her page and stops. Her self-check is blank. The transfer task has revealed a clear split: Rajan and Nur can work independently; Wei Jie's sign error is persistent and self-concealed; Siti cannot calculate without the scaffold. 13 minutes remain.",
+      "tradeoff": "Scaffold removal tests transfer directly and honestly. Rajan and Nur demonstrated genuine understanding. The self-check reflection (AfL Triangle) gives you individual evidence of reasoning. But Wei Jie's sign error is persistent and self-concealed — he believes his calculation is correct. Siti cannot calculate without the scaffold. You have clean evidence of two different types of gaps but limited time to address both.",
+      "reflection": "Why did you choose to test transfer with a self-check application? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur succeeded, but Wei Jie's sign error is persistent and Siti cannot calculate independently. What does this tell you about the difference between interpretation gaps and calculation errors?\n\nHow do you address a persistent sign error — where the student believes their calculation is correct — without making them feel singled out?"
+    },
+    "C1": {
+      "outcome": "You write the shallow interpretation on the board: 'The gradient is 2. This means the line is steep.' You ask the class to give AQS feedback. Several students affirm the magnitude interpretation. Nur raises her hand and questions: 'What does the sign tell you? Is the line rising or falling?' A third student suggests: 'Add: positive gradient means the line rises from left to right.' You write the complete AQS response on the board and ask all students to re-attempt their interpretation. Nur re-attempts and writes a complete interpretation with the sign-direction connection. Wei Jie follows the AQS feedback and adds the direction to his interpretation — but his calculation still has the sign error, so he writes 'positive, rising' for a line that is actually falling. Rajan listens with mild interest — he was already correct. Siti copies the corrected interpretation from the board line by line. When you ask her to attempt a new calculation independently, she hesitates and does not write anything. The AQS process has made the sign-direction connection explicit for the whole class, but Wei Jie's upstream error and Siti's calculation gap remain unaddressed.",
+      "tradeoff": "The AQS structure made the missing sign-direction connection explicit and gave the shallow pairs a concrete model of a complete interpretation. Nur made a genuine gain. But Wei Jie's sign error in the calculation means he is now applying the correct interpretation framework to the wrong value — the AQS feedback has not helped him. Siti is still copying rather than calculating.",
+      "reflection": "Why did you choose to use AQS feedback on the common shallow interpretation rather than addressing the calculation errors directly? What were you prioritising?\n\nAre you satisfied with the outcome? Nur made a genuine gain, but Wei Jie's sign error is now hidden behind a correct-looking interpretation, and Siti is still copying. What does this tell you about the relationship between calculation accuracy and interpretation quality?\n\nHow do you design feedback that addresses both the calculation and the interpretation simultaneously?"
+    },
+    "C2": {
+      "outcome": "The room goes quiet as students write their individual gradient proofs. Rajan writes a complete, detailed response: 'm = (6 − 2) / (3 − 1) = 4/2 = 2. Sign: positive. Direction: rising from left to right — y increases as x increases. Steepness: m = 2 means for every 1 unit right, the line rises 2 units — steep. I check by plotting the points.' His response shows deep understanding and metacognitive awareness. Nur writes: 'm = 2. Positive gradient: line rises from left to right. m = 2 is steep.' Her response is correct and complete — the pair talk has helped her internalise the sign-direction connection. Wei Jie writes: 'm = 2/4 = 2. Positive, rising, steep.' His sign error persists — he has dropped the negative again. His interpretation is correct for the wrong value. Siti writes: 'm = (y₂ − y₁) / (x₂ − x₁).' She has copied the formula but has not substituted any values. Her interpretation is blank. The individual writing has given you the clearest picture of each student's understanding — from Rajan's complete proof to Siti's empty formula. But the move to solo writing has revealed that the pair talk did not build the calculation accuracy for Wei Jie or the calculation confidence for Siti.",
+      "tradeoff": "Individual written proofs give you the clearest, most honest evidence of each student's understanding. Rajan and Nur demonstrated genuine understanding of sign, direction, and steepness. But the move to solo writing revealed that the pair talk did not correct Wei Jie's sign error or build Siti's calculation confidence. The pair talk produced interpretation gains but left the calculation gaps intact.",
+      "reflection": "Why did you move from pair talk to individual written proofs? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur showed genuine understanding, but Wei Jie's sign error persists and Siti cannot calculate. What does this tell you about when pair talk builds genuine understanding versus surface-level agreement?\n\nHow do you design a lesson that addresses calculation errors and interpretation gaps at the same time, rather than letting one mask the other?"
+    }
+  }
+}

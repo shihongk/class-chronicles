@@ -1,0 +1,849 @@
+// =============================================================================
+// src/data/scenarios.js — All 6 Scenarios (v2)
+// =============================================================================
+
+// =============================================================================
+// S1 — Upper Sec / Mixed Readiness / Completing the Square
+// =============================================================================
+
+const S1 = {
+  id: 'S1',
+  level: 'upper_sec',
+  profile: 'mixed_readiness',
+  subject: 'Mathematics',
+  topic: 'Completing the Square',
+  contextNote: 'Sec 3 Express Math, 30 students. You demonstrated completing the square with x² + 8x + 7 = 0 → (x+4)² = 9, showing the halving step explicitly on the board. Students are now 8 minutes into their first practice question: x² + 6x + 5 = 0. The room is a mix of focused work, hesitation, and stalling.',
+  students: [
+    { name: 'Rajan',     role: 'fast',    note: 'Finished correctly in 3 minutes. Now on question 2, working independently.' },
+    { name: 'Nur Atiqah',role: 'middle',  note: 'Has written x² + 6x = -5, then (x + 6)² = ... Stuck. Eraser marks visible.' },
+    { name: 'Wei Jie',   role: 'middle',  note: 'Copied the first line correctly. Pen hovering. Glancing at Rajan\'s work.' },
+    { name: 'Siti',      role: 'stalled', note: 'Equation copied. Nothing else. Staring at the board, not writing.' }
+  ],
+
+  ep1: {
+    situation: '20 minutes into the lesson. You circulate and the readiness gap is stark. Rajan has already solved question 1 correctly and is halfway through question 2, working with quiet confidence. Nur Atiqah has the correct first line but has written (x + 6)² instead of (x + 3)² — she squared the full coefficient instead of halving it first. There are eraser marks around the 6, suggesting she knows something is wrong but cannot identify what. Wei Jie has the first line correct but has stopped writing. His pen hovers over the page and he keeps glancing sideways at Rajan\'s work. Siti has only copied the equation from the board. Her page is otherwise blank and she is staring at the front of the room, not writing. A quick scan of the class reveals roughly 10 students progressing like Rajan, 12 students with the same halving error as Nur, and 8 students stalled like Wei Jie and Siti. You have about 18 minutes of lesson time remaining.',
+    evidence: 'The gap is visible in three tiers: a third are progressing independently, a third have a patterned misconception at the halving step, and a third have not moved beyond the first line. The error is consistent — students are squaring the full coefficient rather than halving it first. The stalled group shows no evidence of attempting the halving step at all.',
+    choices: [
+      {
+        id: 'A',
+        label: 'Run a Two-Step MCQ',
+        elaboration: 'Stop the class and project a diagnostic hinge question on the board: "For x² + 8x + 7 = 0, the first step in completing the square is: (A) (x + 8)²  (B) (x + 4)²  (C) x² + 4x. Then: Why did you choose that answer? (1) Because we halve the coefficient of x  (2) Because we square the coefficient of x." Ask students to write their answers on mini whiteboards and hold them up simultaneously. Use the pattern of responses to decide your next move — reteach the halving step if the error is widespread, or move on if most students have it right.',
+        theoryKey: 'Two_Step_MCQ',
+        tradeoff: 'You get precise, whole-class evidence of exactly where the misconception sits and can respond immediately. The two-step structure (answer + reasoning) reveals whether students who get the right answer actually understand why. But it costs 3–4 minutes of practice time, and students who were progressing well like Rajan are interrupted.'
+      },
+      {
+        id: 'B',
+        label: 'Release tiered scaffolds',
+        elaboration: 'Distribute three differentiated task cards without stopping the class. Stalled students like Siti receive a full worked example with blanks to fill in: "Step 1: Move the constant. x² + 6x = ___. Step 2: Halve the coefficient of x: 6 ÷ 2 = ___. Step 3: Square it and add to both sides..." Students with errors like Nur receive a prompt card: "Check: Did you halve the coefficient before squaring? The coefficient of x is 6. Half of 6 is ___." Fast finishers like Rajan receive an extension: "Prove why we halve the coefficient. What happens if you try (x + 6)² instead? Expand both and compare." All three versions require students to write a justification for each step.',
+        theoryKey: 'Tomlinson_Respectful_Tasks',
+        tradeoff: 'Every student gets immediate access to the task at their current level of readiness. The scaffolds are respectful — they all require reasoning, not just answer-getting. But the room will go quiet as students work individually, and you lose the opportunity to gather whole-class evidence of understanding. You also will not know whether students are using the scaffolds to build understanding or just copying the steps.'
+      },
+      {
+        id: 'C',
+        label: 'Accountable Talk pairs',
+        elaboration: 'Pause the class and assign shoulder partners. Ask each pair to explain their working to each other using the Accountable Talk stem: "I claim the first step is ___ because ___. The evidence for my claim is ___." The listener must ask one clarifying question: "Why did you halve the coefficient?" or "How do you know that is correct?" Circulate and listen for the most common error pattern and the clearest correct explanation. After 3 minutes, select two contrasting pairs — one with the error, one with the correct reasoning — and run a brief IRF probe with the whole class: "What did you notice about these two approaches? Which one is correct? Why?"',
+        theoryKey: 'Accountable_Talk',
+        tradeoff: 'Reasoning surfaces through talk, and the Accountable Talk structure ensures students are making claims and justifying them, not just sharing answers. The IRF probe allows you to make the error visible and correct it publicly. But pair quality is uneven — some pairs will have two students with the same error, which means they will reinforce the misconception rather than correct it. Siti may not have anything to explain, which puts her at risk of disengaging or copying her partner\'s explanation without understanding it.'
+      }
+    ]
+  },
+
+  ep2: {
+    A: {
+      consequence: 'The whiteboards go up and the pattern is immediate. 14 students chose (A) (x + 8)² for step 1 — they squared the full coefficient without halving. 12 students chose (B) (x + 4)² correctly. 4 students, including Siti, chose (C) x² + 4x, which suggests they are not yet connecting the completing-the-square procedure to the perfect square form. On the reasoning question, 9 of the 14 who got the first question wrong also chose "square the coefficient" rather than "halve the coefficient" — the misconception is explicit and consistent. Wei Jie got both questions right but when you ask him to explain, he says "because that is what you showed us" — procedural compliance without conceptual understanding. Rajan got both right and can explain clearly: "We halve because we are building (x + a)², and a is half the coefficient." Nur got the first question right but the second wrong — she can execute the procedure but cannot articulate why. The evidence is now precise: the majority error is at the halving step, and even some students who can execute correctly cannot explain the reasoning. You have 16 minutes remaining.',
+      choices: [
+        {
+          id: '1',
+          label: 'Whole-class reteach with worked example and non-example',
+          elaboration: 'Address the halving error directly with the whole class. Write two solutions side by side on the board: the correct method (x² + 8x → halve 8 to get 4 → (x+4)²) and the common error (x² + 8x → square 8 to get 64 → (x+64)²). Expand both to show why the error does not work: (x+4)² = x² + 8x + 16 ✓ matches the original, but (x+64)² = x² + 128x + 4096 ✗ does not. Emphasize the reasoning: "We halve because we are building a perfect square, and the middle term of (x+a)² is 2ax, so a must be half the coefficient." Ask all students to re-attempt the original question using the correct method and write one sentence explaining why they halved.',
+          theoryKey: 'Hattie_Timperley_Feedback',
+          tradeoff: 'This is process-level feedback (Hattie & Timperley) — you are addressing the specific procedure that went wrong and explaining why the correct method works. It is efficient and will reach the 14 students who made the error. But you are reteaching students like Rajan who already understand, which under-challenges them. Siti may watch and copy the board without building genuine understanding, and you will not have time to check her work individually.'
+        },
+        {
+          id: '2',
+          label: 'Flex grouping with AQS peer feedback',
+          elaboration: 'Use the MCQ evidence to form flexible pairs: students who got both questions right (like Rajan) are paired with students who made the halving error (like Nur). The stronger student gives AQS feedback on their partner\'s working: Affirm what is correct ("You moved the constant correctly"), Question the step that went wrong ("Why did you square 8 instead of halving it?"), Suggest the correct move ("Try halving 8 first, then squaring the result"). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS feedback with the class.',
+          theoryKey: 'Tomlinson_Flex_Grouping',
+          tradeoff: 'Flex grouping (Tomlinson) leverages the expertise already in the room and gives Rajan a cognitively demanding task — explaining is harder than doing. The AQS structure ensures feedback is specific and actionable. But the quality of peer explanation varies widely. Some students like Rajan can explain clearly; others may just give the answer without the reasoning. If Siti is paired with a student who cannot explain well, she may copy the procedure without understanding it. You also lose some control over the accuracy of the feedback being given.'
+        }
+      ]
+    },
+    B: {
+      consequence: 'The scaffolds go out and the room shifts. Wei Jie and Siti pick up the full worked example card immediately. Wei Jie works through it step by step, writing carefully. Next to step 3 ("Square the result: 3² = 9"), he writes a small note in the margin: "why minus the 9?" — a genuine question emerging from the scaffold. Siti copies each line from the card onto her page, matching the layout exactly, but her pen moves mechanically and she does not pause to process the reasoning. Nur takes the prompt card and works through the question again. She gets the halving step right this time — the prompt seems to have corrected the error — but when she reaches the final step, she writes (x+3)² = 4 instead of (x+3)² = -4, repeating a sign error from earlier. Rajan glances at the extension card, reads the first line, then sets it aside and continues working independently on question 2. He does not engage with the "prove why we halve" task. The room is quiet and on-task, but you have no whole-class evidence of who understands and who is just following the scaffold. 18 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'IRF probe: explain the halving step without the scaffold',
+          elaboration: 'Pause the class and collect the scaffold cards. Ask the whole class: "Without looking at the card — can someone explain in your own words why we halve the coefficient of x?" Take the first response (Initiation). Then ask a second student: "Can you build on what [first student] said? What would you add?" (Response). Then ask a third student: "Do you agree? Is there anything you would correct or clarify?" (Feedback). Use the IRF chain to construct a complete, class-built explanation. Write the final explanation on the board and ask students to copy it into their notes.',
+          theoryKey: 'IRF_Chains',
+          tradeoff: 'The IRF chain (common in Singapore classrooms) reveals whether understanding is genuine or scaffold-dependent. It builds a shared explanation that is richer than any single student would produce alone. But putting students on the spot risks freezing those who are still fragile. Siti is unlikely to volunteer, and if called on, may say "I don\'t know" or give a memorized answer without understanding. The public nature of the probe may also embarrass students who realize they were just copying the scaffold.'
+        },
+        {
+          id: '2',
+          label: 'Scaffold removal: fresh question with self-check',
+          elaboration: 'Give a new question with no scaffold: x² + 10x + 9 = 0. Ask students to attempt it independently and then write a self-check reflection: "I did ___ because ___. I know my answer is correct because ___. I check my work by ___." Collect the responses and scan them quickly to see who can transfer the procedure without support and who is still dependent on the scaffold.',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'This tests transfer directly — if students can do the new question without the scaffold, the scaffold has done its job. The self-check reflection (AfL Triangle: where the learner is, where they are going, how to close the gap) also builds metacognitive awareness. But students who relied heavily on the scaffold, like Siti, may stall again when it is removed. You will not know who is stuck until you collect the work, and by then you will have less time to respond. Wei Jie\'s marginal question ("why minus?") suggests he is not yet ready for scaffold removal.'
+        }
+      ]
+    },
+    C: {
+      consequence: 'The pairs begin talking and the room gets noisy quickly. Rajan explains the halving step to his partner with precision: "You halve the 8 to get 4, then square the 4 to get 16, because the formula for a perfect square is (x+a)² = x² + 2ax + a². So if the middle term is 8x, then 2a = 8, which means a = 4." His partner nods and writes it down. Nur is paired with another student who also made the halving error. They talk through the step together, but both repeat the same misconception: "We square the 6 to get 36." Neither student questions it, and the error is reinforced rather than corrected. Wei Jie attempts to explain to Siti, speaking slowly and pointing at each line of his working. Siti nods and says "okay" twice, but she does not write anything new on her page. Wei Jie\'s explanation is halting and incomplete — he knows the procedure but cannot articulate the reasoning clearly. You circulate and hear the pattern: 3 pairs have the correct reasoning and are explaining it clearly. 5 pairs are circulating the halving misconception, with both students agreeing on the wrong method. 2 pairs are stuck in silence, with neither student able to explain. The room is noisy and you have heard enough to identify the error pattern. 17 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'AQS feedback on the common error',
+          elaboration: 'Write the most common error on the board anonymously: "x² + 6x + 5 = 0 → (x + 6)² = ..." Ask the class to give AQS feedback on this working as if it were a peer\'s work. Use the structure: Affirm what is correct ("The constant was moved correctly"), Question the step that went wrong ("Why was 6 squared instead of halved?"), Suggest the fix ("Halve the coefficient first: 6 ÷ 2 = 3, then square: 3² = 9"). Take responses from multiple students and build a complete AQS response together. Then ask all students to re-attempt the question using the correct method.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'The AQS structure (Affirm, Question, Suggest) turns the evidence from the pair talk into structured, actionable feedback for the whole class. It is concrete because it is based on real student work, and it models the kind of feedback students should be giving each other. But publicly displaying the error — even anonymously — may embarrass the students whose reasoning it came from. Some students will recognize their own work on the board. The move also interrupts the pair work momentum and shifts back to teacher-led instruction.'
+        },
+        {
+          id: '2',
+          label: 'Solo written justification',
+          elaboration: 'Stop the pair talk and ask everyone to work individually. Write on the board: "Explain in writing why we halve the coefficient of x when completing the square. Use an example to support your explanation." Give students 3 minutes to write, then collect the responses. Scan them quickly to see who has genuine understanding and who was borrowing reasoning from their partner during the talk.',
+          theoryKey: 'Hattie_Timperley_Feedback',
+          tradeoff: 'Moving from collaborative talk to individual written justification gives you clean, uncontaminated evidence of each student\'s understanding (Hattie & Timperley: feedback should move students toward self-regulation). It reveals whether the pair talk produced genuine learning or just social agreement. But it kills the collaborative energy in the room. Siti, who did not write anything during the pair work, will likely produce nothing or copy a memorized phrase. The students who were reasoning well in pairs may resent being asked to write individually when they were already engaged.'
+        }
+      ]
+    }
+  },
+
+  ep3: {
+    A1: {
+      outcome: 'You write both methods on the board side by side and work through the expansion to show why the error fails. The room goes quiet as students watch. Nur leans forward and you see the moment of recognition — she can see exactly where her working diverged from the correct method. She erases her (x+6)² and rewrites it as (x+3)², then completes the rest of the question correctly. Wei Jie follows the worked example step by step and re-attempts the question. This time he gets it right and writes a short explanation: "Halve first because (x+a)² has 2ax in the middle." Rajan works through the reteach compliantly, copying the board notes, but his body language shows disengagement — he is not challenged and he knows he already understands this. Siti watches the board carefully but does not produce any new work on her page. When you circulate after the reteach, you see that she has copied the worked example from the board line by line, but when you point to her original question and ask "Can you try this one now?", she hesitates and does not write anything. On the second practice question, 21 of 30 students attempt it correctly, up from 12. The majority error has been addressed. But the reteach served the middle group and missed the extremes — Rajan is under-challenged and Siti is still dependent on copying rather than understanding.',
+      tradeoff: 'The whole-class reteach with worked example and non-example is efficient and reaches the majority of students who made the halving error. It is process-level feedback (Hattie & Timperley) — you addressed the specific procedure that went wrong and explained why the correct method works. Nur and Wei Jie, who were in the middle group, made clear gains. But the move treats the class as uniform. Rajan, who already understood, is under-challenged and disengaged. Siti, who is still at the access stage, remains passive and dependent on copying. The whole-class approach served the middle well but missed the students at the top and bottom of the readiness range.',
+      reflection: 'Why did you choose this path? What were you prioritizing — efficiency, evidence, or equity?\n\nAre you satisfied with the outcome? The middle group made clear gains, but Rajan was under-challenged and Siti remained dependent. What does this tell you about whole-class moves in mixed-readiness classrooms?\n\nIf you taught this lesson again, what would you do differently?'
+    },
+    A2: {
+      outcome: 'You pair Rajan with Wei Jie and ask Rajan to give AQS feedback on Wei Jie\'s working. Rajan looks at Wei Jie\'s page and begins: "You moved the constant correctly — that is right. But here, you squared the 6 instead of halving it first. Try halving the 6 to get 3, then square the 3 to get 9." Wei Jie listens, nods, and rewrites the line. This time he gets (x+3)² = 4 and solves correctly to get x = -1 or x = -5. He looks pleased. Rajan then explains why: "The formula is (x+a)² = x² + 2ax + a². If the middle term is 6x, then 2a = 6, so a = 3." Wei Jie writes this down. Nur is paired with another student who got both MCQ questions right. Her partner gives AQS feedback on her working, and Nur self-corrects the halving error. She re-attempts the question and gets it right. Siti is paired with a student who can explain the procedure but struggles to articulate the reasoning. Her partner says "You halve the 6 to get 3, then you square it" but cannot explain why. Siti copies the steps from her partner\'s page but does not write any new reasoning. When you ask her "Why do we halve?", she says "Because we have to" — procedural compliance without understanding. The room is engaged and several students are making real gains through the peer feedback. But Siti is still not producing independent work, and two pairs have reinforced the error rather than corrected it because both students in the pair had the same misconception.',
+      tradeoff: 'Flex grouping activates the expertise already in the room. Rajan is given a cognitively demanding task — explaining is harder than doing — and Wei Jie benefits from one-on-one support. The AQS structure ensures the feedback is specific and actionable. Nur also makes gains through structured peer feedback. But the quality of peer explanation varies widely. Rajan can explain clearly; Siti\'s partner cannot. Siti is still dependent and has not moved from copying to understanding. The pairs where both students had the same error reinforced the misconception rather than correcting it. You also have less control over the accuracy of the feedback being given.',
+      reflection: 'Why did you choose peer feedback over whole-class reteaching? What were you hoping would happen?\n\nAre you satisfied with the outcome? Wei Jie and Nur made gains, but Siti is still copying and some pairs reinforced errors. What does this tell you about the conditions needed for productive peer feedback?\n\nWhat would you need to put in place before the next lesson to make peer feedback more effective?'
+    },
+    B1: {
+      outcome: 'You collect the scaffold cards and ask for a volunteer to explain the halving step without looking at the card. There is a long pause. Nur raises her hand tentatively and says: "We halve the coefficient because... um... because the formula has 2a in it?" You ask: "Can you say more about that?" Nur continues: "The middle term is 2ax, so if we have 6x, then 2a = 6, so a = 3." You nod and ask a second student to build on Nur\'s explanation. Wei Jie adds: "And then we square the 3 to get 9, and we add it to both sides." A third student evaluates: "Yes, that is right, because if we expand (x+3)² we get x² + 6x + 9, which matches." The IRF chain produces a complete, class-built explanation that is richer and more detailed than any single student would have given alone. You write the final explanation on the board and ask students to copy it into their notes. Rajan listens but does not contribute — he already knows this and the probe does not challenge him. Siti watches the exchange but when you glance at her and ask "Does that make sense?", she nods quickly but does not speak. Her page still shows only the copied scaffold with no new independent work. The probe has revealed genuine understanding in Nur and Wei Jie, but it has also exposed the students who are still fragile and dependent. 16 minutes remain.',
+      tradeoff: 'The IRF probe reveals whether understanding is genuine or scaffold-dependent. It worked well for Nur — in explaining the reasoning aloud, she consolidated her understanding and caught her own error. The chain also produced a shared explanation that is more robust than a teacher-led reteach because it is built from student reasoning. But the public nature of the questioning puts pressure on students who are still fragile. Siti did not volunteer and when prompted, gave a minimal response. She has not produced any new independent work, which suggests the scaffold gave her access to the procedure but did not build understanding. The probe served the middle group well but did not stretch Rajan or support Siti.',
+      reflection: 'Why did you choose scaffolds and then probe understanding publicly? What were you trying to find out?\n\nAre you satisfied with the outcome? Nur consolidated her understanding through the IRF chain, but Siti froze and Rajan was disengaged. What does this tell you about the timing and framing of public questioning?\n\nHow do you balance the need for evidence with the risk of exposing students who are still fragile?'
+    },
+    B2: {
+      outcome: 'You write the new question on the board — x² + 10x + 9 = 0 — and ask students to attempt it without the scaffold. Rajan completes it in under 2 minutes and writes a clear self-check: "I halved 10 to get 5, then squared 5 to get 25. I added 25 to both sides to get (x+5)² = 16. I know this is correct because if I expand (x+5)² I get x² + 10x + 25, which matches the original equation. I check by substituting x = -1 and x = -9 back into the original equation." His response shows deep understanding and metacognitive awareness. Nur attempts the question and gets the halving step right this time — she writes (x+5)² = 16 and solves to get x = -1 or x = -9. Her self-check says: "I halved the 10 because the middle term is 2ax, so a = 5. I check by expanding." The prompt card seems to have helped her internalize the reasoning. Wei Jie stalls at the same step as before. He writes x² + 10x = -9 and then stops. His self-check says: "I moved the constant. I don\'t know what to do next." The scaffold removal has revealed that he was dependent on the worked example and has not yet internalized the procedure. Siti writes the equation x² + 10x + 9 = 0 on her page and stops. Her self-check is blank. When you circulate and ask "Can you try the first step?", she shakes her head. The transfer task has revealed a clear split: some students, like Rajan and Nur, can work independently; others, like Wei Jie and Siti, are still dependent on support. You now have clean evidence of who is ready to move on and who needs more scaffolding, but you have less time to respond. 15 minutes remain.',
+      tradeoff: 'Scaffold removal tests transfer directly and honestly. If students can do the new question without support, the scaffold has done its job. Rajan and Nur demonstrated genuine understanding — they could execute the procedure and explain the reasoning. The self-check reflection (AfL Triangle: where the learner is, where they are going, how to close the gap) also builds metacognitive awareness and gives you individual evidence of understanding. But students who relied heavily on the scaffold, like Wei Jie and Siti, stalled when it was removed. Wei Jie\'s marginal question from earlier ("why minus?") was a signal that he was not yet ready for scaffold removal. Siti has produced no new independent work. You now have clear evidence of the gap, but you have less time to address it, and the students who are stuck may feel frustrated or disengaged.',
+      reflection: 'Why did you choose to remove the scaffold and test transfer immediately? What were you hoping to learn?\n\nAre you satisfied with the outcome? Rajan and Nur succeeded, but Wei Jie and Siti stalled completely. What does this tell you about the timing of scaffold removal?\n\nHow do you know when a student is ready to work without support? What would you do with the remaining 15 minutes?'
+    },
+    C1: {
+      outcome: 'You write the common error on the board: "x² + 6x + 5 = 0 → x² + 6x = -5 → (x + 6)² = 31." You ask the class: "This is real work from one of your classmates. Let\'s give AQS feedback. What did they get right?" Several hands go up. One student says: "They moved the constant correctly." You write "Affirm: Constant moved correctly" on the board. Then you ask: "What step should we question?" Nur raises her hand and says: "They squared the 6 instead of halving it first." You write "Question: Why square 6 instead of halving?" Then you ask: "What would you suggest?" A third student says: "Halve the 6 to get 3, then square the 3 to get 9." You write "Suggest: Halve first (6 ÷ 2 = 3), then square (3² = 9)." The AQS feedback is now complete and visible on the board. You ask all students to re-attempt the question using the correct method. Nur looks at the board and you see the moment of recognition — she realizes her error and rewrites her working correctly. Wei Jie follows the AQS feedback step by step and gets the question right this time. Rajan was already correct and does not need to re-attempt, but he listens to the feedback process with mild interest. Siti copies the corrected version from the board line by line, but when you ask her to attempt a new question independently, she hesitates and does not write anything. The student whose error was displayed looks uncomfortable, even though it was posted anonymously — you notice them glancing around the room to see if anyone recognizes their work. The AQS process has turned the pair talk evidence into a structured, whole-class teachable moment, but it has also created a moment of public exposure. 16 minutes remain.',
+      tradeoff: 'The AQS feedback structure (Affirm, Question, Suggest) is concrete and actionable because it is based on real student work. It models the kind of feedback students should be giving each other and makes the error correction process transparent. The whole class benefits from seeing the error and the correction. Nur and Wei Jie, who were in the middle group, made clear gains. But the student whose error was displayed feels exposed, even with anonymization. In a small class, students often know whose work is being critiqued. Siti is still copying rather than reasoning — the AQS process did not move her from dependence to understanding. Rajan is under-challenged and disengaged.',
+      reflection: 'Why did you choose to make the error public and use AQS feedback? What were you hoping the class would learn from this?\n\nAre you satisfied with the outcome? Nur and Wei Jie self-corrected, but the student whose work was displayed felt exposed, and Siti is still copying. What does this tell you about using student work publicly?\n\nHow do you build a classroom culture where errors are learning opportunities rather than sources of embarrassment?'
+    },
+    C2: {
+      outcome: 'You stop the pair talk and ask everyone to work individually. You write on the board: "Explain in writing why we halve the coefficient of x when completing the square. Use an example to support your explanation." The room goes quiet. Rajan writes quickly and produces a detailed, formal explanation: "When completing the square for x² + bx, we are constructing the perfect square (x + a)². Expanding (x + a)² gives x² + 2ax + a². For the middle terms to match, 2a = b, so a = b/2. Therefore we must halve the coefficient. Example: For x² + 6x, we halve 6 to get a = 3, giving (x+3)² = x² + 6x + 9." His explanation is mathematically precise and shows deep understanding. Nur writes: "We halve the coefficient because the formula is (x+a)² = x² + 2ax + a². If the middle term is 6x, then 2a = 6, so a = 3. Then we square 3 to get 9." Her explanation is correct and shows that the pair talk helped her consolidate the reasoning. Wei Jie writes: "We halve the coefficient because that is the rule for completing the square. Example: 6 ÷ 2 = 3, then 3² = 9." His explanation is procedurally correct but does not explain why the rule works — it is compliance without conceptual understanding. Siti writes one sentence: "We halve because the teacher said so." Then she stops. Her page shows no example and no reasoning. You collect the responses and scan them quickly. The move from collaborative talk to individual writing has revealed that the pair talk produced genuine learning for some students (Nur) but only surface-level compliance for others (Wei Jie, Siti). The reasoning quality is lower than the pair talk suggested — some students were borrowing understanding from their partners rather than building it themselves. 16 minutes remain.',
+      tradeoff: 'Moving to solo written justification gives you clean, individual evidence of each student\'s understanding, uncontaminated by pair talk. It reveals the difference between students who can reason independently (Rajan, Nur) and students who were relying on their partner\'s thinking (Wei Jie, Siti). This is self-regulation feedback (Hattie & Timperley) — students are being asked to monitor and explain their own reasoning. But the move to solo work has killed the collaborative energy in the room. Siti, who was already disengaged during the pair work, has produced almost nothing. Wei Jie\'s response shows procedural compliance but no conceptual depth, which suggests the pair talk did not build genuine understanding for him. The students who were reasoning well in pairs may feel the solo task is redundant or punitive.',
+      reflection: 'Why did you choose to move from pair talk to solo writing? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Nur showed genuine understanding, but Wei Jie stayed procedural and Siti produced almost nothing. What does this tell you about when collaborative talk builds real learning versus borrowed understanding?\n\nHow would you design the pair task differently to ensure both students are actively reasoning?'
+    }
+  }
+};
+
+// =============================================================================
+// S2 — Upper Sec / Fast Finishers / Quadratic Factorisation
+// =============================================================================
+
+const S2 = {
+  id: 'S2',
+  level: 'upper_sec',
+  profile: 'fast_finishers',
+  subject: 'Mathematics',
+  topic: 'Quadratic Factorisation',
+  contextNote: 'Sec 3 Express Math, 24 students. You modelled x² + 5x + 6 = (x+2)(x+3) on the board, showing how to find factor pairs that multiply to 6 and add to 5. You set 4 practice questions with increasing difficulty. Most students finished all 4 questions in under 12 minutes.',
+  students: [
+    { name: 'Rajan',      role: 'fast',    note: 'All 4 correct in 8 minutes. Now doodling in the margin, occasionally glancing at the clock.' },
+    { name: 'Nur Atiqah', role: 'fast',    note: 'All 4 correct, answers only. No working, no justification. Staring at the ceiling.' },
+    { name: 'Wei Jie',    role: 'middle',  note: 'Q1-3 correct but took 15 minutes. Stuck on Q4, erasing repeatedly.' },
+    { name: 'Siti',       role: 'stalled', note: 'Q1 has factors written: (x+2)(x+3). Crossed out. Tried (x+1)(x+6). Also crossed out.' }
+  ],
+
+  ep1: {
+    situation: '25 minutes into the lesson. You circulate and the pattern is stark. Rajan finished all 4 questions in 8 minutes and is now doodling geometric patterns in the margin of his page, occasionally glancing at the clock. His answers are all correct: (x+2)(x+3), (x+1)(x+12), (x+3)(x+4), (x-2)(x-6). No working shown, just the final factored forms. Nur Atiqah also finished quickly — all 4 answers correct, written as bare factor pairs with no working and no justification. She is staring at the ceiling, visibly disengaged. Wei Jie is still working on Q4. His first three answers are correct, but Q4 (x² - 8x + 12) has him stuck. His page shows multiple erasures and he keeps writing and crossing out factor pairs. Siti has only attempted Q1. She has written (x+2)(x+3), crossed it out, then tried (x+1)(x+6), also crossed out. Her page is a mess of eraser marks and she looks frustrated. A quick scan of the class: 16 of 24 students have finished all 4 questions and are waiting. 5 students are still working on Q3 or Q4. 3 students, including Siti, have only completed Q1 or Q2. The fast finishers are done, but their pages show answers only — no justification, no verification, no reasoning. You have about 18 minutes of lesson time remaining.',
+    evidence: 'Most students have correct answers and finished quickly. But almost no one has written any justification for why their factors are correct, and no one has verified their answers by expanding. The speed suggests procedural fluency, but the lack of working suggests thin reasoning. You cannot tell whether students understand why factorisation works or are just pattern-matching.',
+    choices: [
+      {
+        id: 'A',
+        label: 'Run a Two-Step MCQ',
+        elaboration: 'Stop the class and project a new question on the board: x² + 7x + 12. Ask two questions: (1) What are the factors? Write your answer. (2) Verify your answer is correct by expanding the factors. Show your working. Ask all students to write both answers on mini whiteboards and hold them up simultaneously. Use the pattern of responses to see who can factorise, who can verify, and who can do both. If most students cannot verify, you will reteach the expansion check. If most can verify, you will move to extension.',
+        theoryKey: 'Two_Step_MCQ',
+        tradeoff: 'You get precise, whole-class evidence of who can verify their factorisation and who is just guessing or pattern-matching. The two-step structure reveals whether speed equals understanding. But it costs 3-4 minutes and interrupts the students who are still working on the original questions. Rajan and Nur, who are already disengaged, may resent being stopped for a task they find trivial.'
+      },
+      {
+        id: 'B',
+        label: 'Push fast finishers to justify and prove',
+        elaboration: 'Distribute two differentiated task cards without stopping the class. Fast finishers like Rajan and Nur receive an extension card: "Choose one of your answers. Write: (1) Why are these the correct factors? (2) Prove that no other factor pair works by testing an alternate pair and showing it fails." Students still working like Wei Jie and Siti receive a prompt card: "Check your factor pair: Do they multiply to give the constant term? Do they add to give the coefficient of x? Expand your factors to verify." All versions require written justification.',
+        theoryKey: 'Tomlinson_Teaching_Up',
+        tradeoff: 'Challenges the fast finishers with proof-level reasoning (Tomlinson: teach up, not down) while supporting the middle group with verification prompts. Keeps everyone working without stopping the class. But you lose whole-class evidence of understanding, and the extension task may be too cognitively demanding for students who have only done procedural practice. Rajan may engage, but Nur may ignore the card and continue disengaging.'
+      },
+      {
+        id: 'C',
+        label: 'Accountable Talk gallery walk',
+        elaboration: 'Select 4 student solutions from the completed work — choose a mix of answer-only, partial working, and full justification if any exist. Post them anonymously on the board, labeled Solution A, B, C, D. Assign students to groups of 3-4 and ask them to circulate and critique each solution using the prompt: "Is this solution complete? What is correct? What is missing? How do you know the factors are right?" After 4 minutes, use an IRF probe with the whole class: select one solution and ask students to build a complete critique together.',
+        theoryKey: 'Accountable_Talk',
+        tradeoff: 'Gets everyone moving and reasoning publicly. The Accountable Talk structure forces students to make claims and justify them, not just share answers. The gallery walk activates the fast finishers by giving them a reasoning task. But if all the posted solutions are superficial (answer-only), the critique will stay superficial too. Students may just say "it is correct" without explaining why. Siti, who is still stuck on Q1, may not have the confidence to critique others\' work.'
+      }
+    ]
+  },
+
+  ep2: {
+    A: {
+      consequence: 'The whiteboards go up and the results are revealing. 18 of 24 students wrote the correct factors: (x+3)(x+4). But only 9 of 24 showed the expansion verification: (x+3)(x+4) = x² + 4x + 3x + 12 = x² + 7x + 12 ✓. The other 9 who got the factors right left the verification blank or wrote "correct" without showing working. Nur got the factors right but her expansion has an error: she wrote (x+3)(x+4) = x² + 7x + 16, forgetting to multiply the constants. Rajan got both parts right and when you ask him to explain, he says: "3 and 4 multiply to 12 and add to 7. I check by expanding: x² + 3x + 4x + 12." Wei Jie got the factors wrong — he wrote (x+2)(x+5), which multiply to 10, not 12. Siti left both parts blank. The pattern is now clear: procedural fluency is strong (most students can find factors quickly), but verification is weak. Many students cannot or do not check their work by expanding. You have 16 minutes remaining.',
+      choices: [
+        {
+          id: '1',
+          label: 'Reteach the verification step for the whole class',
+          elaboration: 'Address the verification gap directly with the whole class. Write the correct factorisation on the board: (x+3)(x+4). Model the expansion step by step using the distributive property: (x+3)(x+4) = x(x+4) + 3(x+4) = x² + 4x + 3x + 12 = x² + 7x + 12 ✓. Emphasize: "Verification is not optional — it is how you know your answer is correct." Then give fast finishers an extension: "Try an alternate factor pair like (x+2)(x+6). Expand it and show why it does not work." Ask all other students to verify their original 4 answers using the expansion method.',
+          theoryKey: 'Hattie_Timperley_Feedback',
+          tradeoff: 'This is process-level feedback (Hattie & Timperley) — you are teaching the verification procedure explicitly and modeling it step by step. It will reach the 15 students who could not verify. The extension for fast finishers adds cognitive challenge. But you are reteaching Rajan something he already knows, which may disengage him further. Siti is likely to copy the board without building genuine understanding, and you will not have time to check her work individually.'
+        },
+        {
+          id: '2',
+          label: 'AQS peer feedback on verifications',
+          elaboration: 'Use the MCQ evidence to form pairs: students who verified correctly (like Rajan) are paired with students who got the factors right but could not verify (like Nur). Ask pairs to exchange their MCQ whiteboards. The stronger student gives AQS feedback on their partner\'s verification attempt: Affirm what the factors got right ("You found the correct factors"), Question the verification step ("Why did you not expand to check?" or "Your expansion has an error — can you find it?"), Suggest how to verify ("Expand using the distributive property: (x+3)(x+4) = x² + 7x + 12"). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS feedback with the class.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'AQS peer feedback builds self-regulation and gives Rajan a cognitively demanding task — explaining verification is harder than just doing it. The structure ensures feedback is specific and actionable. But the quality of peer explanation varies. Some students like Rajan can explain clearly; others may just give the answer without the reasoning. If Siti is paired with a student who cannot explain well, she may copy the procedure without understanding it. Fast finishers may disengage if their partner has nothing to show.'
+        }
+      ]
+    },
+    B: {
+      consequence: 'The extension cards go out and the room shifts into differentiated work. Rajan picks up the extension card and reads it. He selects his answer to Q2: (x+1)(x+12). He writes: "These are correct because 1 × 12 = 12 and 1 + 12 = 13. No other pair works. Try (x+2)(x+6): 2 × 6 = 12 ✓ but 2 + 6 = 8 ✗. Try (x+3)(x+4): 3 × 4 = 12 ✓ but 3 + 4 = 7 ✗." His proof is elegant and complete. Nur picks up the same card, reads the first line, then sets it aside and returns to doodling. She does not engage with the extension task. Wei Jie takes the prompt card and works through Q4 again. The prompts help — he writes: "Factors of 12: 1×12, 2×6, 3×4. Which pair adds to -8? Try -2 and -6: -2 + -6 = -8 ✓. So (x-2)(x-6)." He gets it right this time. Siti takes the prompt card and stares at it. She writes "Factors of 6: 1×6, 2×3" but does not proceed further. After a minute, she glances at her neighbor\'s page and copies the factors (x+2)(x+3) without working through the prompt. The room is quiet and differentiated, but you have no whole-class evidence of understanding. Rajan is engaged, but Nur is disengaged. Wei Jie made progress, but Siti is copying. 17 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'IRF chains on the proofs',
+          elaboration: 'Pause the class and collect the extension cards. Select Rajan and one or two other students who wrote proofs. Ask the whole class: "Why is the alternate pair (x+2)(x+6) impossible for x² + 13x + 12? What happens when you test it?" Use an IRF chain: take Rajan\'s response (Initiation), ask a second student to build on it (Response), ask a third student to evaluate or add to the explanation (Feedback). Write the final class-built proof on the board. Then ask all students to choose one of their original 4 answers and write a similar proof showing why an alternate pair does not work.',
+          theoryKey: 'IRF_Chains',
+          tradeoff: 'The IRF chain (common in Singapore classrooms) makes proof-level reasoning visible to the whole class and builds a shared explanation that is richer than any single student would produce. It deepens reasoning for the top group and models what proof looks like. But the chain is driven by the students who are already confident and have written proofs. Students like Siti, who are still at the procedural stage, may watch passively without understanding. Wei Jie may follow the logic but struggle to produce his own proof. Nur, who did not engage with the extension, has nothing to contribute.'
+        },
+        {
+          id: '2',
+          label: 'Self-regulation reflection: I justified, I know, I check',
+          elaboration: 'Stop the differentiated work and ask all students to write a three-sentence self-regulation reflection on their page: "I justified my answer by ___ . I know it is correct because ___ . I check my work by ___." Give students 3 minutes to write individually. Then ask for two volunteers to share their reflections with the class — one from the extension group and one from the prompt group. Use their responses to highlight what good justification and verification look like.',
+          theoryKey: 'Hattie_Timperley_Feedback',
+          tradeoff: 'Self-regulation reflection (Hattie & Timperley: move students toward monitoring their own learning) builds metacognitive habits and gives you individual written evidence of understanding. It forces students to articulate their reasoning, not just produce answers. But students who stayed superficial during the differentiated work will write superficial reflections. Nur, who disengaged, may write "I justified by doing the question" without real reasoning. Siti, who copied, will have nothing genuine to write. The reflection reveals the gap but does not close it.'
+        }
+      ]
+    },
+    C: {
+      consequence: 'The 4 solutions go up on the board. Solution A shows all 4 answers with no working. Solution B shows Q1-Q3 with factor pairs listed but no verification. Solution C shows Q1 with full working: "Factors of 6: 1×6, 2×3. Which adds to 5? 2+3=5 ✓. So (x+2)(x+3). Check: (x+2)(x+3) = x²+5x+6 ✓." Solution D shows Q1 with an error: (x+1)(x+6). Groups circulate and the room gets noisy. Rajan\'s group examines Solution C and says: "This one is complete — it shows the reasoning and checks the answer. The others just have answers." They write detailed critiques. Nur\'s group looks at Solution A and says: "It works, doesn\'t it? The answers are right." When you ask "How do you know?", they shrug. Wei Jie\'s group examines Solution D and identifies the error: "1×6 = 6 ✓ but 1+6 = 7, not 5. So this is wrong." Siti\'s group stands in front of the board but does not write anything. When you approach and ask "What do you notice?", one student says "Some have working, some don\'t" but they do not offer a critique. After 5 minutes, you call the class back. Two groups have reasoned deeply and written substantive critiques. Four groups have stayed procedural, focusing on whether the answer is right rather than whether the reasoning is visible. The room is noisy and you have heard some strong insights, but the depth is uneven. 17 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'AQS on the weakest gallery solution',
+          elaboration: 'Ask the class to vote on which solution needs the most improvement. Most students vote for Solution D (the one with the error). Run a whole-class AQS feedback session: Affirm what it got right ("The student attempted to find factor pairs"), Question the error ("Why does (x+1)(x+6) not work? What went wrong?"), Suggest how to fix it ("Check: 1+6 = 7, not 5. Try the pair that adds to 5: 2+3"). Take responses from multiple students and build a complete AQS response together. Then ask all students to re-examine their own work and verify at least one of their answers by expanding.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'The AQS structure (Affirm, Question, Suggest) turns the gallery walk evidence into structured, actionable feedback that the whole class can learn from. It is concrete because it is based on real student work. It also models the kind of critique students should be doing during gallery walks. But publicly voting on the "weakest" solution and critiquing it may embarrass or shut down the student who wrote it, even if it is posted anonymously. Some students will recognize their own work. The move also shifts back to teacher-led instruction, which may feel like a step backward after the collaborative gallery work.'
+        },
+        {
+          id: '2',
+          label: 'Solo proof transfer: new quadratic, individual',
+          elaboration: 'Give a new quadratic on the board: x² + 9x + 20 = 0. Ask each student to work individually and in silence: (1) Factorise the quadratic. (2) Write why these are the correct factors. (3) Prove that no other factor pair works by testing one alternate pair and showing it fails. Collect the responses after 5 minutes and scan them to see who can reason independently and who was relying on the gallery discussion or their group.',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'Individual transfer tasks are the most honest measure of understanding (AfL Triangle: evidence of where each learner is). They reveal whether the gallery walk built genuine reasoning or just social agreement. Students who can reason independently will succeed; students who were borrowing understanding from their group will struggle. But the move to solo work kills the collaborative momentum and energy from the gallery walk. Siti, who did not engage during the gallery walk, will have nothing to build on and will likely produce minimal or no work. The task is cognitively demanding and may overwhelm students who are not yet ready for proof-level reasoning.'
+        }
+      ]
+    }
+  },
+
+  ep3: {
+    A1: {
+      outcome: 'You write the expansion verification on the board step by step: (x+3)(x+4) = x(x+4) + 3(x+4) = x² + 4x + 3x + 12 = x² + 7x + 12 ✓. The room goes quiet as students watch. You emphasize: "This is how you know your answer is correct. Verification is not optional." Nur leans forward and follows the steps carefully. She looks at her MCQ whiteboard, sees her expansion error, and rewrites it correctly. Wei Jie copies the model into his notes and then attempts to verify his original Q4 answer. He expands (x-2)(x-6) = x² - 6x - 2x + 12 = x² - 8x + 12 ✓ and looks pleased. Rajan listens to the reteach with visible boredom. When you distribute the extension task (prove an alternate pair fails), he works through it mechanically: "(x+2)(x+6) = x² + 8x + 12 ✗. Does not match x² + 7x + 12." His work is correct but perfunctory — he is not challenged. Siti watches the board and copies the expansion model line by line into her notes. When you ask her to verify one of her original answers, she hesitates and does not write anything. On a follow-up check, 20 of 24 students can now verify by expanding, up from 9. The verification gap is addressed for most of the class. But Rajan is under-challenged and disengaged, and Siti is still dependent on copying rather than understanding.',
+      tradeoff: 'The whole-class reteach with explicit modeling is efficient and reaches the 15 students who could not verify. It is process-level feedback (Hattie & Timperley) — you taught the verification procedure step by step. Nur and Wei Jie, who were in the middle group, made clear gains. But the move treats the class as uniform. Rajan, who already understood verification, is under-challenged and bored. Siti, who is still at the access stage, remains passive and dependent. The whole-class approach served the middle well but missed the students at the top and bottom.',
+      reflection: 'Why did you choose this path? What were you prioritizing — efficiency, coverage, or depth?\n\nAre you satisfied with the outcome? Most students can now verify, but Rajan is disengaged and Siti is copying. What does this tell you about what "finishing" a task really means?\n\nWhen fast finishers are done, what are they actually ready for — and how do you design for that in advance?'
+    },
+    A2: {
+      outcome: 'You pair Rajan with Nur and ask Rajan to give AQS feedback on Nur\'s MCQ verification. Rajan looks at Nur\'s whiteboard and begins: "You got the factors right — (x+3)(x+4) is correct. But your expansion has an error. You wrote x² + 7x + 16, but 3 × 4 = 12, not 16. Try expanding again: (x+3)(x+4) = x² + 3x + 4x + 12 = x² + 7x + 12." Nur listens, nods, and rewrites the expansion. This time she gets it right and says "Oh, I see — I forgot to multiply the constants." Rajan then explains why verification matters: "You expand to check. If it matches the original, your factors are correct." Nur writes this down. Wei Jie is paired with another student who verified correctly. His partner gives AQS feedback: "Your factors are wrong. 2 × 5 = 10, not 12. Try finding factors of 12 that add to 7." Wei Jie works through it again and gets (x+3)(x+4). Siti is paired with a student who got the factors right but did not verify. Her partner tries to explain: "You need to expand to check" but cannot articulate how. Siti nods but does not write anything new. When you ask her "Can you show me the expansion?", she shakes her head. The room is engaged and several students are making real gains through the peer feedback. But Rajan is not stretched — explaining verification is easier than doing proof-level reasoning. Siti is still not producing independent work. Two pairs have reinforced errors because both students in the pair could not verify.',
+      tradeoff: 'AQS peer feedback activates self-regulation and gives Rajan a task that is more cognitively demanding than just doing the work himself. The structure ensures feedback is specific and actionable. Nur and Wei Jie both made gains through structured peer support. But the quality of peer explanation varies widely. Rajan can explain clearly; Siti\'s partner cannot. Siti is still dependent and has not moved from copying to understanding. The pairs where both students lacked verification skills reinforced the gap rather than closing it.',
+      reflection: 'Why did you choose peer feedback over whole-class reteaching? What were you hoping would happen?\n\nAre you satisfied with the outcome? Nur and Wei Jie made gains, but Rajan is under-challenged and Siti is still stuck. What does this tell you about the conditions needed for productive peer feedback?\n\nHow do you ensure peer feedback is substantive rather than social? What would you need to put in place before the next lesson?'
+    },
+    B1: {
+      outcome: 'You collect the extension cards and select Rajan to share his proof with the class. Rajan explains: "I chose (x+1)(x+12). These are correct because 1 × 12 = 12 and 1 + 12 = 13. To prove no other pair works, I tested (x+2)(x+6): 2 × 6 = 12 ✓ but 2 + 6 = 8 ✗. So it fails." You ask a second student to build on Rajan\'s explanation: "What about (x+3)(x+4)?" The student responds: "3 × 4 = 12 ✓ but 3 + 4 = 7 ✗. Also fails." A third student evaluates: "So only (x+1)(x+12) works because it is the only pair that multiplies to 12 and adds to 13." The IRF chain produces a clear, class-built proof that is more detailed than any single student would have given. You write the final explanation on the board. Wei Jie listens carefully and nods — he follows the logic. Nur watches but does not contribute. When you ask her "Does this make sense?", she says "Yes" but her tone is uncertain. Siti watches the exchange but when you glance at her, she looks down at her page. The IRF chain has made proof-level reasoning visible, but it is driven by the top students. The majority of the class are observers rather than participants. Rajan is engaged, but Nur and Siti are passive. 16 minutes remain.',
+      tradeoff: 'The IRF chain makes proof-level reasoning visible and accessible to the whole class. It builds a shared explanation that is richer and more robust than a teacher-led explanation because it is constructed from student reasoning. Wei Jie, who is in the middle group, followed the logic and learned what proof looks like. But the chain is driven by the students who are already confident and have written proofs. Nur and Siti, who did not engage with the extension task, have nothing to contribute and remain passive observers. The reasoning belongs to Rajan and the few students who speak, not to everyone.',
+      reflection: 'Why did you choose to use IRF chains to make the proofs public? What were you hoping the class would learn?\n\nAre you satisfied with the outcome? The proof logic is now visible, but only a few students contributed. What does this tell you about who does the thinking in an IRF chain?\n\nHow do you design whole-class discussion so that the reasoning belongs to everyone, not just the students who speak?'
+    },
+    B2: {
+      outcome: 'You ask all students to write their three-sentence self-regulation reflections. The room goes quiet. Rajan writes: "I justified my answer by testing factor pairs to see which multiply to the constant and add to the coefficient. I know it is correct because I proved that alternate pairs fail. I check by expanding the factors and verifying they match the original quadratic." His reflection is detailed, precise, and shows deep metacognitive awareness. Nur writes: "I justified by finding the factors. I know it is correct because the factors multiply to 6 and add to 5. I check by... I don\'t know." Her reflection reveals that she can execute the procedure but cannot articulate how to verify. Wei Jie writes: "I justified by doing the question. I know because I got the right answer. I check by looking at it again." His reflection is procedurally compliant but shows no genuine reasoning — he is describing what he did, not why it works. Siti writes one sentence: "I justified by trying different factors." Then she stops. Her reflection is incomplete and reveals that she has no clear justification process. You collect the responses and scan them. The self-regulation task has given you honest individual evidence, but it has also revealed that the extension task did not build deep understanding for most students. Procedural fluency is masking shallow reasoning.',
+      tradeoff: 'Self-regulation reflection (Hattie & Timperley: move students toward self-monitoring) builds metacognitive habits and gives you clean individual evidence of understanding. Rajan\'s reflection shows he has internalized proof-level reasoning. But Nur, Wei Jie, and Siti\'s reflections reveal that the differentiated work did not reach them. Nur stayed procedural, Wei Jie stayed superficial, and Siti disengaged. The reflection exposes the gap but does not close it. You now have evidence of who understands and who does not, but you have less time to respond.',
+      reflection: 'Why did you choose self-regulation reflection after differentiated work? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan shows deep understanding, but most students stayed procedural. What does this tell you about the difference between doing a task and understanding it?\n\nHow do you design extension tasks that build genuine reasoning, not just procedural compliance?'
+    },
+    C1: {
+      outcome: 'The class votes and Solution D (the one with the error) receives the most votes. You run a whole-class AQS session. Several students affirm: "The student tried to find factor pairs." You write this on the board. Then you ask: "What should we question?" Nur raises her hand and says: "The factors are wrong. 1 + 6 = 7, not 5." You write: "Question: Why does (x+1)(x+6) not work?" Then you ask: "What would you suggest?" Wei Jie says: "Try the pair that adds to 5. That is 2 + 3." You write: "Suggest: Use (x+2)(x+3) because 2 × 3 = 6 and 2 + 3 = 5." The AQS feedback is now complete and visible on the board. You ask all students to verify at least one of their original answers by expanding. Nur expands her Q1 answer and gets it right this time. Wei Jie verifies his Q4 answer successfully. Rajan was already correct and does not need to verify, but he listens to the AQS process with mild interest. Siti copies the AQS feedback from the board into her notes but when you ask her to verify her Q1 answer, she hesitates and does not write anything. The student whose Solution D was critiqued looks uncomfortable — you notice them glancing around the room to see if anyone recognizes their work. The AQS process has turned the gallery walk into a structured teachable moment, but it has also created a moment of public exposure. 16 minutes remain.',
+      tradeoff: 'The AQS feedback structure is concrete and actionable because it is based on real student work from the gallery walk. It models the kind of critique students should be doing and makes the error correction process transparent. Nur and Wei Jie, who were in the middle group, made clear gains. But the student whose work was critiqued feels exposed, even with anonymous posting. In a class of 24, students often recognize their own work. Siti is still copying rather than reasoning — the AQS process did not move her from dependence to understanding. Rajan is under-challenged.',
+      reflection: 'Why did you choose to make the error public and use AQS feedback? What were you hoping the class would learn from this?\n\nAre you satisfied with the outcome? Nur and Wei Jie self-corrected, but one student felt exposed and Siti is still copying. What does this tell you about using student work publicly?\n\nHow do you build a classroom culture where errors are learning opportunities rather than sources of embarrassment?'
+    },
+    C2: {
+      outcome: 'You write the new quadratic on the board: x² + 9x + 20 = 0. Students work individually and in silence. Rajan completes it in under 2 minutes. He writes: "(x+4)(x+5). Correct because 4 × 5 = 20 and 4 + 5 = 9. Alternate pair (x+2)(x+10): 2 × 10 = 20 ✓ but 2 + 10 = 12 ✗. Fails." His proof is complete and shows deep understanding. Nur factorises correctly: (x+4)(x+5). She writes: "4 × 5 = 20 and 4 + 5 = 9." But her proof is incomplete — she does not test an alternate pair or explain why no other pair works. Wei Jie gets the factors right this time: (x+4)(x+5). But he cannot write the proof. His page says: "I think these are right because they work." He has not internalized what proof means. Siti gets the factors wrong. She writes (x+2)(x+10) and leaves the proof section blank. The individual responses give you clean evidence of where each student is. Rajan can reason independently at proof level. Nur can factorise but cannot prove. Wei Jie can factorise but cannot justify. Siti cannot factorise reliably. The move to solo work has revealed that the gallery discussion did not build deep understanding for most students. The energy and momentum from the collaborative work are gone.',
+      tradeoff: 'Individual transfer tasks are the most honest measure of understanding (AfL Triangle: evidence of where each learner is). They reveal whether the gallery walk built genuine reasoning or just social agreement. Rajan demonstrated deep independent reasoning. But Nur, Wei Jie, and Siti struggled, which suggests the gallery walk was more social than cognitive for them. You now have clear evidence of the gap, but the move to solo work has killed the collaborative energy. Siti, who did not engage during the gallery walk, has nothing to build on and produced minimal work.',
+      reflection: 'Why did you choose to move from collaborative gallery work to solo transfer? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan succeeded, but most students struggled. What does this tell you about when collaborative work builds real learning versus borrowed understanding?\n\nWhat would need to be different about the gallery walk for the solo transfer to go better?'
+    }
+  }
+};
+
+// =============================================================================
+// S3 — Lower Sec / Quiet Class / Linear Equations
+// =============================================================================
+
+const S3 = {
+  id: 'S3',
+  level: 'lower_sec',
+  profile: 'quiet_class',
+  subject: 'Mathematics',
+  topic: 'Linear Equations',
+  contextNote: 'Sec 2 Normal Math. You modelled a word problem: "Twice Ali\'s age plus 4 equals Sam\'s age. Sam is 20. Find Ali." Answer: Ali = 8. Students are now attempting 3 similar problems.',
+  students: [
+    { name: 'Rajan',     role: 'fast',    note: 'Correct and fast — but completely silent.' },
+    { name: 'Nur Atiqah',role: 'middle',  note: 'Correct answer, staring ahead, says nothing.' },
+    { name: 'Wei Jie',   role: 'middle',  note: 'Correct but slow, head down.' },
+    { name: 'Siti',      role: 'stalled', note: 'Blank page, looking around the room.' }
+  ],
+
+  ep1: {
+    situation: '22 minutes in. The class is quiet — not disruptive, just silent. Rajan and Nur have correct answers but have not said a word. Wei Jie is working slowly with his head down. Siti has a blank page. When you ask "Is everyone okay?" several students nod. No one speaks.',
+    evidence: 'Most students appear to have correct answers. But no one has volunteered a response, asked a question, or explained their reasoning. You cannot tell whether the silence means understanding or compliance.',
+    choices: [
+      {
+        id: 'A',
+        label: 'Thumbometer check + Two-Step MCQ',
+        elaboration: 'Ask students to show a thumbs up (confident), sideways (unsure), or down (stuck). Then project a Two-Step question: (1) How did you set up the equation? (2) Why did you set it up that way?',
+        theoryKey: 'Two_Step_MCQ',
+        tradeoff: 'A quick, low-stakes way to gauge confidence and check reasoning — but the thumbometer may just reflect compliance rather than genuine self-assessment.'
+      },
+      {
+        id: 'B',
+        label: 'Paired think-aloud with prompts',
+        elaboration: 'Ask shoulder pairs to explain their equation to each other before writing anything down. Provide a prompt card for stalled students: "The unknown is ___ . I set up the equation as ___ because ___."',
+        theoryKey: 'Vygotsky_ZPD_Bruner',
+        tradeoff: 'Breaks the silence safely in pairs before whole-class exposure — but pairs are uneven, and some students may just copy rather than explain.'
+      },
+      {
+        id: 'C',
+        label: 'Accountable Talk with sentence stems',
+        elaboration: 'Give each student a sentence stem: "I think the equation is ___ because ___." Their partner must respond: "I agree/disagree because ___." Circulate and use IRF to probe two or three pairs.',
+        theoryKey: 'Accountable_Talk',
+        tradeoff: 'Forces justification and gets voices into the room — but the structure may feel unnatural for a very quiet class and could produce scripted rather than genuine responses.'
+      }
+    ]
+  },
+
+  ep2: {
+    A: {
+      consequence: '6 students put thumbs up, 14 sideways, 4 down. The Two-Step MCQ shows 16 students set up the equation correctly, but only 8 can explain why. Nur got the setup right but wrote nothing for the "why." Rajan got both right. Siti put thumbs down and left the MCQ blank. The silence is not hiding understanding — it is hiding uncertainty. 16 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'AQS peer feedback for the unsure group',
+          elaboration: 'Ask the 14 sideways-thumb students to pair up and give AQS feedback on each other\'s MCQ response: Affirm the setup, Question the reasoning, Suggest how to explain the "why."',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'Gets the unsure group talking and practising feedback — but the confident students have nothing to do, and Siti has no MCQ response to share.'
+        },
+        {
+          id: '2',
+          label: 'IRF chain on the justifications',
+          elaboration: 'Ask for a volunteer to explain why they set up the equation the way they did. Use an IRF chain: take the response, ask a second student to build on it, ask a third to evaluate.',
+          theoryKey: 'IRF_Chains',
+          tradeoff: 'Deepens the reasoning of the students who respond — but in a quiet class, the IRF chain may only activate two or three voices while the rest remain passive.'
+        }
+      ]
+    },
+    B: {
+      consequence: 'Rajan and Nur whisper their equations to each other — both correct. Wei Jie uses the prompt card to help Siti, but Siti only nods and does not write anything. 10 pairs are procedural — they state the equation but do not explain it. 4 pairs are reasoning — they explain the "because." The room is quiet and on-task, but Siti has still not produced any written work. 17 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'Flex grouping: reasoning pairs share with procedural pairs',
+          elaboration: 'Reorganise into groups of four: one reasoning pair with one procedural pair. The reasoning pair explains their "because" to the procedural pair. You circulate and listen.',
+          theoryKey: 'Tomlinson_Flex_Grouping',
+          tradeoff: 'Peer explanation extends the talk and gives procedural students a model — but the reasoning pairs may dominate, and Siti may still not produce written work.'
+        },
+        {
+          id: '2',
+          label: 'Solo written evidence: I know because, I check by',
+          elaboration: 'Ask each student to write their equation and complete two sentences: "I know this is correct because ___ . I check by ___."',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'Gives you individual written evidence from every student — but stops the emerging pair talk before it has fully developed, and Siti may write nothing.'
+        }
+      ]
+    },
+    C: {
+      consequence: '8 pairs produce "I agree because it works" — correct but shallow. 6 pairs are silent — they wrote the stem but did not complete it. 4 pairs have a genuine disagreement: "I disagree because the constants are on the wrong side." Rajan leads his pair confidently. Siti mumbles one word. The sentence stems have produced some voices, but most are surface-level. 16 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'Gallery critique with AQS',
+          elaboration: 'Post four anonymous sentence stem responses on the board. Ask the class to give AQS feedback on the weakest one: Affirm the claim, Question the "because," Suggest a stronger explanation.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'Structured feedback on real student responses — but students who did not write anything (like Siti) have nothing to contribute, and voting on the "weakest" may feel harsh.'
+        },
+        {
+          id: '2',
+          label: 'Task-level feedback reteach',
+          elaboration: 'Write the most common shallow claim on the board: "I agree because it works." Give task-level feedback: "Your setup is correct — here is why it balances." Model the reasoning explicitly.',
+          theoryKey: 'Hattie_Timperley_Feedback',
+          tradeoff: 'Directs the class toward deeper reasoning efficiently — but reduces student voice and may feel like a return to teacher-led instruction after the pair work.'
+        }
+      ]
+    }
+  },
+
+  ep3: {
+    A1: {
+      outcome: 'The 14 unsure students pair up and give AQS feedback on each other\'s MCQ responses. 14 of 18 unsure students can now explain their setup. Nur asks her partner "why do the constants go on the other side?" — a genuine question emerging from the feedback. Rajan observes without engaging. Siti affirms her partner\'s response but does not write anything new.',
+      tradeoff: 'AQS breaks the compliance silence for the unsure group and produces real talk. But the confident students are idle, and Siti is participating socially without producing written evidence.',
+      reflection: 'Describe: You used the thumbometer data to target AQS feedback at the unsure group. More voices entered the room.\n\nCompare: AQS is effective at breaking compliance silence — but it works best when both partners have something to share. A brief whole-class model of what good reasoning looks like might have helped Siti engage.\n\nCritical: What is the difference between a quiet class and a thinking class? How do you design for participation that is genuine rather than performed?'
+    },
+    A2: {
+      outcome: 'You ask for a volunteer and Rajan responds. You chain to a second student, then a third. The IRF chain builds a clear explanation of why the equation balances. Wei Jie listens and nods. Nur looks engaged. Siti watches the board. The chain produces a strong class-built answer — but only three students have spoken.',
+      tradeoff: 'The IRF chain deepens the reasoning of the students who participate — but in a quiet class, it activates the same confident voices and leaves the majority as observers.',
+      reflection: 'Describe: You used an IRF chain to build a class explanation of the equation setup. The chain produced a strong answer.\n\nCompare: IRF chains are powerful for deepening reasoning — but they tend to activate confident students. In a quiet class, you may need to build participation structures before using IRF.\n\nCritical: How do you create the conditions for a quiet class to take intellectual risks? What would need to change about the classroom culture for more students to volunteer?'
+    },
+    B1: {
+      outcome: 'You reorganise into groups of four. The reasoning pairs explain their "because" to the procedural pairs. Some procedural students ask follow-up questions. Wei Jie explains to his group and gains confidence. Siti listens but does not speak. The room is more active than before — but the reasoning pairs are doing most of the talking.',
+      tradeoff: 'Flex grouping activates peer explanation and gets more voices into the room. But the procedural students are still receiving rather than producing, and Siti remains silent.',
+      reflection: 'Describe: You used flex grouping to have reasoning pairs explain their thinking to procedural pairs. The room became more active.\n\nCompare: Peer explanation is a powerful learning tool — but it works best when the listener has a role, not just an audience. Giving procedural students a specific question to ask might have made the exchange more equal.\n\nCritical: In a quiet class, who benefits most from peer explanation — the explainer or the listener? How do you design group tasks so that both roles produce learning?'
+    },
+    B2: {
+      outcome: 'Students write their two sentences individually. Rajan writes a clear, detailed explanation. Nur writes the correct equation but her "because" is thin: "because that is how you solve it." Wei Jie writes a genuine explanation with a checking step. Siti writes the equation and stops. The written evidence is honest — but the pair talk momentum is gone.',
+      tradeoff: 'Individual written evidence gives you a clear picture of each student\'s understanding. But the move to solo work has stopped the emerging talk before it fully developed.',
+      reflection: 'Describe: You moved from pair talk to individual written evidence. The responses revealed a range of reasoning depth.\n\nCompare: Individual writing after talk can consolidate understanding — but it can also reveal that the talk was more social than cognitive. Nur\'s thin "because" suggests the pair work did not push her reasoning far enough.\n\nCritical: How do you design pair tasks in a quiet class so that the talk produces genuine reasoning rather than just social compliance?'
+    },
+    C1: {
+      outcome: 'The class gives AQS feedback on the weakest posted response. Several students affirm the correct equation. Nur questions the shallow "because it works" reasoning. A third student suggests explaining why the equation balances. The feedback is specific and the class can see what a stronger response looks like. Siti copies the suggestions from the board.',
+      tradeoff: 'The AQS gallery critique produces specific, actionable feedback from real student responses. But Siti is still copying rather than reasoning, and the students who wrote nothing have nothing to contribute.',
+      reflection: 'Describe: You used anonymous gallery responses as the basis for whole-class AQS feedback. The critique produced specific improvements.\n\nCompare: AQS on real student work is more concrete than general feedback — but it requires students to have produced something first. In a quiet class, getting written output from everyone is itself a challenge.\n\nCritical: How do you build a classroom culture where students are willing to share their thinking publicly? What would need to be true about the classroom for this to feel safe?'
+    },
+    C2: {
+      outcome: 'You write the common shallow claim on the board and give task-level feedback: "Your setup is correct — here is why it balances." You model the reasoning explicitly. Most students copy the explanation. Nur asks a follow-up question. Rajan looks bored. Siti copies carefully and seems to understand the model.',
+      tradeoff: 'The task-level feedback gives the class a clear model of what good reasoning looks like. But it reduces student voice and returns control to the teacher after the pair work.',
+      reflection: 'Describe: You gave task-level feedback on the common shallow claim and modelled the reasoning explicitly. Most students engaged with the model.\n\nCompare: Direct task feedback is efficient and clear — but it positions students as receivers rather than producers of reasoning. The pair work created some momentum that the reteach may have closed down.\n\nCritical: When is it right to take back control and model explicitly? What signals would tell you that students need a direct explanation rather than more time to talk?'
+    }
+  }
+};
+
+// =============================================================================
+// S4 — Lower Sec / Hidden Thinking / Angles in Triangles
+// =============================================================================
+
+const S4 = {
+  id: 'S4',
+  level: 'lower_sec',
+  profile: 'hidden_thinking',
+  subject: 'Mathematics',
+  topic: 'Angles in Triangles',
+  contextNote: 'Sec 2 Math. You modelled the interior angle sum of a triangle (180°) and set 4 angle problems. Students are working through them.',
+  students: [
+    { name: 'Rajan',     role: 'fast',    note: 'Correct answers, minimal working shown.' },
+    { name: 'Nur Atiqah',role: 'middle',  note: 'Correct numbers, no steps written.' },
+    { name: 'Wei Jie',   role: 'middle',  note: 'Correct answers, but scribbles and erases his working.' },
+    { name: 'Siti',      role: 'stalled', note: 'Correct final answers — but the steps are completely blank.' }
+  ],
+
+  ep1: {
+    situation: '20 minutes in. Most students have correct answers. But when you look at their books, the working is invisible — Rajan has written almost nothing, Nur has only the final number, Wei Jie has scribbled and erased his steps, and Siti has the right answer with a completely blank working space. You cannot tell how any of them got there.',
+    evidence: 'Most students have correct final answers. Almost no one has shown their working. You do not know whether they are reasoning, guessing, or using a method you have not taught.',
+    choices: [
+      {
+        id: 'A',
+        label: 'Justify My Thinking MCQ',
+        elaboration: 'Project Q1: angles 50° and 60°. (1) What is the third angle? (2) How did you find it? Students write their method on mini-whiteboards or paper before you discuss.',
+        theoryKey: 'Two_Step_MCQ',
+        tradeoff: 'Reveals the hidden methods quickly — but students who are guessing may struggle to articulate a method, and the public display of methods may embarrass those who cannot explain.'
+      },
+      {
+        id: 'B',
+        label: 'Process scaffolds: step-by-step prompts',
+        elaboration: 'Distribute a process prompt card: "Step 1: Label the known angles. Step 2: Write the equation ___ + ___ + ? = 180°. Step 3: Solve. Step 4: Check." Vary the density — some cards have more blanks than others.',
+        theoryKey: 'Vygotsky_ZPD_Bruner',
+        tradeoff: 'Makes the thinking process visible and gives students a structure to follow — but students who are already reasoning intuitively may find the scaffold unnecessary or constraining.'
+      },
+      {
+        id: 'C',
+        label: 'Accountable Talk: compare methods in pairs',
+        elaboration: 'Ask pairs to explain their method to each other: "My method was ___ because ___. What was yours?" Circulate and use IRF to probe pairs with different methods.',
+        theoryKey: 'Accountable_Talk',
+        tradeoff: 'Exposes hidden processes through talk — but quiet students may echo their partner\'s method rather than articulating their own, and the talk may reveal less than you hope.'
+      }
+    ]
+  },
+
+  ep2: {
+    A: {
+      consequence: '20 of 24 students got the correct answer. But only 12 of 24 wrote any steps — and 8 of those wrote "I guessed the sum." Nur wrote "I added them." Rajan wrote "intuition." Wei Jie erased his working before showing you. Siti left the method blank. The correct answers are masking a range of hidden processes — some reasoning, some guessing. 18 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'Whole-class process reteach',
+          elaboration: 'Model the standard step-by-step process for Q1 explicitly. Ask all students to redo Q1 showing every step. Collect the responses.',
+          theoryKey: 'Hattie_Timperley_Feedback',
+          tradeoff: 'Makes the expected process explicit for everyone — but over-explains for students like Rajan who are already reasoning intuitively, and may produce compliance rather than understanding.'
+        },
+        {
+          id: '2',
+          label: 'AQS peer feedback on methods',
+          elaboration: 'Pairs share their written methods (or lack of them) and give AQS feedback: Affirm the correct answer, Question the method, Suggest a step that could be added.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'Peer feedback surfaces more methods than a whole-class discussion — but students with no written method (like Siti) have nothing to share, and weak methods may go unchallenged.'
+        }
+      ]
+    },
+    B: {
+      consequence: 'Rajan skips the prompt card and works independently. Nur fills in the blanks minimally — she has the right numbers but has not engaged with the "why." Wei Jie works through the steps slowly and carefully. Siti copies the prompt card structure but fills in the numbers without understanding them. The processes are now visible — but they are shallow. 19 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'IRF probe on the scaffold steps',
+          elaboration: 'Pause the class. Ask: "Why is Step 2 written as an equation? What would happen if you skipped it?" Use an IRF chain to probe four students who used the scaffold.',
+          theoryKey: 'IRF_Chains',
+          tradeoff: 'Deepens the visible thinking by asking students to justify the steps — but Rajan, who skipped the scaffold, is not included, and Siti may freeze under direct questioning.'
+        },
+        {
+          id: '2',
+          label: 'Scaffold removal: new triangle, self-check',
+          elaboration: 'Give a new triangle problem with no scaffold. Ask students to write their steps and then check: "Steps I used: ___ . I check by ___."',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'Tests whether the scaffold has been internalised — but students who were copying the scaffold structure (like Siti) will stall immediately, and you will have less time to respond.'
+        }
+      ]
+    },
+    C: {
+      consequence: 'Rajan tells his partner "I use a shortcut — it just works." Nur says "same as you." Wei Jie says "I know the sum is 180." Siti echoes her partner. 6 pairs have a genuine comparison of methods; 10 pairs are mirroring each other. The talk has revealed that most students are not comparing methods — they are confirming each other. 18 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'AQS gallery on talk stems',
+          elaboration: 'Ask pairs to write their method comparison on a sticky note and post it. Select four to display. Run AQS: Affirm the method described, Question the "why," Suggest an alternative approach.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'Structured feedback on the talk output — but the mirroring pairs have nothing distinctive to post, and the gallery will be dominated by the 6 pairs who were genuinely comparing.'
+        },
+        {
+          id: '2',
+          label: 'Solo process map for Q4',
+          elaboration: 'Ask each student to draw or write their personal method for Q4 — every step, in their own words. No partner, no scaffold.',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'Forces individual visibility and gives you clean evidence of each student\'s process — but loses the collaborative momentum and leaves Siti with nothing to draw on.'
+        }
+      ]
+    }
+  },
+
+  ep3: {
+    A1: {
+      outcome: 'You model the step-by-step process and ask all students to redo Q1. 22 of 24 students now show a process, up from 12. Nur adds the equation step. Rajan sighs and writes the steps he already knew. Siti follows the model carefully. The processes are now visible — but they are uniform, and you cannot tell who understood and who copied.',
+      tradeoff: 'The reteach makes the process visible for almost everyone. But it homogenises the variety of methods in the room and may have replaced genuine reasoning with procedural compliance.',
+      reflection: 'Describe: You modelled the step-by-step process and asked students to redo the question. Almost all students now show working.\n\nCompare: A process reteach is efficient at making thinking visible — but it standardises the method rather than revealing the range of approaches students were using. AQS peer feedback might have surfaced more genuine reasoning.\n\nCritical: What is the difference between showing working and understanding the process? How do you design tasks that make genuine reasoning visible rather than just compliance?'
+    },
+    A2: {
+      outcome: 'Pairs share their methods and give AQS feedback. Nur\'s partner questions her "I added them" method and suggests writing the equation. Nur rewrites with the equation step. Wei Jie receives feedback that his erased working was actually correct — he rewrites it with more confidence. Siti has no method to share and her partner ends up explaining the process to her instead.',
+      tradeoff: 'Peer feedback surfaces more genuine reasoning than a whole-class reteach. But Siti is receiving rather than producing, and the feedback quality varies across pairs.',
+      reflection: 'Describe: You used AQS peer feedback to surface and improve the hidden methods. Some pairs made real gains.\n\nCompare: AQS peer feedback is more personalised than a whole-class reteach — but it requires students to have a method to share. Students with no visible process need a different entry point.\n\nCritical: How do you design for students who have correct answers but no visible process? What does it mean to "show your thinking" — and how do you make that expectation clear from the start?'
+    },
+    B1: {
+      outcome: 'You run the IRF probe. Wei Jie explains why Step 2 is written as an equation — "because you need to know what the missing angle equals." A second student builds on it. A third evaluates. Rajan, who skipped the scaffold, listens with interest. Siti is called on and freezes — she cannot explain the step she copied.',
+      tradeoff: 'The IRF probe deepens the reasoning of the students who used the scaffold genuinely. But it exposes Siti\'s copying and puts her in a difficult position publicly.',
+      reflection: 'Describe: You used an IRF chain to probe the reasoning behind the scaffold steps. The chain produced a strong class-built explanation.\n\nCompare: IRF probing after scaffolding is a powerful way to test genuine understanding — but it can expose students who were copying rather than reasoning. A private check-in with Siti before the probe might have been kinder.\n\nCritical: How do you use scaffolds in a way that builds genuine understanding rather than just procedural compliance? What is the scaffold for — and when do you remove it?'
+    },
+    B2: {
+      outcome: 'Students attempt the new triangle without the scaffold. Rajan completes it quickly with clear steps. Nur attempts it and gets the right answer but skips the equation step again. Wei Jie works through it carefully and gets it right. Siti writes the angles and stops — without the scaffold structure, she does not know what to do next.',
+      tradeoff: 'Scaffold removal tests genuine internalisation. Rajan and Wei Jie have internalised the process; Nur and Siti have not. You now have clear evidence — but less time to respond.',
+      reflection: 'Describe: You removed the scaffold to test transfer. The responses revealed who had genuinely internalised the process and who had been relying on the structure.\n\nCompare: Scaffold removal is a necessary step — but timing matters. Removing support before understanding is consolidated can undo the gains made. Nur and Siti needed more time with the scaffold.\n\nCritical: How do you know when a student is ready to work without a scaffold? What evidence would tell you it is too soon — and what would you do differently next time?'
+    },
+    C1: {
+      outcome: 'Four method comparisons are posted. The class gives AQS feedback on the weakest one — a pair that wrote "same method, both correct." Several students affirm the correct answer. Nur questions what the method actually was. A third student suggests writing the equation step. The feedback is specific. The 10 mirroring pairs look at the posted responses and realise their own comparisons were shallow.',
+      tradeoff: 'The AQS gallery critique makes the difference between genuine and superficial comparison visible to the whole class. But the mirroring pairs may feel exposed, and Siti has nothing posted.',
+      reflection: 'Describe: You used the gallery talk output as the basis for AQS feedback. The critique revealed the difference between genuine and superficial method comparison.\n\nCompare: AQS on gallery responses is more concrete than general feedback — but it requires students to have produced something worth critiquing. The mirroring pairs needed a more structured prompt to produce genuine comparisons.\n\nCritical: How do you design pair tasks so that students compare genuinely rather than confirm each other? What would the task need to say to produce real method comparison?'
+    },
+    C2: {
+      outcome: 'Students draw or write their personal method for Q4 individually. Rajan writes a clear, efficient method. Nur writes the correct numbers but no equation. Wei Jie draws a diagram with all steps labelled. Siti writes the angles and the answer — no process. The individual maps give you honest evidence of each student\'s thinking.',
+      tradeoff: 'The solo process maps give you the clearest picture of each student\'s thinking. But the move to individual work has stopped the emerging talk, and Siti\'s map reveals that the pair work did not help her.',
+      reflection: 'Describe: You asked students to map their personal method individually. The responses gave you honest evidence of each student\'s thinking process.\n\nCompare: Individual process maps are the most honest measure of hidden thinking — but they work best when students have had time to develop a method worth mapping. The pair talk may not have given Siti enough to work with.\n\nCritical: What does it mean to have a "method" in mathematics? How do you help students who arrive at correct answers through intuition or guessing to develop an explicit, transferable process?'
+    }
+  }
+};
+
+// =============================================================================
+// S5 — JC / Learning Support Needs / Price Elasticity
+// =============================================================================
+
+const S5 = {
+  id: 'S5',
+  level: 'jc',
+  profile: 'diverse_profiles',
+  subject: 'Economics',
+  topic: 'Price Elasticity of Demand',
+  contextNote: 'JC1 Economics. You modelled PED = %ΔQ / %ΔP and set 3 calculation questions. Several students have learning support needs — they can discuss elasticity verbally but struggle with the formula.',
+  students: [
+    { name: 'Rajan',    role: 'fast',    note: 'Correct calculations, already extending to policy implications.' },
+    { name: 'Nur',      role: 'support', note: 'Understands elasticity verbally but made a calculation error.' },
+    { name: 'Wei Jie',  role: 'support', note: 'Can explain elastic vs inelastic in words but mixed up the formula.' },
+    { name: 'Siti',     role: 'support', note: 'Verbal understanding is solid but left the calculation blank.' }
+  ],
+
+  ep1: {
+    situation: '25 minutes in. Rajan has finished all 3 questions correctly and is writing notes about policy. Nur has the right direction (demand fell, price rose) but her calculation is wrong. Wei Jie has the formula inverted. Siti has written the verbal explanation but left the calculation blank.',
+    evidence: 'The verbal understanding is there — students can say "demand is inelastic" correctly. But the calculation is breaking down: wrong formula order, arithmetic errors, or no attempt at all.',
+    choices: [
+      {
+        id: 'A',
+        label: 'Two-Step calculation check',
+        elaboration: 'Project a new data set: Q changes from 100 to 80, P changes from 10 to 12. (1) Calculate PED. (2) Write out the formula step you used. All students respond.',
+        theoryKey: 'Two_Step_MCQ',
+        tradeoff: 'Pinpoints exactly where the calculation breaks down — but interrupts the verbal flow and may feel like a test rather than a learning moment for LS students.'
+      },
+      {
+        id: 'B',
+        label: 'ZPD scaffolds: formula strips for LS students',
+        elaboration: 'Give LS students a formula strip that breaks PED into labelled steps. Other students get a scenario-based extension. All students apply the same data set.',
+        theoryKey: 'Tomlinson_Respectful_Tasks',
+        tradeoff: 'Targets the LS calculation gap with dignity — but risks creating formula reliance rather than genuine understanding of what the calculation means.'
+      },
+      {
+        id: 'C',
+        label: 'Accountable Talk: verbal to calculation bridge',
+        elaboration: 'Ask pairs to explain their verbal understanding first, then connect it to the calculation: "Demand is inelastic because ___ — and the calculation shows this because ___." Use IRF to probe the policy link.',
+        theoryKey: 'Accountable_Talk',
+        tradeoff: 'Builds the bridge between verbal understanding and calculation through talk — but LS students may feel overwhelmed trying to make the connection in real time.'
+      }
+    ]
+  },
+
+  ep2: {
+    A: {
+      consequence: '18 of 24 students got the correct PED value. But only 10 of 24 wrote out the formula step — and among the 8 LS students, only 4 showed their steps. Nur got the right answer but wrote "I divided" with no formula. Wei Jie inverted the formula. Siti left the calculation blank again. The verbal-calculation disconnect is clear. 18 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'Task feedback: correct the common LS errors',
+          elaboration: 'Address the two most common errors directly: inverting the formula, and calculating the percentage change incorrectly. Show the correct steps. Ask LS students to redo the calculation.',
+          theoryKey: 'Hattie_Timperley_Feedback',
+          tradeoff: 'Precise and targeted for the calculation errors — but focuses on mechanics rather than meaning, and Rajan has nothing new to do.'
+        },
+        {
+          id: '2',
+          label: 'AQS peer feedback on calculations',
+          elaboration: 'Pair each LS student with a student who got the calculation right. The stronger student gives AQS feedback: Affirm the correct direction, Question the formula step, Suggest how to check.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'Peer support activates the expertise in the room — but non-LS students may disengage if they feel they are just helping rather than learning, and the feedback quality varies.'
+        }
+      ]
+    },
+    B: {
+      consequence: 'Rajan works through the scenario extension and writes a policy recommendation. Nur uses the formula strip and gets the calculation right — slowly. Wei Jie completes the steps partially. Siti copies the formula strip structure but fills in the numbers without understanding what they represent. The calculations are now visible — but the application is shallow. 19 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'IRF probe: verbal meaning to calculation match',
+          elaboration: 'Ask: "What does the PED value of 0.8 actually mean in words? How does the calculation show that?" Use an IRF chain to probe LS students specifically.',
+          theoryKey: 'IRF_Chains',
+          tradeoff: 'Bridges the verbal-calculation gap by asking students to connect the number to its meaning — but probing LS students publicly may expose the gap rather than close it.'
+        },
+        {
+          id: '2',
+          label: 'Scaffold removal: new data, no formula strip',
+          elaboration: 'Give a new data set with no formula strip. Ask students to calculate PED and then write: "PED = ___ , which means demand is ___ because ___. Policy implication: ___."',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'Tests whether LS students can transfer without the scaffold — but removing support before understanding is consolidated may undo the gains made.'
+        }
+      ]
+    },
+    C: {
+      consequence: 'Rajan\'s pair produces a nuanced policy link. Nur explains elasticity verbally well but stumbles when her partner asks her to show the calculation. Wei Jie asks "is it elastic or inelastic?" — he understands the concept but cannot connect it to the number. Siti echoes her partner. 6 pairs have bridged verbal to calculation; 8 pairs are verbal only. 18 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'AQS on verbal-calculation bridges',
+          elaboration: 'Ask pairs to write their verbal-to-calculation bridge on paper. Select three to share. Run AQS: Affirm the verbal explanation, Question the calculation link, Suggest how to connect them.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'Structured feedback on the bridge-building — but the 8 verbal-only pairs have not made the connection yet, and the feedback may feel abstract to LS students who are still at the verbal stage.'
+        },
+        {
+          id: '2',
+          label: 'Solo application: calculate PED and give a policy recommendation',
+          elaboration: 'Give a new data set. Ask each student to calculate PED individually and write one policy recommendation based on the result.',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'Individual evidence of whether the verbal-calculation bridge has been built — but LS students who are still at the verbal stage will stall at the calculation, and you will have less time to respond.'
+        }
+      ]
+    }
+  },
+
+  ep3: {
+    A1: {
+      outcome: 'You address the two common errors directly. 6 of 8 LS students now calculate correctly, up from 4. Nur links her corrected calculation to a policy implication. Rajan is unchanged — he was already correct. Siti follows the model and gets the calculation right, but cannot explain what the number means.',
+      tradeoff: 'The task feedback fixes the calculation mechanics for most LS students. But it focuses on procedure rather than meaning, and Siti\'s understanding remains surface-level.',
+      reflection: 'Describe: You gave targeted task feedback on the two most common calculation errors. Most LS students improved their accuracy.\n\nCompare: Task-level feedback is efficient at fixing specific errors — but it addresses the symptom rather than the cause. The verbal-calculation disconnect remains for students like Siti.\n\nCritical: What does it mean to understand a formula rather than just apply it? How do you design feedback that builds conceptual understanding alongside procedural accuracy?'
+    },
+    A2: {
+      outcome: 'Pairs give AQS feedback on calculations. Nur\'s partner questions her formula step and she corrects it. Wei Jie\'s partner suggests checking by substituting back — Wei Jie tries it and confirms his answer. Siti\'s partner explains the formula step by step. Rajan gives detailed feedback but is not challenged himself.',
+      tradeoff: 'Peer feedback activates the expertise in the room and produces real gains for Nur and Wei Jie. But Rajan is under-challenged and Siti is receiving rather than producing.',
+      reflection: 'Describe: You used AQS peer feedback to address the calculation errors. Nur and Wei Jie made real gains through structured peer support.\n\nCompare: Peer feedback is more personalised than a whole-class reteach — but it depends on the quality of the peer explanation. A brief model of what good AQS feedback looks like might have made the exchange more precise.\n\nCritical: How do you design peer support so that both the helper and the helped are learning? What would Rajan need to make this a genuine learning experience for him too?'
+    },
+    B1: {
+      outcome: 'You run the IRF probe. Nur explains that PED of 0.8 means "a 1% price rise causes less than 1% fall in demand." A second student builds on it. Wei Jie is called on and says "so the firm can raise price without losing many customers" — connecting the number to policy. Siti is called on and cannot answer. She looks down.',
+      tradeoff: 'The IRF probe bridges verbal understanding and calculation meaning for the students who respond. But Siti is publicly exposed as unable to make the connection.',
+      reflection: 'Describe: You used an IRF chain to bridge verbal understanding and calculation meaning. The chain produced a strong policy connection.\n\nCompare: IRF probing is powerful for deepening understanding — but it can expose LS students who are still at the verbal stage. A private check-in before the probe might have given Siti a way in.\n\nCritical: How do you use whole-class discussion in a way that includes LS students rather than exposing them? What structures would make the IRF chain more equitable?'
+    },
+    B2: {
+      outcome: 'Students attempt the new data set without the formula strip. Rajan completes it with a policy recommendation. Nur attempts the calculation and gets it right — the formula strip seems to have helped. Wei Jie gets the calculation partially right but cannot write the policy implication. Siti writes the verbal explanation and stops at the calculation.',
+      tradeoff: 'Scaffold removal tests genuine transfer. Nur has internalised the formula; Wei Jie and Siti have not. You have clear evidence — but less time to respond.',
+      reflection: 'Describe: You removed the scaffold to test transfer. Nur demonstrated genuine internalisation; Wei Jie and Siti have not yet made the connection.\n\nCompare: Scaffold removal is a necessary step — but timing matters. Wei Jie and Siti needed more time with the formula strip before being asked to work without it.\n\nCritical: How do you know when an LS student is ready to work without a scaffold? What evidence would tell you it is too soon — and what would you do differently?'
+    },
+    C1: {
+      outcome: 'Three pairs share their verbal-to-calculation bridges. The class gives AQS feedback. Several students affirm the verbal explanations. Nur questions one pair\'s calculation link and suggests connecting the number to the policy implication. Wei Jie takes notes. Siti copies the feedback from the board.',
+      tradeoff: 'The AQS feedback makes the verbal-calculation bridge visible and concrete. But the 8 verbal-only pairs are still receiving rather than producing, and Siti is copying rather than reasoning.',
+      reflection: 'Describe: You used AQS feedback on shared verbal-to-calculation bridges. The feedback made the connection between verbal understanding and calculation explicit.\n\nCompare: AQS on real student work is more concrete than general feedback — but it requires students to have made the connection first. The 8 verbal-only pairs needed a more structured prompt to produce a bridge.\n\nCritical: How do you design tasks that help LS students move from verbal understanding to calculation — without making the calculation feel like a separate, harder task?'
+    },
+    C2: {
+      outcome: 'Students calculate PED individually and write a policy recommendation. Rajan writes a nuanced recommendation with caveats. Nur calculates correctly and writes a basic recommendation. Wei Jie calculates partially and writes "the firm should raise price" without justification. Siti writes the verbal explanation and leaves the calculation blank.',
+      tradeoff: 'Individual evidence reveals the full range of understanding. But the move to solo work has left Siti without the verbal scaffolding of her partner, and the calculation gap remains.',
+      reflection: 'Describe: You moved from pair talk to individual application. The responses revealed the full range of verbal-to-calculation understanding.\n\nCompare: Individual application is the most honest measure of whether the bridge has been built — but it works best when the collaborative phase has genuinely helped students make the connection.\n\nCritical: For LS students who understand verbally but struggle with calculation, what is the right sequence of support? How do you design a lesson that builds the bridge rather than just testing whether it exists?'
+    }
+  }
+};
+
+// =============================================================================
+// S6 — JC / Invisible Understanding / Market Equilibrium
+// =============================================================================
+
+const S6 = {
+  id: 'S6',
+  level: 'jc',
+  profile: 'invisible_understanding',
+  subject: 'Economics',
+  topic: 'Market Equilibrium',
+  contextNote: 'JC2 Economics. You modelled supply and demand shifts to a new equilibrium (P*, Q*) and set 3 shift questions. Students are working through them.',
+  students: [
+    { name: 'Rajan',    role: 'fast',    note: 'Correct graphs drawn quickly — minimal labels.' },
+    { name: 'Nur',      role: 'middle',  note: 'Correct shifts drawn, no written explanation.' },
+    { name: 'Wei Jie',  role: 'middle',  note: 'Correct outcome but erases his working before you see it.' },
+    { name: 'Siti',     role: 'stalled', note: 'Correct final equilibrium marked — process completely blank.' }
+  ],
+
+  ep1: {
+    situation: '28 minutes in. The graphs look correct — most students have the right new equilibrium. But the reasoning is invisible. Rajan\'s graph has almost no labels. Nur has drawn the shift correctly but written nothing. Wei Jie erases his working whenever you approach. Siti has the right answer marked but the process is blank.',
+    evidence: 'Most students have correct final equilibria. Almost no one has labelled the shift, explained the surplus or shortage, or written any reasoning for how the new equilibrium was reached.',
+    choices: [
+      {
+        id: 'A',
+        label: 'Two-Step equilibrium check',
+        elaboration: 'Project a new scenario: a tax is imposed on producers. (1) Draw the new equilibrium. (2) Explain why there is a temporary surplus or shortage before the market adjusts.',
+        theoryKey: 'Two_Step_MCQ',
+        tradeoff: 'Reveals whether students can explain the adjustment process — but students who are drawing correctly by intuition may struggle to articulate the mechanism.'
+      },
+      {
+        id: 'B',
+        label: 'Flex grouping: fast students explain to slower students',
+        elaboration: 'Pair students who finished quickly with those who are still working. The fast student explains the shift logic: "The supply curve shifts because ___ , which creates a ___ , so the price ___."',
+        theoryKey: 'Tomlinson_Flex_Grouping',
+        tradeoff: 'Peer explanation makes the invisible reasoning visible — but mismatched fluency means some pairs will have one student explaining and one copying rather than both reasoning.'
+      },
+      {
+        id: 'C',
+        label: 'Accountable Talk: shift to policy',
+        elaboration: 'Ask pairs to connect their graph to a policy implication: "This shift means ___ because ___ . Do you agree?" Use IRF to probe the reasoning.',
+        theoryKey: 'Accountable_Talk',
+        tradeoff: 'Surfaces application-level reasoning through talk — but students who are drawing correctly without understanding the mechanism may stay hidden in the discussion.'
+      }
+    ]
+  },
+
+  ep2: {
+    A: {
+      consequence: '19 of 24 students drew the correct new equilibrium. But only 11 of 24 could explain the adjustment process — and 8 of those wrote "the price moves right" without explaining why. Nur wrote "tax up, supply down." Rajan explained both steps clearly. Wei Jie erased his explanation. Siti wrote only the outcome. The depth is invisible. 15 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'Process feedback: model the surplus/shortage logic',
+          elaboration: 'Model the adjustment process step by step: tax → supply shifts left → at old price, quantity supplied falls → temporary shortage → price rises to new equilibrium. Ask students to re-label their graphs.',
+          theoryKey: 'Hattie_Timperley_Feedback',
+          tradeoff: 'Makes the adjustment mechanism explicit for everyone — but over-explains for students like Rajan who already understand, and may produce labelling compliance rather than genuine understanding.'
+        },
+        {
+          id: '2',
+          label: 'AQS peer feedback on graphs',
+          elaboration: 'Pairs exchange graphs and give AQS feedback: Affirm the correct equilibrium, Question the missing labels or explanation, Suggest one thing to add.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'Peer feedback surfaces more reasoning than a whole-class discussion — but students who erased their working (like Wei Jie) have nothing to share, and Siti\'s blank process gives her partner nothing to affirm.'
+        }
+      ]
+    },
+    B: {
+      consequence: 'Rajan explains the shift logic clearly to Nur — she lights up and immediately adds labels to her graph. Wei Jie explains partially to Siti, who copies his labels. 7 pairs have genuine depth transfer; 5 pairs are superficial — one student explaining, the other copying. The room is more active than before. 16 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'IRF probe on peer explanations',
+          elaboration: 'Select two pairs who explained well. Ask the class: "Why does the supply curve shift left — not right? What would happen if the price stayed at the old level?" Use IRF to probe.',
+          theoryKey: 'IRF_Chains',
+          tradeoff: 'Probes the invisible reasoning after peer explanation — but exposes the 5 superficial pairs who were copying rather than reasoning.'
+        },
+        {
+          id: '2',
+          label: 'Solo policy application',
+          elaboration: 'Give a new scenario. Ask each student to draw the shift, label the adjustment, and write one policy recommendation — individually.',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'Tests individual depth after peer explanation — but loses the collaborative momentum and leaves Siti without the support of her partner.'
+        }
+      ]
+    },
+    C: {
+      consequence: 'Rajan\'s pair produces a nuanced policy link. Nur says "I agree, it works." Wei Jie asks "is there a shortage or surplus?" — he understands the concept but cannot connect it to the graph. Siti echoes her partner. 5 pairs have deep policy links; 11 pairs are procedural. The talk has partially revealed the invisible understanding. 15 minutes remain.',
+      choices: [
+        {
+          id: '1',
+          label: 'AQS on policy claims',
+          elaboration: 'Ask pairs to post their policy claim. Select three to display. Run AQS: Affirm the link to the graph, Question the mechanism, Suggest how to strengthen the reasoning.',
+          theoryKey: 'AQS_Feedback',
+          tradeoff: 'Structured feedback on the policy claims — but the 11 procedural pairs have not made the policy connection yet, and dominant voices may shape the feedback.'
+        },
+        {
+          id: '2',
+          label: 'Written logic chains: shift → equilibrium → policy',
+          elaboration: 'Ask each student to write three steps individually: "Step 1: The shift is ___ because ___. Step 2: The new equilibrium is ___ because ___. Step 3: The policy implication is ___."',
+          theoryKey: 'AfL_Triangle',
+          tradeoff: 'Forces the invisible reasoning into a visible, structured form — but stops the emerging talk and leaves Siti with a blank page if she cannot articulate the steps.'
+        }
+      ]
+    }
+  },
+
+  ep3: {
+    A1: {
+      outcome: 'You model the adjustment process and ask students to re-label their graphs. 21 of 24 students now have labelled graphs with the adjustment mechanism, up from 11. Nur adds the surplus/shortage label and the price arrow. Rajan adds a nuance about the speed of adjustment. Siti follows the model and labels correctly — but cannot explain the labels without looking at the board.',
+      tradeoff: 'The process feedback makes the adjustment mechanism visible for almost everyone. But it standardises the explanation and may have replaced intuitive understanding with labelling compliance.',
+      reflection: 'Describe: You modelled the adjustment process and asked students to re-label their graphs. Almost all students now show the mechanism.\n\nCompare: Process feedback is efficient at making invisible reasoning visible — but it standardises the explanation rather than revealing the range of understanding. AQS peer feedback might have surfaced more genuine reasoning.\n\nCritical: What is the difference between a student who can label a graph and a student who understands the mechanism? How do you design tasks that make genuine understanding visible rather than just correct labelling?'
+    },
+    A2: {
+      outcome: 'Pairs exchange graphs and give AQS feedback. Nur\'s partner questions her missing labels and she adds them. Wei Jie\'s partner asks why he erased his working — Wei Jie explains his reasoning verbally and his partner encourages him to write it down. Siti\'s partner has nothing to affirm on her blank process and ends up explaining the mechanism instead.',
+      tradeoff: 'Peer feedback activates reasoning for Nur and Wei Jie. But Siti is receiving rather than producing, and the feedback quality varies across pairs.',
+      reflection: 'Describe: You used AQS peer feedback to surface the invisible reasoning. Nur and Wei Jie made real gains through structured peer exchange.\n\nCompare: AQS peer feedback is more personalised than a whole-class reteach — but it requires students to have something to share. Students with blank processes need a different entry point.\n\nCritical: How do you design for students who have correct answers but no visible process? What would you need to put in place before the lesson to make the reasoning visible from the start?'
+    },
+    B1: {
+      outcome: 'You run the IRF probe. A student from a strong pair explains why the supply curve shifts left. A second student builds on it — "at the old price, quantity supplied is now less than quantity demanded." A third evaluates. Wei Jie follows and nods. Siti\'s pair is identified as superficial — she looks uncomfortable when the probe reveals she was copying.',
+      tradeoff: 'The IRF probe makes the adjustment mechanism visible and class-built. But it exposes the superficial pairs and puts Siti in a difficult position.',
+      reflection: 'Describe: You used an IRF chain to probe the reasoning after peer explanation. The chain produced a strong class-built explanation of the adjustment mechanism.\n\nCompare: IRF probing after peer work is powerful — but it can expose students who were copying rather than reasoning. A private check-in with Siti before the probe might have been kinder.\n\nCritical: How do you use whole-class probing in a way that deepens understanding without exposing students who are still fragile? What structures would make the IRF chain more equitable?'
+    },
+    B2: {
+      outcome: 'Students draw the new shift and write a policy recommendation individually. Rajan draws a clear diagram with full labels and a nuanced recommendation. Nur draws correctly and writes a basic recommendation. Wei Jie draws the shift correctly but cannot write the policy implication. Siti draws the shift but leaves the policy blank.',
+      tradeoff: 'Individual application reveals the full range of understanding. But the move to solo work has left Wei Jie and Siti without the support of their partners, and the policy connection remains unmade.',
+      reflection: 'Describe: You moved from peer explanation to individual application. The responses revealed the full range of understanding — from Rajan\'s nuanced policy link to Siti\'s incomplete graph.\n\nCompare: Individual application is the most honest measure of understanding — but it works best when the peer explanation phase has genuinely built reasoning, not just transferred answers.\n\nCritical: How do you design peer explanation tasks so that both the explainer and the listener are reasoning — not just one teaching and one copying?'
+    },
+    C1: {
+      outcome: 'Three policy claims are posted. The class gives AQS feedback. Several students affirm the graph links. Nur questions one claim\'s mechanism — "why does the price rise, not fall?" A third student suggests connecting the surplus to the price adjustment. Wei Jie takes notes. Siti copies the feedback from the board.',
+      tradeoff: 'The AQS feedback makes the policy-mechanism connection visible and concrete. But the 11 procedural pairs are still receiving rather than producing, and Siti is copying rather than reasoning.',
+      reflection: 'Describe: You used AQS feedback on posted policy claims. The feedback made the connection between the graph and the policy implication explicit.\n\nCompare: AQS on real student work is more concrete than general feedback — but it requires students to have made the policy connection first. The 11 procedural pairs needed a more structured prompt.\n\nCritical: How do you design Accountable Talk tasks so that the policy connection is built through the discussion rather than just confirmed by it?'
+    },
+    C2: {
+      outcome: 'Students write their three-step logic chains individually. Rajan writes a clear, detailed chain with a nuanced policy implication. Nur writes the shift and equilibrium steps correctly but her policy step is thin. Wei Jie writes the shift step and stops — he cannot articulate the equilibrium mechanism in writing. Siti writes Step 1 and leaves Steps 2 and 3 blank.',
+      tradeoff: 'The logic chains give you the clearest picture of each student\'s reasoning. But the move to individual writing has revealed that the pair talk did not build the mechanism understanding for most students.',
+      reflection: 'Describe: You asked students to write three-step logic chains individually. The responses revealed the full range of reasoning — from Rajan\'s complete chain to Siti\'s single step.\n\nCompare: Written logic chains are a powerful tool for making invisible reasoning visible — but they work best when students have had time to develop the reasoning through talk first. The pair discussion may not have gone deep enough.\n\nCritical: What is the relationship between talk and writing in building understanding? How do you design a lesson so that the talk produces the reasoning that the writing then captures?'
+    }
+  }
+};
+
+// =============================================================================
+// Export
+// =============================================================================
+
+export const scenarios = [S1, S2, S3, S4, S5, S6];

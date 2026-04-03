@@ -1,0 +1,148 @@
+{
+  "id": "S10",
+  "level": "lower_sec",
+  "profile": "hidden_thinking",
+  "subject": "Mathematics",
+  "topic": "Ratio Sharing",
+  "contextNote": "Sec 2 Math, 24 students. You modelled ratio sharing with 2:3 of 50 — showing the part-whole logic explicitly: 2 + 3 = 5 parts total, each part = 50 ÷ 5 = 10, so the shares are 20 and 30. Students are now 23 minutes into a set of ratio sharing problems. Most have correct answers, but when you ask how they got there, the reasoning disappears.",
+  "students": [
+    {
+      "name": "Rajan",
+      "role": "fast",
+      "note": "All answers correct, done quickly. Minimal working — just the final shares written. No part-whole steps visible."
+    },
+    {
+      "name": "Nur Atiqah",
+      "role": "middle",
+      "note": "Correct totals for each share but no units written. When asked 'how many parts?', she says '30 each?' — confusing the share with the part count."
+    },
+    {
+      "name": "Wei Jie",
+      "role": "middle",
+      "note": "Correct answers but erases his working before you reach him. You can see faint pencil marks where the part-whole steps were."
+    },
+    {
+      "name": "Siti",
+      "role": "stalled",
+      "note": "Correct final answer on the first question — but the process is completely blank. When asked how she got it, she shrugs."
+    }
+  ],
+  "ep1": {
+    "situation": "23 minutes into the lesson. You circulate and the answers look right — but the reasoning is invisible. Rajan has all questions correct and is sitting quietly, pen down. His page shows only the final shares with no working: '20 and 30', '15 and 25', '12 and 18'. No part-whole steps, no total parts, no unit value. Nur has correct totals for each share but has not written units. When you pause beside her and ask 'How many parts are there in total?', she looks at her page and says 'Thirty each?' — she is confusing the share value with the number of parts. Wei Jie has correct answers but you notice faint pencil marks where working has been erased. He erases whenever you approach. Siti has the correct answer for the first question but the process is completely blank. When you ask how she got it, she shrugs and looks at the floor. A quick scan of the class: 9 students have correct answers with no working shown. 10 students have correct answers with partial working. 5 students, including Siti, have correct answers but cannot explain their process at all. You have about 17 minutes of lesson time remaining.",
+    "evidence": "The answers are mostly correct, but the part-whole logic is hidden. Students are arriving at correct shares without showing — or perhaps without using — the part-whole reasoning. The gap is not in arithmetic but in whether students understand why the method works. Siti's correct answer with no process suggests guessing or copying rather than understanding.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Two-step justify-the-sharing diagnostic",
+        "elaboration": "Stop the class and project a new problem: 'Share 60 in the ratio 2:3.' Ask two questions in sequence: '(1) What are the two shares?' Then: '(2) How did you find the total number of parts? Choose: (a) I added the ratio numbers: 2 + 3 = 5. (b) I divided 60 by the first ratio number. (c) I guessed and checked. (d) I am not sure.' Ask students to write both answers on paper. Use the pattern to see who understands the part-whole logic and who is arriving at correct answers by a different method — or by guessing.",
+        "theoryKey": "Two_Step_MCQ",
+        "tradeoff": "The two-step structure exposes the part-whole logic gap directly — you get whole-class evidence of who understands the method and who is computing by intuition or guessing. But it halts the class and interrupts students who are working productively. Siti may guess the answer correctly again, which would mask her lack of understanding."
+      },
+      {
+        "id": "B",
+        "label": "Tiered ratio scaffolds: bar models, tables, algebra",
+        "elaboration": "Distribute differentiated task cards without stopping the class. Struggling students like Siti receive a bar model scaffold: a pre-drawn bar divided into 5 equal parts labelled 2:3, with blanks to fill in — 'Total parts: ___, Value of each part: 60 ÷ ___ = ___, Share 1: ___ × ___ = ___, Share 2: ___ × ___ = ___.' Middle students like Nur receive a ratio table: columns for ratio, parts, and value, with the first row completed as an example. Fast finishers like Rajan receive an algebraic extension: 'If the ratio is a:b and the total is T, write a general formula for each share. Prove it works for 2:3 of 60.'",
+        "theoryKey": "Vygotsky_ZPD_Bruner",
+        "tradeoff": "The bar model makes the part-whole structure visible for students who are guessing or copying. The table and algebraic extension give middle and fast students appropriate challenge. But the bar model may lead Siti to fill in blanks mechanically without understanding the logic. Rajan may not engage with the algebraic extension if he sees it as optional."
+      },
+      {
+        "id": "C",
+        "label": "Accountable Talk: explain the sharing logic to a partner",
+        "elaboration": "Pause the class and assign shoulder partners. Ask each pair to explain their method using the stem: 'I shared 60 in the ratio 2:3 by first finding ___ because ___. The total number of parts is ___ because ___.' The listener must ask: 'How did you know how many parts there are in total?' Circulate and listen for pairs where the part-whole logic is explicit versus pairs where students are describing steps without reasoning. After 3 minutes, select two contrasting pairs and run a brief IRF probe: 'What did you notice about these two explanations? Which one shows the part-whole logic most clearly?'",
+        "theoryKey": "Accountable_Talk",
+        "tradeoff": "Accountable Talk forces students to make the hidden reasoning explicit through talk. The stem structure ensures students address the part-whole step directly. But students who are guessing — like Siti — may have nothing to explain, and may echo their partner's reasoning without understanding it. Pairs where both students are guessing will reinforce the gap rather than close it."
+      }
+    ]
+  },
+  "ep2": {
+    "A": {
+      "consequence": "The responses come in and the pattern is revealing. 17 of 24 students got the correct shares for 60 in the ratio 2:3 (24 and 36). But on the reasoning question, only 10 of 24 chose option (a) — adding the ratio numbers to find total parts. 7 students chose option (b) — dividing by the first ratio number — which produces the wrong method but sometimes the right answer. Nur got the correct shares but chose option (b), confirming she is not using the part-whole logic. Rajan got both right and chose option (a) with a clear explanation: 'You add 2 + 3 to get 5 parts, then divide 60 by 5 to get 12 per part.' Wei Jie got the correct shares but chose option (c) — he guessed and checked. Siti got the correct shares again but chose option (d) — she does not know how she got the answer. The evidence is now precise: the majority are arriving at correct answers without the part-whole logic, and Siti's correct answers are not evidence of understanding. 15 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "Whole-class reteach of part-whole logic",
+          "elaboration": "Address the part-whole gap directly with the whole class. Write the method on the board step by step: 'Step 1: Find total parts — 2 + 3 = 5. Step 2: Find value of one part — 60 ÷ 5 = 12. Step 3: Find each share — 2 × 12 = 24, 3 × 12 = 36. Step 4: Check — 24 + 36 = 60 ✓.' Emphasise the reasoning at each step: 'We add the ratio numbers because we are finding how many equal parts the total is divided into.' Ask all students to re-attempt the problem using this method and write one sentence explaining why they added the ratio numbers first.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Process-level feedback (Hattie & Timperley) addresses the specific step that is hidden and explains why the correct method works. It is efficient and will reach the 14 students who are not using the part-whole logic. But it reteaches Rajan who already understands, and Siti may copy the steps from the board without building genuine understanding of the logic."
+        },
+        {
+          "id": "2",
+          "label": "AQS peer feedback on part-whole reasoning",
+          "elaboration": "Use the diagnostic evidence to form pairs: students who chose option (a) correctly (like Rajan) are paired with students who chose option (b) or (c) (like Nur and Wei Jie). The stronger student gives AQS feedback on their partner's method: Affirm what is correct ('You got the right shares'), Question the step that is missing ('How did you find the total number of parts?'), Suggest the correct logic ('Try adding the ratio numbers first: 2 + 3 = 5 parts'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange with the class.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task — explaining the part-whole logic is harder than applying it. The structure ensures feedback is specific and actionable. But Siti, who does not know how she got her answer, cannot be helped by a peer who questions her method — she has no method to question."
+        }
+      ]
+    },
+    "B": {
+      "consequence": "The scaffold cards go out and the room shifts. Siti picks up the bar model card and begins filling in the blanks carefully. She writes '5' for total parts and '12' for the value of each part, following the scaffold step by step. But when you ask her 'Why do we divide 60 by 5?', she points to the blank on the card and says 'Because it says to.' Nur works through the ratio table and gets the correct shares. She fills in the parts column correctly — 2 and 3 — but writes '5 parts' in the total row without pausing to explain why. Wei Jie works through the table slowly and correctly, but when he reaches the algebraic extension by mistake (he picked up the wrong card), he sets it aside immediately. Rajan reads the algebraic extension and begins writing a general formula. He writes 'Share 1 = (a / (a+b)) × T' and pauses, then adds 'Share 2 = (b / (a+b)) × T'. He checks it against 2:3 of 60 and confirms it works. The room is on-task but quiet. You have no whole-class evidence of who understands the part-whole logic and who is following the scaffold mechanically. 16 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "IRF probe: connect bar model, table, and algebra",
+          "elaboration": "Pause the class and run an IRF chain connecting the three representations. Ask: 'In the bar model, what does each section of the bar represent?' Take the first response (Initiation). Then ask a second student: 'How does that connect to the ratio table — what does the parts column show?' (Response). Then ask a third student: 'And in Rajan's formula, what does the (a + b) in the denominator represent?' (Feedback). Build a class-constructed explanation that links all three representations to the same part-whole logic. Write the connection on the board.",
+          "theoryKey": "IRF_Chains",
+          "tradeoff": "The IRF chain makes the part-whole logic explicit across all three representations and builds a shared understanding that is richer than any single scaffold. But it puts students on the spot publicly. Siti, who was following the bar model mechanically, may freeze when asked to explain the logic behind it. The chain is driven by students who can articulate their reasoning — the majority of quiet students remain passive."
+        },
+        {
+          "id": "2",
+          "label": "Scaffold removal: new ratio with self-check",
+          "elaboration": "Give a new problem with no scaffold: 'Share 72 in the ratio 3:5.' Ask students to attempt it independently and then write a self-check: 'I found the total parts by ___. I know this is correct because ___. I check my answer by ___.' Collect the responses and scan them quickly to see who can transfer the part-whole logic without support and who is still dependent on the scaffold.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "Scaffold removal tests transfer directly — if students can apply the part-whole logic to a new problem without support, the scaffold has done its job. The self-check reflection (AfL Triangle) builds metacognitive awareness. But Siti, who was following the scaffold mechanically, will likely stall when it is removed. Wei Jie's slow progress through the table suggests he is not yet ready for scaffold removal either."
+        }
+      ]
+    },
+    "C": {
+      "consequence": "The pairs begin talking and the room gets louder. Rajan explains the part-whole logic to his partner with precision: 'You add 2 and 3 to get 5 parts total, then divide 60 by 5 to get 12 per part, then multiply each ratio number by 12.' His partner nods and writes it down. Nur is paired with another student who also has correct answers but no part-whole reasoning. They talk through the method together, but both describe the steps without explaining why: 'You divide 60 by 5 because that is what you do.' Neither student questions the logic. Wei Jie explains to Siti, speaking slowly: 'First you add 2 and 3 to get 5.' Siti nods. 'Then you divide 60 by 5 to get 12.' Siti nods again. But she does not write anything new on her page. When you ask her 'Why do we add 2 and 3?', she looks at Wei Jie. You circulate and hear the pattern: 8 pairs have the correct part-whole logic and are explaining it clearly. 4 pairs are describing steps without reasoning. The talk has partially surfaced the hidden thinking, but the depth varies. 15 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "AQS feedback on echoed reasoning",
+          "elaboration": "Write the most common shallow explanation on the board anonymously: 'I shared 60 in the ratio 2:3 by dividing 60 by 5 to get 12, then multiplying.' Ask the class to give AQS feedback: Affirm what is correct ('The calculation steps are right'), Question the missing logic ('Why do we divide by 5? Where does the 5 come from?'), Suggest the part-whole reasoning ('The 5 comes from adding the ratio numbers — 2 + 3 = 5 parts total'). Take responses from multiple students and build a complete AQS response together. Then ask all students to re-attempt the problem and write one sentence explaining where the 5 comes from.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "The AQS structure turns the pair talk evidence into a structured, whole-class teachable moment. It is concrete because it is based on real student reasoning, and it makes the missing part-whole logic explicit. But publicly displaying shallow reasoning — even anonymously — may embarrass the students whose explanation it came from. The move also interrupts the pair work momentum."
+        },
+        {
+          "id": "2",
+          "label": "Solo written logic chain: prove the part-whole method",
+          "elaboration": "Stop the pair talk and ask everyone to work individually. Write on the board: 'Explain in writing why we add the ratio numbers first when sharing in a ratio. Use the example 2:3 of 60 to support your explanation.' Give students 3 minutes to write, then collect the responses. Scan them quickly to see who has genuine part-whole understanding and who was borrowing reasoning from their partner during the talk.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "Moving from collaborative talk to individual written justification gives you clean evidence of each student's understanding. It reveals whether the pair talk produced genuine learning or just social agreement. But it kills the collaborative energy. Siti, who did not write anything during the pair work, will likely produce nothing or copy a memorised phrase."
+        }
+      ]
+    }
+  },
+  "ep3": {
+    "A1": {
+      "outcome": "You write the four-step method on the board and work through it explicitly, emphasising the reasoning at each step. Nur watches and you see the moment of recognition — she realises she was dividing by the first ratio number rather than the total parts. She re-attempts the problem using the correct method and gets it right. She writes: 'We add 2 + 3 because we need to know how many equal parts the total is split into.' Wei Jie follows the reteach step by step and re-attempts the problem correctly. He writes a short explanation: 'Total parts = 2 + 3 = 5, so each part = 60 ÷ 5 = 12.' Rajan copies the board notes compliantly but his body language shows disengagement — he already knows this and the reteach does not challenge him. Siti watches the board carefully and copies the worked example line by line. When you circulate and ask 'Can you try a new one?', she hesitates and does not write anything without the board example in front of her. On the next problem, 20 of 24 students attempt it correctly using the part-whole method, up from 10. The majority gap has been addressed. But the reteach served the middle group and missed the extremes — Rajan is under-challenged and Siti is still dependent on copying.",
+      "tradeoff": "The whole-class reteach is efficient and reaches the majority who were not using the part-whole logic. Process-level feedback (Hattie & Timperley) addressed the specific step that was hidden. Nur and Wei Jie made clear gains. But the move treats the class as uniform — Rajan is under-challenged and Siti remains dependent on the board example rather than building independent understanding.",
+      "reflection": "Why did you choose to reteach the whole class rather than target the students who were guessing? What were you prioritising — efficiency or equity?\n\nAre you satisfied with the outcome? The middle group made clear gains, but Rajan was bored and Siti is still copying. What does this tell you about whole-class reteaching in a hidden-thinking classroom?\n\nIf you taught this lesson again, what would you do to make the part-whole logic visible before students start the practice problems?"
+    },
+    "A2": {
+      "outcome": "You pair Rajan with Wei Jie and ask Rajan to give AQS feedback on Wei Jie's method. Rajan looks at Wei Jie's page and begins: 'You got the right shares — that is correct. But here, you guessed and checked instead of using the part-whole method. Try adding 2 and 3 first to get 5 parts total.' Wei Jie listens and re-attempts the problem using the part-whole steps. He gets it right and writes: 'Total parts = 5, each part = 12.' Nur is paired with a student who chose option (a) correctly. Her partner questions her method: 'You divided by the first ratio number — why?' Nur pauses and says 'I don't know, it just worked.' Her partner explains the part-whole logic and Nur re-attempts correctly. Siti is paired with a student who can explain the steps but not the reasoning. Her partner says 'You add 2 and 3 to get 5, then divide' but cannot explain why. Siti copies the steps from her partner's page. When you ask her 'Why do we add the ratio numbers?', she says 'Because my partner said so.' The room is engaged and several students are making real gains. But Siti has not moved from copying to understanding, and two pairs where both students were guessing have reinforced the gap rather than closed it.",
+      "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. Wei Jie and Nur made genuine gains through structured peer feedback. But the quality of peer explanation varies — Siti's partner could not explain the reasoning, only the steps. Siti remains dependent on copying. Pairs where both students were guessing reinforced the gap.",
+      "reflection": "Why did you choose peer feedback over whole-class reteaching? What were you hoping would happen?\n\nAre you satisfied with the outcome? Wei Jie and Nur made gains, but Siti is still copying and some pairs reinforced errors. What conditions are needed for AQS peer feedback to work in a hidden-thinking classroom?\n\nWhat would you need to put in place before the next lesson to ensure Siti can access the part-whole logic independently?"
+    },
+    "B1": {
+      "outcome": "You pause the class and ask for a volunteer to explain the bar model. Nur raises her hand and says: 'Each section of the bar is one part. There are 5 sections because 2 + 3 = 5.' You ask a second student to connect this to the ratio table. Wei Jie says: 'The parts column shows 2 and 3, and the total is 5, so each part is worth 60 ÷ 5 = 12.' A third student connects to Rajan's formula: 'The (a + b) in the denominator is the total parts — same as adding the ratio numbers.' The IRF chain produces a rich, class-built explanation linking all three representations to the same part-whole logic. You write the connection on the board. Rajan listens with interest — the algebraic connection is new to him and he writes it down. Siti watches the exchange but when you ask 'Does that make sense?', she nods quickly without speaking. Her bar model card still shows the blanks filled in correctly, but she has not written any new reasoning. The chain has deepened understanding for the middle group and stretched Rajan, but Siti remains passive and dependent on the scaffold.",
+      "tradeoff": "The IRF chain linking all three representations is rich and builds genuine conceptual understanding for students who can articulate their reasoning. It stretched Rajan with the algebraic connection. But the chain is driven by students who can speak — the majority of quiet students, including Siti, remain passive. Siti has not produced any new independent reasoning.",
+      "reflection": "Why did you choose to connect the three representations through an IRF chain? What were you trying to build?\n\nAre you satisfied with the outcome? The chain deepened understanding for Nur, Wei Jie, and Rajan, but Siti remained passive. What does this tell you about the relationship between scaffold use and conceptual understanding?\n\nHow do you design IRF probes that include students who are still dependent on scaffolds rather than leaving them as passive observers?"
+    },
+    "B2": {
+      "outcome": "You write the new problem on the board — 'Share 72 in the ratio 3:5' — and ask students to attempt it without the scaffold. Rajan completes it in under 2 minutes and writes a clear self-check: 'Total parts = 3 + 5 = 8. Each part = 72 ÷ 8 = 9. Shares: 27 and 45. Check: 27 + 45 = 72 ✓. I know this is correct because I used the part-whole method and the shares add back to the total.' Nur attempts the problem and gets it right — she writes 'Total parts = 8' without prompting, suggesting the scaffold helped her internalise the first step. Her self-check says: 'I added 3 + 5 because we need the total number of parts.' Wei Jie stalls at the first step. He writes '72 ÷ 3 = 24' — he has reverted to dividing by the first ratio number without the scaffold. His self-check says: 'I divided 72 by 3. I am not sure if this is right.' Siti writes '72' on her page and stops. Her self-check is blank. The scaffold removal has revealed a clear split: Rajan and Nur can transfer the part-whole logic independently; Wei Jie and Siti cannot. You now have clean evidence of who is ready to move on, but less time to respond. 15 minutes remain.",
+      "tradeoff": "Scaffold removal tests transfer directly and honestly. Rajan and Nur demonstrated genuine understanding — they could apply the part-whole logic without support. The self-check reflection (AfL Triangle) gives you individual evidence of reasoning. But Wei Jie and Siti stalled when the scaffold was removed, revealing that the scaffold gave them access to the procedure without building understanding of the logic.",
+      "reflection": "Why did you choose to remove the scaffold and test transfer immediately? What were you hoping to learn?\n\nAre you satisfied with the outcome? Rajan and Nur succeeded, but Wei Jie and Siti stalled completely. What does this tell you about the timing of scaffold removal?\n\nWith 15 minutes remaining and two students who cannot work without support, what is your next move?"
+    },
+    "C1": {
+      "outcome": "You write the shallow explanation on the board: 'I shared 60 in the ratio 2:3 by dividing 60 by 5 to get 12, then multiplying.' You ask the class to give AQS feedback. Several students affirm the calculation steps. Nur raises her hand and questions: 'Where does the 5 come from?' A third student suggests: 'The 5 comes from adding 2 and 3 — those are the total parts.' You write the complete AQS response on the board and ask all students to re-attempt the problem and write one sentence explaining where the 5 comes from. Nur re-attempts correctly and writes: 'The 5 comes from 2 + 3 — the total number of parts.' Wei Jie follows the AQS feedback and writes: 'Total parts = 2 + 3 = 5.' Rajan was already correct and listens with mild interest. Siti copies the corrected explanation from the board line by line. When you ask her to attempt a new problem independently, she hesitates and does not write anything without the board example. The student whose shallow explanation was displayed looks uncomfortable, glancing around to see if anyone recognises their reasoning. The AQS process has made the part-whole logic explicit and visible, but Siti is still copying rather than understanding.",
+      "tradeoff": "The AQS structure turns the pair talk evidence into a concrete, whole-class teachable moment. It made the missing part-whole logic explicit and actionable. Nur and Wei Jie made genuine gains. But publicly displaying shallow reasoning — even anonymously — creates discomfort. Siti is still copying from the board rather than reasoning independently.",
+      "reflection": "Why did you choose to use AQS feedback on the common shallow explanation rather than reteaching directly? What were you hoping the structure would do?\n\nAre you satisfied with the outcome? Nur and Wei Jie made gains, but Siti is still copying and the student whose reasoning was displayed felt exposed. What does this tell you about the risks of using real student work publicly?\n\nHow do you make the part-whole logic visible in a hidden-thinking classroom without relying on students to volunteer their reasoning?"
+    },
+    "C2": {
+      "outcome": "You stop the pair talk and ask everyone to write individually. The room goes quiet. Rajan writes a clear, detailed explanation: 'We add the ratio numbers first because they tell us how many equal parts the total is divided into. In 2:3, there are 5 parts total. Each part is worth 60 ÷ 5 = 12. The shares are 2 × 12 = 24 and 3 × 12 = 36. This works because 24 + 36 = 60.' Nur writes: 'We add 2 + 3 to get 5 parts. Then divide 60 by 5 to get 12 per part. Multiply each ratio number by 12.' Her explanation is procedural but correct — she has the steps but not the full reasoning. Wei Jie writes: 'Add the ratio numbers to get total parts. Divide total by parts. Multiply.' His explanation is minimal but shows the correct sequence. Siti writes: 'You divide 60 by 5.' She cannot explain where the 5 comes from. The individual writing has given you the clearest picture of each student's reasoning — from Rajan's full conceptual explanation to Siti's single incomplete step. But the move to solo writing has revealed that the pair talk did not build the part-whole logic for most students.",
+      "tradeoff": "Individual written justification gives you the clearest, most honest evidence of each student's understanding. It reveals that the pair talk produced surface agreement rather than genuine reasoning for most students. But the move to solo writing killed the collaborative energy and left Siti with a single incomplete sentence — the talk did not build the reasoning she needed to write.",
+      "reflection": "Why did you move from pair talk to individual writing? What were you trying to find out?\n\nAre you satisfied with the outcome? You now have clear evidence of each student's reasoning, but the pair talk did not build the part-whole logic for most students. What does this tell you about the relationship between talk and understanding in a hidden-thinking classroom?\n\nHow do you design pair talk tasks so that the reasoning is built through the discussion rather than just confirmed — or exposed as absent — by the writing?"
+    }
+  }
+}

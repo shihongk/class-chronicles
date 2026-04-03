@@ -1,0 +1,148 @@
+{
+  "id": "S4",
+  "level": "lower_sec",
+  "profile": "hidden_thinking",
+  "subject": "Mathematics",
+  "topic": "Angles in Triangles",
+  "contextNote": "Sec 2 Math, 24 students. You modelled the interior angle sum of a triangle (180°) using a worked example on the board, showing each step explicitly: label the known angles, write the equation, solve, check. Students are now 20 minutes into four angle problems. Most have correct answers — but almost no one has shown any working.",
+  "students": [
+    {
+      "name": "Rajan",
+      "role": "fast",
+      "note": "All 4 correct. Page shows only final answers. No equations, no steps, no labels."
+    },
+    {
+      "name": "Nur Atiqah",
+      "role": "middle",
+      "note": "Q1–Q3 correct. Only the final numbers written. No equation or working visible."
+    },
+    {
+      "name": "Wei Jie",
+      "role": "middle",
+      "note": "Q1–Q2 correct. Has written some working but erased most of it. Faint pencil marks visible."
+    },
+    {
+      "name": "Siti",
+      "role": "stalled",
+      "note": "Q1–Q4 all have correct final answers. Working space completely blank. No steps at all."
+    }
+  ],
+  "ep1": {
+    "situation": "20 minutes into the lesson. You circulate and the pattern is unsettling — not because students are stuck, but because they are not. Almost everyone has correct answers. But the pages are nearly blank. Rajan has all four questions correct with only the final numbers written. No equations, no labels, no steps. Nur has Q1 to Q3 correct with just the answers. Wei Jie has some faint pencil marks that look like working, but most of it has been erased. Siti has all four correct answers — but her working space is completely empty. A quick scan of the class: 20 of 24 students have correct answers for at least Q1 and Q2. But only 6 students have written any working at all, and of those, only 3 have written a complete equation. The room looks productive. The books tell a different story. You cannot tell whether students are reasoning, recalling, guessing, or using a method you have not taught. You have about 20 minutes of lesson time remaining.",
+    "evidence": "Most students have correct final answers but almost no visible working. The gap is not in accuracy — it is in process visibility. You cannot tell how any student arrived at their answer, which means you cannot tell whether the understanding is genuine or fragile.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Justify My Thinking two-step MCQ",
+        "elaboration": "Stop the class and project Q1 on the board: two angles of 50° and 60°. Ask two questions in sequence: '(1) What is the third angle?' and '(2) How did you find it? Choose: (a) I used the equation ___ + ___ + ? = 180°. (b) I subtracted from 180 in my head. (c) I guessed and checked. (d) I used a different method.' Ask students to write both answers on mini-whiteboards or paper and hold them up simultaneously. Use the pattern of responses to see who is reasoning explicitly, who is computing mentally, and who is guessing.",
+        "theoryKey": "Two_Step_MCQ",
+        "tradeoff": "The two-step structure reveals both the answer and the method, giving you whole-class evidence of hidden processes quickly. But students who are guessing may struggle to articulate a method and may feel exposed. The public display of methods may embarrass students who cannot explain how they got the right answer."
+      },
+      {
+        "id": "B",
+        "label": "Process scaffold cards with varied density",
+        "elaboration": "Distribute process prompt cards without stopping the class. All cards have the same four steps: 'Step 1: Label the known angles. Step 2: Write the equation ___ + ___ + ? = 180°. Step 3: Solve for the missing angle. Step 4: Check — do all three angles sum to 180°?' But the density varies: stalled students get the steps with worked examples filled in; middle students get the steps with blanks to complete; fast finishers get only the step headings and must write the full process themselves. Ask all students to redo Q1 using the card.",
+        "theoryKey": "Vygotsky_ZPD_Bruner",
+        "tradeoff": "The scaffold makes the expected thinking process visible and gives every student a structure to follow at their level of readiness. But students who are already reasoning intuitively — like Rajan — may find the scaffold unnecessary and skip it. Students who are copying answers may fill in the scaffold mechanically without understanding the steps."
+      },
+      {
+        "id": "C",
+        "label": "Accountable Talk: compare methods in pairs",
+        "elaboration": "Assign shoulder partners and ask them to explain their method to each other using the stem: 'My method for Q1 was ___ because ___. What was yours?' The listener must ask one question: 'Why did you do it that way?' Circulate and listen for pairs where the methods differ. After 3 minutes, select two pairs with contrasting methods and run a brief IRF probe with the whole class: 'What did you notice about these two methods? Which one is more reliable? Why?'",
+        "theoryKey": "Accountable_Talk",
+        "tradeoff": "Pair talk exposes hidden processes in a low-stakes way and may surface methods you did not know students were using. But quiet students may echo their partner's method rather than articulating their own. If both students in a pair used the same method — or neither can articulate one — the talk will reveal less than you hope."
+      }
+    ]
+  },
+  "ep2": {
+    "A": {
+      "consequence": "The whiteboards go up and the pattern is revealing. 20 of 24 students have the correct answer (70°). But on the method question, only 8 students chose option (a) — the explicit equation. 8 students chose option (b) — mental subtraction. 4 students chose option (c) — guess and check. 4 students, including Siti, left the method blank or wrote 'I don't know how I got it.' Nur chose option (b) and when you ask her to explain, she says: 'I just knew 50 plus 60 is 110, so the last one is 70.' Her reasoning is correct but entirely mental — she has never written an equation. Rajan chose option (b) and says: 'Intuition. I can see it.' Wei Jie chose option (a) but erased his equation before showing you — he had the right method but hid it. Siti got the right answer but cannot explain how. The evidence is now clear: correct answers are masking a wide range of hidden processes, from genuine reasoning to guessing. You have 18 minutes remaining.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "Whole-class process reteach with worked example",
+          "elaboration": "Address the hidden methods directly with the whole class. Write Q1 on the board and model the standard step-by-step process explicitly: 'Step 1: I label the known angles — 50° and 60°. Step 2: I write the equation — 50 + 60 + ? = 180. Step 3: I solve — ? = 180 − 110 = 70°. Step 4: I check — 50 + 60 + 70 = 180 ✓.' Emphasise: 'This is the process I expect to see in your working. The answer alone is not enough — I need to see every step.' Ask all students to redo Q1 showing every step, then attempt Q3 using the same process.",
+          "theoryKey": "Hattie_Timperley_Feedback",
+          "tradeoff": "The reteach makes the expected process explicit for everyone and gives students a clear model to follow. It is efficient and will reach the 12 students who were guessing or computing mentally. But it over-explains for Rajan and Nur, who are already reasoning correctly — they are being asked to slow down and write out steps they already understand. Siti may follow the model without building genuine understanding."
+        },
+        {
+          "id": "2",
+          "label": "AQS peer feedback on written methods",
+          "elaboration": "Use the whiteboard evidence to form pairs: students who wrote an explicit equation (option a) are paired with students who used mental methods or guessing (options b, c, or blank). Ask the explicit-method student to give AQS feedback on their partner's whiteboard: Affirm the correct answer ('You got 70° — that is right'), Question the method ('How did you get there? Can you show me the equation?'), Suggest a step to add ('Try writing 50 + 60 + ? = 180 so your reasoning is visible'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange with the class.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "AQS peer feedback surfaces more genuine reasoning than a whole-class reteach because it is personalised and conversational. Nur and Wei Jie, who have correct reasoning but no written process, may benefit from being asked to articulate their method to a peer. But Siti has no method to share — her partner will end up explaining the process to her rather than giving feedback on her work. The quality of peer explanation also varies widely."
+        }
+      ]
+    },
+    "B": {
+      "consequence": "The scaffold cards go out and students begin working. Rajan glances at his card, sets it aside, and continues working independently — he does not engage with the scaffold at all. Nur fills in the blanks on her card: she writes the correct numbers in each step but does not pause to read the step headings. Her working is now visible, but it looks mechanical — she is filling in a template, not reasoning through a process. Wei Jie works through the card slowly and carefully. He writes each step in full and checks his answer at Step 4. His working is now the most complete in the class. Siti copies the structure of the card onto her page — she writes the step headings and fills in the numbers, but when you ask her 'Why do we write the equation in Step 2?', she says 'Because the card says so.' The processes are now visible on paper, but the depth of understanding behind them varies enormously. 19 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "IRF probe: why each scaffold step matters",
+          "elaboration": "Pause the class and collect the scaffold cards. Ask the whole class: 'Why is Step 2 written as an equation? What would happen if you skipped it and went straight to the answer?' Take the first response (Initiation). Then ask a second student: 'Can you build on that? What does the equation tell you that the answer alone does not?' (Response). Then ask a third student: 'Do you agree? Is there anything you would add or correct?' (Feedback). Use the IRF chain to build a class-constructed explanation of why the process matters, not just what the steps are.",
+          "theoryKey": "IRF_Chains",
+          "tradeoff": "The IRF probe deepens the visible thinking by asking students to justify the steps rather than just follow them. Wei Jie, who engaged genuinely with the scaffold, is well-positioned to contribute. But Rajan, who skipped the scaffold entirely, is not included in the probe. Siti, who copied the scaffold mechanically, may freeze when asked to explain a step she did not understand."
+        },
+        {
+          "id": "2",
+          "label": "Scaffold removal: new triangle, self-check",
+          "elaboration": "Give a new triangle problem with no scaffold card: two angles of 45° and 75°. Ask students to write their steps independently and then complete a self-check: 'Steps I used: ___. I know my answer is correct because ___. I check by ___.' Give 4 minutes, then collect the responses. Scan them to see who has genuinely internalised the process and who was dependent on the scaffold structure.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "Scaffold removal tests whether the process has been internalised or just followed. Rajan and Wei Jie are likely ready — Rajan because he was already reasoning independently, Wei Jie because he engaged carefully with each step. But Siti, who was copying the scaffold structure, will stall immediately when it is removed. Nur may revert to mental methods without the written structure. You will have clean evidence of who is ready — but less time to respond to those who are not."
+        }
+      ]
+    },
+    "C": {
+      "consequence": "The pairs begin talking and the room gets louder. Rajan tells his partner: 'I use a shortcut — I just subtract the two angles from 180. It always works.' His partner nods and says: 'Same.' No deeper comparison emerges. Nur says to her partner: 'Same as you — I just knew.' Her partner agrees. Wei Jie says: 'I know the sum is 180, so I write the equation.' His partner says: 'Oh, I didn't write it — I just did it in my head.' This is the most genuine comparison in the room, but Wei Jie does not push further. Siti echoes her partner's method word for word without adding anything of her own. You circulate and hear the pattern: 6 pairs have a genuine comparison of methods, with at least one student articulating a different approach. 10 pairs are mirroring each other — confirming the same method rather than comparing. 8 pairs are in near-silence, with one student explaining and the other nodding. The talk has revealed that most students are not comparing methods — they are confirming each other. 18 minutes remain.",
+      "choices": [
+        {
+          "id": "1",
+          "label": "AQS gallery critique on talk stems",
+          "elaboration": "Ask each pair to write their method comparison on a sticky note in one sentence: 'My method was ___ and my partner's method was ___.' Post four notes on the board: one with a genuine comparison, one with a mirror ('same as you'), one with a partial comparison, one with no method articulated. Run a whole-class AQS session on the mirror note: Affirm what they attempted ('They identified that both methods gave the right answer'), Question what is missing ('What is the difference between the two methods? Is there one?'), Suggest how to deepen it ('Try asking: did you both write an equation, or did one of you compute mentally?'). Ask all pairs to revise their sticky note using the AQS feedback.",
+          "theoryKey": "AQS_Feedback",
+          "tradeoff": "The AQS gallery critique makes the difference between genuine and superficial comparison visible to the whole class. It gives the mirroring pairs a concrete model of what a real method comparison looks like. But the pairs whose notes are displayed may feel exposed, even anonymously. Siti has nothing distinctive to post, and the gallery will be dominated by the 6 pairs who were genuinely comparing."
+        },
+        {
+          "id": "2",
+          "label": "Solo process map: draw your method for Q4",
+          "elaboration": "Stop the pair talk and ask all students to work individually. Write on the board: 'For Q4, draw or write your personal method — every step, in your own words. No partner, no scaffold. Show me exactly how you think.' Give 4 minutes, then collect the process maps. Scan them to see who has a genuine, transferable method and who was borrowing their partner's reasoning during the talk.",
+          "theoryKey": "AfL_Triangle",
+          "tradeoff": "Solo process maps give you the clearest, most honest picture of each student's thinking — uncontaminated by pair talk or scaffold structure. Rajan's map will show his efficient mental method. Wei Jie's map will show his equation-based approach. But the move to individual work kills the emerging talk momentum. Siti's map will likely show only the answer, revealing that the pair talk did not help her develop a method of her own."
+        }
+      ]
+    }
+  },
+  "ep3": {
+    "A1": {
+      "outcome": "You model the step-by-step process on the board and ask all students to redo Q1 showing every step. The room goes quiet as students write. Nur looks at the board and rewrites Q1 with the full equation: 50 + 60 + ? = 180, ? = 70°. She adds the check step. Her working is now complete and correct. Wei Jie rewrites his working without erasing it this time — he seems relieved to have a model to follow. Rajan writes the steps compliantly but his body language shows disengagement — he already knew this and the reteach does not challenge him. Siti copies the board model line by line. When you circulate and ask her 'Can you try Q3 using the same process?', she looks at the board, copies the structure, and fills in the numbers. Her working looks correct, but when you ask 'Why do we write the equation?', she says 'Because you showed us.' On a follow-up check, 22 of 24 students now show a complete process for Q1, up from 6. The reteach has made the process visible for almost everyone. But the working is uniform — you cannot tell who understood and who copied the model. Rajan is under-challenged. Siti is compliant but not reasoning. 15 minutes remain.",
+      "tradeoff": "The whole-class reteach with worked example is efficient and reaches the majority of students who were computing mentally or guessing. It is task-level feedback (Hattie & Timperley) — you explained what the correct process looks like and why. Nur and Wei Jie made clear gains. But the reteach homogenises the variety of methods in the room and may have replaced genuine reasoning with procedural compliance. Rajan is under-challenged and Siti is copying rather than understanding.",
+      "reflection": "Why did you choose whole-class reteach over peer feedback? What were you prioritising — efficiency, clarity, or equity?\n\nAre you satisfied with the outcome? 22 students now show working, but Rajan is disengaged and Siti is copying. What does this tell you about the difference between showing working and understanding the process?\n\nHow do you design tasks that make genuine reasoning visible rather than just procedural compliance?"
+    },
+    "A2": {
+      "outcome": "You pair students who wrote explicit equations with students who used mental methods or guessing. Rajan is paired with a student who guessed. Rajan gives AQS feedback: 'You got the right answer — that is correct. But you said you guessed. Try writing 50 + 60 + ? = 180 so your reasoning is visible.' His partner nods and rewrites with the equation. Nur is paired with a student who also used mental methods. Her partner asks: 'How did you get 70 so fast?' Nur explains her mental subtraction. Her partner says: 'Oh — I should write that as an equation.' Nur realises she should too, and rewrites her working. Wei Jie is paired with a student who had the equation but erased it. Wei Jie says: 'Your method was right — why did you erase it?' His partner says: 'I wasn't sure it was correct.' Wei Jie encourages him to rewrite it. Siti is paired with a student who used the explicit equation. Her partner gives AQS feedback, but Siti has no method to affirm or question — her partner ends up explaining the process to her. Siti copies the explanation. On a follow-up check, 16 of 24 students now show a written process, up from 6. The peer feedback has activated more genuine reasoning than a reteach would have. But Siti is still receiving rather than producing. 15 minutes remain.",
+      "tradeoff": "AQS peer feedback is more personalised than a whole-class reteach and surfaces more genuine reasoning. Nur and Wei Jie made real gains through structured peer exchange. But the quality of peer explanation varies. Siti has no method to share, so her partner ends up teaching rather than giving feedback. The move requires students to have something to articulate — students with no visible process need a different entry point.",
+      "reflection": "Why did you choose AQS peer feedback over whole-class reteach? What were you hoping would happen?\n\nAre you satisfied with the outcome? Nur and Wei Jie made gains, but Siti is still receiving rather than producing. What does this tell you about the conditions needed for productive peer feedback?\n\nHow do you design for students who have correct answers but no visible process? What does it mean to 'show your thinking' — and how do you make that expectation clear from the start?"
+    },
+    "B1": {
+      "outcome": "You collect the scaffold cards and ask the whole class: 'Why is Step 2 written as an equation? What would happen if you skipped it?' There is a pause. Wei Jie raises his hand: 'Because you need to know what the missing angle equals — if you just subtract in your head, you might make an error.' You ask a second student to build on this. Nur adds: 'And the equation shows your reasoning — the teacher can see how you got the answer.' A third student evaluates: 'Yes, and if you skip it, you might get the right answer but not know why.' The IRF chain produces a strong, class-built explanation. You write it on the board. Rajan, who skipped the scaffold, listens with visible interest — the probe has given him something to think about that the scaffold itself did not. Siti is called on and freezes. She says: 'Because the card says so.' You nod and move on, but the moment reveals that she was copying the scaffold without understanding the steps. On a follow-up check, 18 of 24 students can now explain why the equation step matters, up from the 6 who were writing equations before. 15 minutes remain.",
+      "tradeoff": "The IRF probe deepens the visible thinking by asking students to justify the steps rather than just follow them. Wei Jie and Nur, who engaged genuinely with the scaffold, made real gains through the chain. Rajan was unexpectedly engaged by the probe. But Siti's copying was exposed publicly, which may have been uncomfortable. The probe served the middle group well but did not stretch Rajan or support Siti.",
+      "reflection": "Why did you choose to probe the scaffold steps rather than remove the scaffold immediately? What were you trying to find out?\n\nAre you satisfied with the outcome? The IRF chain produced strong reasoning from the middle group, but Siti was exposed and Rajan was only engaged by accident. What does this tell you about the timing and framing of public questioning after scaffolding?\n\nHow do you use scaffolds in a way that builds genuine understanding rather than just procedural compliance? What is the scaffold for — and when do you remove it?"
+    },
+    "B2": {
+      "outcome": "You give the new triangle problem — angles of 45° and 75° — with no scaffold. Rajan completes it in under 2 minutes with clear steps: '45 + 75 + ? = 180, ? = 60°. Check: 45 + 75 + 60 = 180 ✓.' His self-check says: 'I used the equation because it makes the reasoning visible. I check by substituting back.' His response shows genuine understanding and metacognitive awareness. Nur attempts the problem and gets the right answer but skips the equation step again — she writes '45 + 75 = 120, so ? = 60°' without the full equation. Her self-check says: 'I subtracted from 180. I check by adding.' She can compute correctly but has not internalised the equation step. Wei Jie works through the problem carefully and gets it right with full working. His self-check is detailed. Siti writes the two angles and the answer — 60° — but her working space is blank again. Her self-check says: 'I don't know the steps.' The scaffold removal has revealed a clear split: Rajan and Wei Jie have internalised the process; Nur has not fully transferred; Siti is back to where she started. You now have clean evidence — but 15 minutes remain and two students need significant support.",
+      "tradeoff": "Scaffold removal tests genuine internalisation honestly. Rajan and Wei Jie demonstrated real understanding — they could execute the process and explain the reasoning. The self-check reflection gives you individual evidence of metacognitive awareness. But Nur has not fully transferred the equation step, and Siti is back to blank working. Removing the scaffold before understanding was consolidated has undone the gains made for the two students who needed it most.",
+      "reflection": "Why did you choose to remove the scaffold and test transfer immediately? What were you hoping to learn?\n\nAre you satisfied with the outcome? Rajan and Wei Jie succeeded, but Nur reverted and Siti stalled completely. What does this tell you about the timing of scaffold removal?\n\nHow do you know when a student is ready to work without a scaffold? What evidence would tell you it is too soon — and what would you do differently next time?"
+    },
+    "C1": {
+      "outcome": "Four sticky notes are posted on the board. You run the AQS session on the mirror note: 'My method was subtract from 180 and my partner's method was subtract from 180.' Several students affirm: 'They identified that both methods gave the right answer.' You write this on the board. Then you ask: 'What should we question?' Nur raises her hand: 'Did they both write an equation, or did they both do it in their head? That is a different method.' You write: 'Question: Did you both use the same process, or just the same answer?' A third student suggests: 'Ask your partner to write out every step — then you can see if the methods are really the same.' You write: 'Suggest: Write out every step and compare.' The AQS feedback is now complete and visible. You ask all pairs to revise their sticky notes. The 10 mirroring pairs look at their notes and realise their comparisons were shallow. Several pairs begin talking again, this time asking each other to write out their steps. Wei Jie and his partner discover that their methods are actually different — Wei Jie uses the equation, his partner computes mentally. Siti and her partner produce a revised note that says 'same method' again — they cannot identify a difference. 15 minutes remain.",
+      "tradeoff": "The AQS gallery critique makes the difference between genuine and superficial comparison visible to the whole class. It gives the mirroring pairs a concrete model of what a real method comparison looks like. The revised sticky notes show that several pairs deepened their comparison after the feedback. But Siti and her partner remain stuck — they cannot identify a difference because neither has an explicit method to compare. The gallery critique served the middle group but did not give Siti an entry point.",
+      "reflection": "Why did you choose to use the gallery talk output as the basis for AQS feedback? What were you hoping the class would learn?\n\nAre you satisfied with the outcome? Several pairs deepened their comparison, but Siti and her partner remain stuck. What does this tell you about the conditions needed for genuine method comparison?\n\nHow do you design pair tasks so that students compare genuinely rather than confirm each other? What would the task need to say to produce real method comparison?"
+    },
+    "C2": {
+      "outcome": "The room goes quiet as students work individually on their process maps. Rajan draws a clean, efficient diagram: two known angles labelled, an arrow to the equation, the solution, and a check mark. His map shows a clear, transferable method. Nur writes the correct numbers but no equation — her map shows the answer and the mental subtraction, but not the algebraic step. Wei Jie draws a detailed diagram with all four steps labelled and arrows connecting them. His map is the most complete in the class. Siti writes the two angles and the final answer — 60° — but her process space is blank. When you circulate and ask her 'How did you get 60?', she says: 'I just knew.' Her map reveals that the pair talk did not help her develop an explicit method. You collect the maps and scan them. The individual evidence is honest and clear: Rajan has an efficient method, Wei Jie has a complete process, Nur has a partial process, and Siti has no visible method at all. But the room is silent again, and the emerging talk from the pair work is gone. 15 minutes remain.",
+      "tradeoff": "Solo process maps give you the clearest, most honest picture of each student's thinking — uncontaminated by pair talk or scaffold structure. Rajan and Wei Jie's maps show genuine, transferable methods. But the move to individual work has stopped the emerging talk. Nur's map reveals she has not internalised the equation step. Siti's map reveals that the pair talk gave her nothing to work with — she arrived at correct answers through intuition or guessing, and the talk did not surface or develop that process.",
+      "reflection": "Why did you choose to move from pair talk to individual process maps? What were you trying to find out?\n\nAre you satisfied with the outcome? Rajan and Wei Jie's maps show genuine methods, but Nur is partial and Siti has nothing. What does this tell you about when pair talk builds genuine method development versus borrowed reasoning?\n\nWhat does it mean to have a 'method' in mathematics? How do you help students who arrive at correct answers through intuition or guessing to develop an explicit, transferable process?"
+    }
+  }
+}

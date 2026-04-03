@@ -1076,3 +1076,265 @@ select:focus {
 .param-group.has-error .pill {
   border-color: var(--colour-danger-light);
 }
+
+/* ============================================================
+   Results — Path Summary (v2)
+   ============================================================ */
+.results__context-recap {
+  background-color: var(--colour-surface);
+  border: 1px solid var(--colour-border);
+  border-left: 4px solid var(--colour-primary);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+}
+
+.results__context-text {
+  font-size: var(--font-size-base);
+  color: var(--colour-text);
+  line-height: var(--line-height-base);
+}
+
+.results__context-evidence {
+  margin-top: var(--space-3);
+  font-size: var(--font-size-sm);
+  color: var(--colour-text-muted);
+  font-style: italic;
+}
+
+.results__path {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background-color: var(--colour-surface);
+  border: 1px solid var(--colour-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+
+.results__path-step {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4) 0;
+}
+
+.results__path-step--outcome {
+  background-color: var(--colour-surface-alt);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-top: var(--space-2);
+}
+
+.results__path-step-label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--colour-text-muted);
+}
+
+.results__path-step-choice {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--colour-text);
+}
+
+.results__path-step-elaboration {
+  font-size: var(--font-size-sm);
+  color: var(--colour-text);
+  line-height: var(--line-height-base);
+}
+
+.results__path-step-consequence {
+  font-size: var(--font-size-sm);
+  color: var(--colour-text-muted);
+  font-style: italic;
+  line-height: var(--line-height-base);
+  margin-bottom: var(--space-3);
+}
+
+.results__path-step-tradeoff {
+  font-size: var(--font-size-xs);
+  color: var(--colour-text-muted);
+  font-style: italic;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--colour-border);
+  margin-top: var(--space-2);
+}
+
+.results__path-divider {
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--colour-text-muted);
+  padding: var(--space-1) 0;
+  border-left: 2px dashed var(--colour-border);
+  margin-left: var(--space-4);
+  padding-left: var(--space-4);
+}
+
+/* References list */
+.results__references {
+  padding-left: 1.5rem;
+  font-size: var(--font-size-sm);
+  line-height: 1.8;
+  color: var(--colour-text-muted);
+}
+
+.results__references li {
+  margin-bottom: var(--space-2);
+}
+
+/* Setup screen (v2) */
+.setup {
+  max-width: 680px;
+}
+
+.setup__group {
+  margin-bottom: var(--space-8);
+}
+
+.setup__group-label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--colour-text);
+  margin-bottom: var(--space-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.setup__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.setup__actions {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+/* Profile pills with description text */
+.pill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--colour-border);
+  background-color: var(--colour-surface);
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s;
+  text-align: left;
+  min-width: 140px;
+}
+
+.pill:hover:not(:disabled) {
+  border-color: var(--colour-primary);
+}
+
+.pill--selected {
+  border-color: var(--colour-primary);
+  background-color: #eff6ff;
+}
+
+.pill--disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.pill__label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--colour-text);
+}
+
+.pill__desc {
+  font-size: var(--font-size-xs);
+  color: var(--colour-text-muted);
+  margin-top: var(--space-1);
+  line-height: 1.4;
+}
+
+/* Scenario picker screen */
+.scenario-pick__cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.scenario-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  width: 100%;
+}
+
+.scenario-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-subtle);
+}
+
+.scenario-card__id {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.scenario-card__topic {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+}
+
+.scenario-card__context {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+/* Episode header */
+.episode__header {
+  margin-bottom: var(--space-2);
+}
+
+.episode__eyebrow {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--colour-primary);
+  margin-bottom: var(--space-1);
+}
+
+.episode__title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--colour-text);
+}
+
+/* Choice card theory tag row */
+.choice-card__theory {
+  margin-top: var(--space-3);
+}
+
+.choice-card__tradeoff {
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--colour-border);
+  font-size: var(--font-size-xs);
+  color: var(--colour-text-muted);
+  font-style: italic;
+}
