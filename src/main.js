@@ -90,8 +90,10 @@ function renderLanding() {
         <p class="landing__eyebrow">QED52B Pedagogical Practices</p>
         <h1 class="landing__title">The Classroom Chronicles</h1>
         <p class="landing__tagline">
-          Step into a Singapore classroom. Make real pedagogical decisions.<br>
-          Discover your teaching tendencies — and reflect on them.
+          You know the content. The harder question is what you do when the class doesn't learn the way you expected.
+        </p>
+        <p class="landing__tagline landing__tagline--body">
+          This game drops you into real lesson dilemmas from Singapore classrooms — mixed readiness, silent students, hidden misconceptions, different learning profiles. You have to read what's happening, decide what to do next, and keep the lesson moving. Every choice reveals something about how you teach.
         </p>
         <button class="btn btn--primary btn--lg" id="btn-begin">Begin →</button>
       </div>

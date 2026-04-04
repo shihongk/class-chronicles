@@ -946,7 +946,15 @@ select:focus {
   font-size: var(--font-size-lg);
   color: var(--colour-text-muted);
   line-height: var(--line-height-loose);
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-4);
+}
+
+.landing__tagline--body {
+  font-size: var(--font-size-base);
+  color: var(--colour-text-muted);
+  line-height: var(--line-height-loose);
+  max-width: 52ch;
+  margin: 0 auto var(--space-8);
 }
 
 .btn--lg {
