@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback on part-whole reasoning",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on part-whole reasoning",
           "elaboration": "Use the diagnostic evidence to form pairs: students who chose option (a) correctly (like Rajan) are paired with students who chose option (b) or (c) (like Nur and Wei Jie). The stronger student gives AQS feedback on their partner's method: Affirm what is correct ('You got the right shares'), Question the step that is missing ('How did you find the total number of parts?'), Suggest the correct logic ('Try adding the ratio numbers first: 2 + 3 = 5 parts'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange with the class.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task — explaining the part-whole logic is harder than applying it. The structure ensures feedback is specific and actionable. But Siti, who does not know how she got her answer, cannot be helped by a peer who questions her method — she has no method to question."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: connect bar model, table, and algebra",
+          "label": "IRF (Initiate-Response-Feedback) probe: connect bar model, table, and algebra",
           "elaboration": "Pause the class and run an IRF chain connecting the three representations. Ask: 'In the bar model, what does each section of the bar represent?' Take the first response (Initiation). Then ask a second student: 'How does that connect to the ratio table — what does the parts column show?' (Response). Then ask a third student: 'And in Rajan's formula, what does the (a + b) in the denominator represent?' (Feedback). Build a class-constructed explanation that links all three representations to the same part-whole logic. Write the connection on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain makes the part-whole logic explicit across all three representations and builds a shared understanding that is richer than any single scaffold. But it puts students on the spot publicly. Siti, who was following the bar model mechanically, may freeze when asked to explain the logic behind it. The chain is driven by students who can articulate their reasoning — the majority of quiet students remain passive."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on echoed reasoning",
+          "label": "AQS (Affirm-Question-Suggest) feedback on echoed reasoning",
           "elaboration": "Write the most common shallow explanation on the board anonymously: 'I shared 60 in the ratio 2:3 by dividing 60 by 5 to get 12, then multiplying.' Ask the class to give AQS feedback: Affirm what is correct ('The calculation steps are right'), Question the missing logic ('Why do we divide by 5? Where does the 5 come from?'), Suggest the part-whole reasoning ('The 5 comes from adding the ratio numbers — 2 + 3 = 5 parts total'). Take responses from multiple students and build a complete AQS response together. Then ask all students to re-attempt the problem and write one sentence explaining where the 5 comes from.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure turns the pair talk evidence into a structured, whole-class teachable moment. It is concrete because it is based on real student reasoning, and it makes the missing part-whole logic explicit. But publicly displaying shallow reasoning — even anonymously — may embarrass the students whose explanation it came from. The move also interrupts the pair work momentum."

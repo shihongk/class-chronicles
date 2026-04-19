@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback on root-finding methods",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on root-finding methods",
           "elaboration": "Use the diagnostic evidence to form pairs: students who chose option (a) correctly (like Rajan) are paired with students who chose option (b) (like Nur and Wei Jie). The stronger student gives AQS feedback on their partner's method: Affirm what is correct ('You got the right roots'), Question the step that is missing ('How did you find those roots? Can you show the factorisation?'), Suggest the correct logic ('Try finding two numbers that multiply to +6 and add to −5 — those are the numbers in your factors'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. The structure ensures feedback is specific and actionable. But Siti, who does not know how she got her (wrong) roots, cannot be helped by a peer who questions her method — she has no method to question. Her confusion about coefficients versus roots needs direct correction."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: connect factorisation, discriminant, and completing the square",
+          "label": "IRF (Initiate-Response-Feedback) probe: connect factorisation, discriminant, and completing the square",
           "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your extension work — why do factorisation and completing the square give the same roots?' (Initiation). Then ask a second student: 'Can you connect that to the discriminant — what does b² − 4ac tell you about the roots?' (Response). Then ask a third student: 'And in the factor tree — why are the roots 2 and 3 and not 5 and 6?' (Feedback). Build a class-constructed explanation linking all three methods to the same roots. Write the connection on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain leverages Rajan's extension work and builds a shared explanation linking all three methods to the same roots. It gives the middle group a concrete, class-built explanation of why the methods are equivalent. But the chain is driven by students who can articulate their reasoning — Siti, who was following the factor tree mechanically, may follow the chain without connecting it to her own understanding."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on trial-and-error reasoning",
+          "label": "AQS (Affirm-Question-Suggest) feedback on trial-and-error reasoning",
           "elaboration": "Write the most common shallow explanation on the board anonymously: 'I found the roots of x² − 5x + 6 = 0 by trying factor pairs of 6 until I found ones that added to −5.' Ask the class to give AQS feedback: Affirm what is correct ('The trial-and-error approach found the right roots'), Question the missing logic ('Why do the factor pairs of 6 give the roots? What is the connection between the factors and the equation?'), Suggest the factorisation ('Write the factors as (x − 2)(x − 3) = 0 — the roots are the values that make each factor zero, not the coefficients'). Take responses from multiple students and build a complete AQS response. Then ask all students to re-attempt the problem using the factorisation method.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure turns the pair talk evidence into a structured, whole-class teachable moment. It makes the missing factorisation logic explicit and actionable. But publicly displaying trial-and-error reasoning — even anonymously — may embarrass the students whose method it came from. The move also interrupts the pair work momentum."

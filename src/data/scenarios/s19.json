@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer logic: affirm solution, question steps",
+          "label": "AQS (Affirm-Question-Suggest) peer logic: affirm solution, question steps",
           "elaboration": "Use the MCQ evidence to form pairs: students who named and can explain a method (like Rajan) are paired with students who have correct answers but no method (like Nur). The stronger student gives AQS feedback: Affirm the solution ('Your answer x = 1, y = 2 is correct'), Question the method ('How did you find it? Can you write the first step?'), Suggest the branch ('Try substitution: isolate x from Eq1 first, then substitute into Eq2'). Circulate and listen for pairs where the method is genuinely surfaced versus pairs where the stronger student just gives the steps. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task — explaining a method is harder than using it. The structure ensures feedback targets the method gap specifically. But Siti, who is guessing, has no solution to affirm and no method to question — the AQS structure does not give her an entry point."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF method compare: sub vs elim, same answer?",
+          "label": "IRF (Initiate-Response-Feedback) method compare: sub vs elim, same answer?",
           "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, you said you used substitution the first time but the elimination card gave the same answer — why do both methods work?' (Initiation). Then ask a second student: 'Can you show where the two methods connect? At what point do they produce the same equation?' (Response). Then ask a third student: 'And why does it matter which method you choose? When would you prefer one over the other?' (Feedback). Build a class-constructed explanation linking both methods to the same underlying logic. Write the connection on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain leverages Rajan's insight about method equivalence and builds a shared explanation of why both methods work. It gives the middle group a conceptual anchor beyond the procedural steps. But the chain is driven by students who can articulate their reasoning — Siti, who just copied the scaffold, may follow the chain without connecting it to her own working."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS on mirror-logic pairs: surface the method gap",
+          "label": "AQS (Affirm-Question-Suggest) on mirror-logic pairs: surface the method gap",
           "elaboration": "Write the most common exchange on the board anonymously: 'We both got x = 1, y = 2. We checked and they match.' Ask the class to give AQS feedback: Affirm what is correct ('The solution is right and checking it is good practice'), Question what is missing ('How did you find x = 1, y = 2? What was the first algebraic step?'), Suggest the method ('Write the first step of substitution or elimination — isolate one variable or match one coefficient'). Take responses from multiple students and build a complete AQS response. Then ask all pairs to add the method steps to their explanation.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure makes the method gap explicit and gives the answer-only pairs a concrete model of what a method explanation looks like. It is based on real student talk, which makes it concrete and non-threatening. But it interrupts the pair work momentum. Siti's guessing strategy has been partially exposed by her partner — the AQS feedback does not address her conceptual gap directly."

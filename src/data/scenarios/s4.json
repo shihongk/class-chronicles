@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback on written methods",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on written methods",
           "elaboration": "Use the whiteboard evidence to form pairs: students who wrote an explicit equation (option a) are paired with students who used mental methods or guessing (options b, c, or blank). Ask the explicit-method student to give AQS feedback on their partner's whiteboard: Affirm the correct answer ('You got 70° — that is right'), Question the method ('How did you get there? Can you show me the equation?'), Suggest a step to add ('Try writing 50 + 60 + ? = 180 so your reasoning is visible'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange with the class.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS peer feedback surfaces more genuine reasoning than a whole-class reteach because it is personalised and conversational. Nur and Wei Jie, who have correct reasoning but no written process, may benefit from being asked to articulate their method to a peer. But Siti has no method to share — her partner will end up explaining the process to her rather than giving feedback on her work. The quality of peer explanation also varies widely."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: why each scaffold step matters",
+          "label": "IRF (Initiate-Response-Feedback) probe: why each scaffold step matters",
           "elaboration": "Pause the class and collect the scaffold cards. Ask the whole class: 'Why is Step 2 written as an equation? What would happen if you skipped it and went straight to the answer?' Take the first response (Initiation). Then ask a second student: 'Can you build on that? What does the equation tell you that the answer alone does not?' (Response). Then ask a third student: 'Do you agree? Is there anything you would add or correct?' (Feedback). Use the IRF chain to build a class-constructed explanation of why the process matters, not just what the steps are.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF probe deepens the visible thinking by asking students to justify the steps rather than just follow them. Wei Jie, who engaged genuinely with the scaffold, is well-positioned to contribute. But Rajan, who skipped the scaffold entirely, is not included in the probe. Siti, who copied the scaffold mechanically, may freeze when asked to explain a step she did not understand."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS gallery critique on talk stems",
+          "label": "AQS (Affirm-Question-Suggest) gallery critique on talk stems",
           "elaboration": "Ask each pair to write their method comparison on a sticky note in one sentence: 'My method was ___ and my partner's method was ___.' Post four notes on the board: one with a genuine comparison, one with a mirror ('same as you'), one with a partial comparison, one with no method articulated. Run a whole-class AQS session on the mirror note: Affirm what they attempted ('They identified that both methods gave the right answer'), Question what is missing ('What is the difference between the two methods? Is there one?'), Suggest how to deepen it ('Try asking: did you both write an equation, or did one of you compute mentally?'). Ask all pairs to revise their sticky note using the AQS feedback.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS gallery critique makes the difference between genuine and superficial comparison visible to the whole class. It gives the mirroring pairs a concrete model of what a real method comparison looks like. But the pairs whose notes are displayed may feel exposed, even anonymously. Siti has nothing distinctive to post, and the gallery will be dominated by the 6 pairs who were genuinely comparing."

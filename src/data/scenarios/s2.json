@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback on verifications",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on verifications",
           "elaboration": "Use the MCQ evidence to form pairs: students who verified correctly (like Rajan) are paired with students who got the factors right but could not verify (like Nur). Ask pairs to exchange their MCQ whiteboards. The stronger student gives AQS feedback on their partner's verification attempt: Affirm what the factors got right (\"You found the correct factors\"), Question the verification step (\"Why did you not expand to check?\" or \"Your expansion has an error — can you find it?\"), Suggest how to verify (\"Expand using the distributive property: (x+3)(x+4) = x² + 7x + 12\"). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS feedback with the class.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS peer feedback builds self-regulation and gives Rajan a cognitively demanding task — explaining verification is harder than just doing it. The structure ensures feedback is specific and actionable. But the quality of peer explanation varies. Some students like Rajan can explain clearly; others may just give the answer without the reasoning. If Siti is paired with a student who cannot explain well, she may copy the procedure without understanding it. Fast finishers may disengage if their partner has nothing to show."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF chains on the proofs",
+          "label": "IRF (Initiate-Response-Feedback) chains on the proofs",
           "elaboration": "Pause the class and collect the extension cards. Select Rajan and one or two other students who wrote proofs. Ask the whole class: \"Why is the alternate pair (x+2)(x+6) impossible for x² + 13x + 12? What happens when you test it?\" Use an IRF chain: take Rajan's response (Initiation), ask a second student to build on it (Response), ask a third student to evaluate or add to the explanation (Feedback). Write the final class-built proof on the board. Then ask all students to choose one of their original 4 answers and write a similar proof showing why an alternate pair does not work.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain (common in Singapore classrooms) makes proof-level reasoning visible to the whole class and builds a shared explanation that is richer than any single student would produce. It deepens reasoning for the top group and models what proof looks like. But the chain is driven by the students who are already confident and have written proofs. Students like Siti, who are still at the procedural stage, may watch passively without understanding. Wei Jie may follow the logic but struggle to produce his own proof. Nur, who did not engage with the extension, has nothing to contribute."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS on the weakest gallery solution",
+          "label": "AQS (Affirm-Question-Suggest) on the weakest gallery solution",
           "elaboration": "Ask the class to vote on which solution needs the most improvement. Most students vote for Solution D (the one with the error). Run a whole-class AQS feedback session: Affirm what it got right (\"The student attempted to find factor pairs\"), Question the error (\"Why does (x+1)(x+6) not work? What went wrong?\"), Suggest how to fix it (\"Check: 1+6 = 7, not 5. Try the pair that adds to 5: 2+3\"). Take responses from multiple students and build a complete AQS response together. Then ask all students to re-examine their own work and verify at least one of their answers by expanding.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure (Affirm, Question, Suggest) turns the gallery walk evidence into structured, actionable feedback that the whole class can learn from. It is concrete because it is based on real student work. It also models the kind of critique students should be doing during gallery walks. But publicly voting on the \"weakest\" solution and critiquing it may embarrass or shut down the student who wrote it, even if it is posted anonymously. Some students will recognize their own work. The move also shifts back to teacher-led instruction, which may feel like a step backward after the collaborative gallery work."

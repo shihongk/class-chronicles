@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "Flex grouping with AQS peer feedback",
+          "label": "Flex grouping with AQS (Affirm-Question-Suggest) peer feedback",
           "elaboration": "Use the diagnostic evidence to form pairs: students who got both questions right (like Rajan) are paired with students who have the interpretation gap (like Nur) or the sign error (like Wei Jie). The stronger student gives AQS feedback: Affirm what is correct ('Your calculation is right'), Question the gap ('What does the sign of the gradient tell you about the direction of the line?'), Suggest the connection ('Positive m means rising left to right — the rise is positive'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "Flex grouping activates the expertise in the room and gives Rajan a cognitively demanding task. The AQS structure ensures feedback is specific. But Wei Jie's sign error is in the calculation, not just the interpretation — his partner may correct the interpretation without noticing the upstream calculation error. Siti, who left the calculation blank, has nothing for a peer to affirm."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: connect sign, direction, and steepness",
+          "label": "IRF (Initiate-Response-Feedback) probe: connect sign, direction, and steepness",
           "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your real-world extension — what does a negative gradient mean in context?' (Initiation). Then ask a second student: 'Can you connect that to the graph — what does a negative gradient look like on a coordinate plane?' (Response). Then ask a third student: 'And how do you know which line is steeper — m = −0.5 or m = 0.08?' (Feedback). Build a class-constructed explanation linking sign, direction, and magnitude. Write the connection on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain leverages Rajan's real-world extension and builds a shared explanation linking all three aspects of gradient interpretation. It gives the middle group a concrete, class-built explanation. But Wei Jie's sign error in the calculation is still not addressed — he will apply the correct interpretation to the wrong value. Siti may follow the chain without connecting it to her own calculation."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on shallow sign interpretation",
+          "label": "AQS (Affirm-Question-Suggest) feedback on shallow sign interpretation",
           "elaboration": "Write the most common shallow interpretation on the board anonymously: 'The gradient is 2. This means the line is steep.' Ask the class to give AQS feedback: Affirm what is correct ('The magnitude interpretation is right — m = 2 is steep'), Question what is missing ('What does the sign tell you? Is the line rising or falling?'), Suggest the addition ('Add: positive gradient means the line rises from left to right'). Take responses from multiple students and build a complete AQS response. Then ask all students to re-attempt their interpretation with the sign-direction connection added.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure makes the missing sign-direction connection explicit and gives the shallow pairs a concrete model of a complete interpretation. It is based on real student reasoning, which makes it concrete. But it interrupts the pair work momentum and shifts back to teacher-led instruction. The student whose interpretation was displayed may feel exposed even though it was anonymous."

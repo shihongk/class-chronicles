@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback: bridge representation to magnitude",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback: bridge representation to magnitude",
           "elaboration": "Use the diagnostic evidence to form pairs: students who connected their representation to the magnitude (like Rajan) are paired with students who have a representation but no magnitude (like Nur). The stronger student gives AQS feedback: Affirm the representation ('Your arrow diagram is correct — the tip-to-tail construction and resultant are right'), Question the connection ('How do you calculate the magnitude from the diagram? What are the components of the resultant?'), Suggest the method ('Read the components from the diagram: the resultant goes 4 right and 2 up. Then use Pythagoras: √(4²+2²) = √20'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. The structure ensures feedback is specific and actionable. But Wei Jie, who has only a verbal description, has nothing for a peer to affirm in terms of a representation. Siti's tip-to-tail error needs direct correction — a peer may not notice the fundamental diagram error and may focus on the magnitude instead."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: connect arrow, component, and magnitude",
+          "label": "IRF (Initiate-Response-Feedback) probe: connect arrow, component, and magnitude",
           "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your diagram — why does the magnitude use Pythagoras?' (Initiation). Then ask a second student: 'Can you connect that to the component form — what do the components represent geometrically?' (Response). Then ask a third student: 'And why does the second vector start at the tip of the first — what would happen if it started at the origin?' (Feedback). Build a class-constructed explanation linking all three representations to the magnitude calculation and the tip-to-tail rule. Write the connection on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain leverages Rajan's diagram work and builds a shared explanation linking all three representations to the magnitude and the tip-to-tail rule. It gives the middle group a concrete, class-built connection. But the chain is driven by students who can articulate their reasoning — Siti, who just corrected her diagram using the scaffold, may follow the chain without understanding why the tip-to-tail rule works."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on single-mode reasoning",
+          "label": "AQS (Affirm-Question-Suggest) feedback on single-mode reasoning",
           "elaboration": "Write the most common single-mode explanation on the board anonymously: 'The resultant vector points northeast because the x-component is positive and the y-component is positive.' Ask the class to give AQS feedback: Affirm what is correct ('The direction description is right — positive x and y components mean northeast'), Question what is missing ('How do you calculate the exact magnitude? What is the length of the resultant?'), Suggest the connection ('Use the components to calculate the magnitude: |a+b| = √(x²+y²) — this is Pythagoras applied to the component right triangle'). Take responses from multiple students and build a complete AQS response. Then ask all students to add the magnitude calculation to their explanation.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure makes the missing representation-to-magnitude connection explicit and gives the single-mode triads a concrete model of what integrated reasoning looks like. It is based on real student reasoning, which makes it concrete. But it interrupts the triad work momentum. Siti's tip-to-tail error is not addressed by the AQS feedback — she will likely continue with the wrong diagram."

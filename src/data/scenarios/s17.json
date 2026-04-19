@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback: bridge representation to policy",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback: bridge representation to policy",
           "elaboration": "Use the diagnostic evidence to form pairs: students who connected their representation to the policy decision (like Rajan) are paired with students who have a representation but no policy connection (like Nur). The stronger student gives AQS feedback: Affirm the representation ('Your graph is correct — the SRAS shift and stagflation equilibrium are right'), Question the connection ('What does the stagflation equilibrium mean for the policy decision? What are the options?'), Suggest the policy link ('Expansionary policy restores output but worsens inflation — the graph shows why this is a trade-off'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. The structure ensures feedback is specific and actionable. But Wei Jie, who has only a verbal description, has nothing for a peer to affirm in terms of a representation. Siti, who has a partial table, may receive feedback that goes beyond her current level of understanding."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: connect all three representations to policy",
+          "label": "IRF (Initiate-Response-Feedback) probe: connect all three representations to policy",
           "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your graph — what does the stagflation equilibrium mean for the policy decision?' (Initiation). Then ask a second student: 'Can you show the same trade-off in the table? What happens to price level and output under each policy option?' (Response). Then ask a third student: 'And in words — what is the fundamental policy dilemma? Why can't you fix both problems at once?' (Feedback). Build a class-constructed explanation linking all three representations to the policy trade-off. Write the connection on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain leverages Rajan's graph work and builds a shared explanation linking all three representations to the policy trade-off. It gives the middle group a concrete, class-built connection. But the chain is driven by students who can articulate their reasoning — Siti, who is still copying the scaffold, may follow the chain without connecting it to her own representations."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on single-mode reasoning",
+          "label": "AQS (Affirm-Question-Suggest) feedback on single-mode reasoning",
           "elaboration": "Write the most common single-mode explanation on the board anonymously: 'The AD-AS graph shows the SRAS shifting left, causing stagflation.' Ask the class to give AQS feedback: Affirm what is correct ('The graph description is right — SRAS shifts left and stagflation results'), Question what is missing ('What does this mean for the policy decision? What are the options and their trade-offs?'), Suggest the connection ('The stagflation equilibrium means any policy that fixes one problem worsens the other — the graph shows why this is a dilemma'). Take responses from multiple students and build a complete AQS response. Then ask all students to add the policy connection to their explanation.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure makes the missing representation-to-policy connection explicit and gives the single-mode triads a concrete model of what integrated reasoning looks like. It is based on real student reasoning, which makes it concrete. But it interrupts the triad work momentum. Siti, who was echoing her partners, will likely copy the AQS response from the board without making the connection herself."

@@ -66,6 +66,7 @@ function loadState() {
 function navigate(phase) {
   state.phase = phase;
   saveState();
+  window.scrollTo(0, 0);
   document.getElementById('app').innerHTML = '';
 
   switch (phase) {

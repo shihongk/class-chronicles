@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback on proofs and verification",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on proofs and verification",
           "elaboration": "Use the diagnostic evidence to form pairs: students who chose option (a) correctly (like Rajan) are paired with students who chose option (b) (like Nur and Wei Jie). The stronger student gives AQS feedback: Affirm the correct manipulation ('Your algebraic steps are right'), Question the missing step ('How do you know this is true for all values of θ? Have you verified it?'), Suggest the verification ('Try substituting θ = 30° into both sides — do they give the same value?'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. The structure ensures feedback is specific and actionable. But Wei Jie's application error — using the wrong identity — is a different type of gap from Nur's verification gap. His partner may address the verification without noticing the application error. Siti, who has an incomplete proof, has nothing for a peer to affirm."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: when do you use each identity?",
+          "label": "IRF (Initiate-Response-Feedback) probe: when do you use each identity?",
           "elaboration": "Pause the class and run an IRF chain focused on application. Ask: 'Rajan, from your extension work — when would you use tan²θ + 1 = sec²θ instead of sin²θ + cos²θ = 1?' (Initiation). Then ask a second student: 'Can you give an example of a question where you would need tan²θ + 1 = sec²θ?' (Response). Then ask a third student: 'How do you decide which identity to use? What do you look for in the question?' (Feedback). Build a class-constructed decision rule for identity selection. Write it on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain addresses Wei Jie's application error directly by building a class-constructed decision rule for identity selection. It leverages Rajan's extension work and gives the middle group a concrete framework. But the chain is driven by students who can articulate their reasoning — Siti, who is still dependent on the scaffold, may follow the chain without connecting it to her own proofs."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on shallow derivation claims",
+          "label": "AQS (Affirm-Question-Suggest) feedback on shallow derivation claims",
           "elaboration": "Write the most common shallow explanation on the board anonymously: 'sin²θ + cos²θ = 1 is true because it comes from Pythagoras.' Ask the class to give AQS feedback: Affirm what is correct ('The Pythagorean connection is right'), Question what is missing ('How does Pythagoras give us this identity? What is the triangle?'), Suggest the derivation ('Draw a right triangle with hypotenuse 1. sinθ = opposite, cosθ = adjacent. By Pythagoras: sin²θ + cos²θ = 1²= 1'). Take responses from multiple students and build a complete AQS response. Then ask all students to write the full derivation in their notes.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure makes the missing derivation explicit and gives the shallow pairs a concrete model of what genuine conceptual reasoning looks like. It is based on real student reasoning, which makes it concrete. But it interrupts the pair work momentum and shifts back to teacher-led instruction. The student whose shallow explanation was displayed may feel exposed even though it was anonymous."

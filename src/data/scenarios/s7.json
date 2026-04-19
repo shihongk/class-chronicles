@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback on multiplier steps",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on multiplier steps",
           "elaboration": "Use the diagnostic evidence to form pairs: students who got both questions right (like Rajan) are paired with students who made the multiplier error (like Wei Jie) or left the reasoning blank (like Siti). The correct student gives AQS feedback on their partner's working: Affirm what is right ('You multiplied the numerator correctly'), Question the error ('Why did you only multiply the top? What happened to the denominator?'), Suggest the fix ('Try multiplying both top and bottom by the same number — the fraction changes its look but not its value'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS peer feedback is more personalised than a whole-class reteach and activates the expertise in the room. Wei Jie, who has a clear patterned error, may benefit from having it questioned by a peer. But Siti has no working to give feedback on — her partner will end up explaining the concept from scratch. Rajan is giving rather than receiving, which may not challenge him."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: connect visual to abstract rule",
+          "label": "IRF (Initiate-Response-Feedback) probe: connect visual to abstract rule",
           "elaboration": "Pause the class and run a cross-representation IRF chain. Ask: 'Nur, what does your number line tell you about 3/6 and 6/12?' (Initiation — visual). Then ask: 'Wei Jie, can you express what Nur just said using the multiply-both rule?' (Response — abstract). Then ask a third student: 'Can you write a general rule that works for any equivalent fraction?' (Feedback — generalisation). Use the chain to build a complete, class-constructed explanation that moves from visual to abstract. Write the final rule on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The cross-representation IRF chain makes the connection between the visual scaffold and the abstract rule visible and public. It leverages the different strengths in the room and builds a shared explanation. But it puts students on the spot by asking them to work in a mode they may not be confident in. Siti, who is anchored in the visual strips, may freeze if asked to connect to the abstract rule."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS gallery critique on proofs",
+          "label": "AQS (Affirm-Question-Suggest) gallery critique on proofs",
           "elaboration": "Ask each pair to write their proof on a sticky note in one sentence: 'These fractions are equivalent because ___.' Post four notes on the board: one with a clear multiply-both proof, one with a common-denominator proof, one with the multiplier error ('×2 numerator only'), one with a shallow claim ('same amount'). Run a whole-class AQS session on the error note: Affirm what they attempted ('They identified the correct multiplier'), Question the error ('Why did you only multiply the numerator? What happened to the denominator?'), Suggest the fix ('Multiply both top and bottom by the same number — try it and check'). Ask all pairs to revise their proofs.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS gallery critique makes the multiplier error visible and public in a structured, non-embarrassing way. It gives the mirroring pairs a concrete model of what a correct proof looks like. But the pairs whose error note is displayed may feel exposed. Siti's pair will likely produce a shallow claim, and the AQS feedback may feel abstract to students who have not yet attempted the fractions."

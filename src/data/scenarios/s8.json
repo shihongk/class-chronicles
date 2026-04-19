@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback on unit labels",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on unit labels",
           "elaboration": "Use the diagnostic evidence to form pairs: students who got both units right (like Rajan) are paired with students who swapped the units (like Nur) or guessed (like Wei Jie). The correct student gives AQS feedback on their partner's working: Affirm the correct calculation ('Your perimeter calculation is right — 16 cm'), Question the unit ('Why did you write cm² for perimeter? What is perimeter measuring?'), Suggest the correction ('Perimeter measures a length around the edge — one dimension — so the unit is cm, not cm²'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS peer feedback is more personalised than a whole-class reteach and activates the expertise in the room. Nur, who has correct calculations but wrong units, may benefit from having the unit distinction explained by a peer in conversational terms. But Siti has formula confusion — her partner will need to address a more fundamental error than unit labelling, and the AQS structure may not be sufficient. Rajan is giving rather than receiving."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: why do perimeter and area use different units?",
+          "label": "IRF (Initiate-Response-Feedback) probe: why do perimeter and area use different units?",
           "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your extension work — why does perimeter use cm but area uses cm²?' (Initiation). Then ask a second student: 'Can you build on that? What does cm² actually represent?' (Response). Then ask a third student: 'Do you agree? Can you give an example that proves it?' (Feedback). Use the chain to build a complete, class-constructed explanation of the unit distinction. Write the final explanation on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF probe leverages Rajan's extension work and builds a shared explanation that is richer than any single student would produce. It gives the middle group a clear, class-built explanation of the unit distinction. But it puts students on the spot and may overwhelm Siti, who is still confused about the formulas. The probe serves the middle group well but does not address Siti's more fundamental formula confusion."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS gallery critique on unit explanations",
+          "label": "AQS (Affirm-Question-Suggest) gallery critique on unit explanations",
           "elaboration": "Ask each pair to write their unit explanation on a sticky note: 'Perimeter uses cm because ___. Area uses cm² because ___.' Post four notes on the board: one with the dimensional reasoning, one with 'because it is not squares', one with 'because the formula is different', one with no explanation. Run a whole-class AQS session on the shallow note: Affirm what they attempted ('They identified the correct units'), Question what is missing ('Why is perimeter not squares? What is it measuring?'), Suggest how to deepen it ('Think about dimensions — perimeter is one-dimensional like a line, area is two-dimensional like a surface'). Ask all pairs to revise their sticky notes.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS gallery critique makes the difference between shallow and deep unit reasoning visible to the whole class. It gives the shallow pairs a concrete model of what dimensional reasoning looks like. But the pairs whose notes are displayed may feel exposed. Siti's pair will likely produce a shallow or incorrect note, and the AQS feedback may feel abstract to students who are still confused about the formulas."

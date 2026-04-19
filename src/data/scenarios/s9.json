@@ -60,14 +60,14 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS peer feedback on direction reasoning",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on direction reasoning",
           "elaboration": "Use the thumbometer evidence to form pairs: students who showed thumbs up (like Rajan) are paired with students who showed thumbs sideways (like Nur and Wei Jie). Ask the confident student to give AQS feedback on their partner's diagnostic response: Affirm what is correct ('You got the right answer'), Question the direction ('You said you didn't use a number line — can you show me the direction on the number line?'), Suggest how to think about it ('Try drawing the number line and tracing the movement — subtracting always means moving left'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback gives quiet students structured practice in talking about their reasoning. The Affirm-Question-Suggest structure ensures feedback is specific and actionable. Pairing confident with unsure students leverages the expertise in the room. But the quality of peer explanation varies. Rajan may give minimal explanations because he is not used to articulating his reasoning. Siti, who has a direction misconception, needs her specific error addressed — not just a general prompt to use the number line."
         },
         {
           "id": "2",
-          "label": "IRF chains on direction reasoning",
+          "label": "IRF (Initiate-Response-Feedback) chains on direction reasoning",
           "elaboration": "Select 3–4 students who got both diagnostic questions right and can explain their direction reasoning. Run an IRF chain with the whole class: 'Why do we move left when we subtract? What is the reasoning?' Take the first student's response (Initiation). Then ask a second student: 'Can you add to what [first student] said?' (Response). Then ask a third student: 'Do you agree? Is there anything you would clarify or correct?' (Feedback). Build a complete, class-constructed explanation. Write the final reasoning on the board and ask all students to copy it into their notes.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "IRF chains build a shared explanation that is richer than any single student would produce. It makes the direction reasoning visible and public. But the chain is driven by the students who are already confident and can articulate their thinking. The majority of quiet students remain passive observers. Siti, who has a direction misconception, may copy the board explanation without correcting her underlying error."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS gallery critique on direction claims",
+          "label": "AQS (Affirm-Question-Suggest) gallery critique on direction claims",
           "elaboration": "Ask each pair to write their Accountable Talk claim on a sticky note: 'I claim the answer is ___ because ___. On the number line, I moved ___ because ___.' Post four notes on the board: one with clear direction reasoning, one with answer-only ('because I subtracted'), one with a direction error, one with no direction explanation. Run a whole-class AQS session on the answer-only note: Affirm what they attempted ('They used the stem structure and got the right answer'), Question what is missing ('Why did you move in that direction? What does subtracting mean on the number line?'), Suggest how to deepen it ('Try adding: I moved left because subtracting a positive means moving in the negative direction'). Ask all pairs to revise their sticky notes.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS gallery critique makes the difference between answer-confirmation and direction reasoning visible to the whole class. It gives the shallow pairs a concrete model of what genuine direction reasoning looks like. But the pairs whose notes are displayed may feel exposed. Siti's pair will likely produce a shallow or incorrect note, and the AQS feedback may feel abstract to students who have not yet articulated the direction rule."

@@ -60,14 +60,14 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on unsure thumbs",
+          "label": "AQS (Affirm-Question-Suggest) feedback on unsure thumbs",
           "elaboration": "Use the thumbometer evidence to form pairs: students who showed thumbs up (like Rajan) are paired with students who showed thumbs sideways (like Nur). Ask the confident student to give AQS feedback on their partner's MCQ response: Affirm what is correct ('You chose the right equation'), Question the reasoning ('Why did you say you worked backwards instead of balancing?'), Suggest how to think about it ('Try thinking: what you start with minus what you spend equals what you have left. That is balancing.'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS feedback with the class.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback gives quiet students structured practice in talking about their reasoning. The Affirm-Question-Suggest structure ensures feedback is specific and actionable. Pairing confident with unsure students leverages the expertise in the room. But the quality of peer explanation varies. Rajan may give minimal explanations because he is not used to articulating his reasoning. If Siti is paired with a student who cannot explain well, she may copy without understanding. The confident students may disengage if they feel the task is not challenging them."
         },
         {
           "id": "2",
-          "label": "IRF chains on justifications",
+          "label": "IRF (Initiate-Response-Feedback) chains on justifications",
           "elaboration": "Select 3-4 students who got both MCQ questions right and can explain their reasoning. Run an IRF chain with the whole class: 'Why is equation (B) correct? What is the reasoning?' Take the first student's response (Initiation). Then ask a second student: 'Can you add to what [first student] said?' (Response). Then ask a third student: 'Do you agree? Is there anything you would clarify or correct?' (Feedback). Build a complete, class-constructed explanation. Write the final reasoning on the board and ask all students to copy it into their notes.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "IRF chains (common in Singapore classrooms) build a shared explanation that is richer than any single student would produce. It makes reasoning visible and public. But the chain is driven by the students who are already confident and can articulate their thinking. The majority of quiet students remain passive observers. Siti and Wei Jie, who got the MCQ wrong, have nothing to contribute and may feel exposed. The reasoning belongs to the few who speak, not to everyone."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "Gallery critique with AQS on stems",
+          "label": "Gallery critique with AQS (Affirm-Question-Suggest) on stems",
           "elaboration": "Select 4 pairs' Accountable Talk stems and post them anonymously on the board: Pair A (clear reasoning with evidence), Pair B (shallow 'because it works'), Pair C (error reinforced), Pair D (silence/minimal). Ask the class to vote on which pair's reasoning is strongest and which needs the most improvement. Then run a whole-class AQS session on the weakest pair: Affirm what they attempted ('They used the stem structure'), Question what is missing ('Why is \"because it works\" not enough? What evidence is missing?'), Suggest how to improve ('Explain how the equation matches the problem: what each term represents and why the operations are correct'). Take responses from multiple students and build a complete AQS critique together.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The gallery critique makes the quality of reasoning visible and public. The AQS structure models what good critique looks like. It turns the Accountable Talk output into a learning opportunity for the whole class. But voting on the 'weakest' reasoning may embarrass the students whose stems were posted, even anonymously. In a class of 22, students often recognize their own work. The move also shifts back to teacher-led instruction, which may feel like a step backward after the pair work."

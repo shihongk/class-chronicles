@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "AQS peer feedback: bridge representation to complete proof",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback: bridge representation to complete proof",
           "elaboration": "Use the diagnostic evidence to form pairs: students who produced a complete proof (like Rajan) are paired with students who have a representation but no complete proof (like Nur). The stronger student gives AQS feedback: Affirm the representation ('Your diagram is correct — the angles are marked in the right positions'), Question the connection ('What equation and reason do you need to complete the proof?'), Suggest the structure ('Write: ∠1 = ∠2 = 72° (alternate angles, AB ∥ CD)'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback activates the expertise in the room and gives Rajan a cognitively demanding task. The structure ensures feedback is specific and actionable. But Wei Jie, who has only a verbal description, has nothing for a peer to affirm in terms of a representation. Siti, who has a partial diagram, may receive feedback that goes beyond her current level of understanding."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: connect all three representations to the proof",
+          "label": "IRF (Initiate-Response-Feedback) probe: connect all three representations to the proof",
           "elaboration": "Pause the class and run an IRF chain. Ask: 'Rajan, from your diagram — why are alternate angles equal when lines are parallel?' (Initiation). Then ask a second student: 'Can you show the same relationship in the equation? What does ∠1 = ∠2 mean geometrically?' (Response). Then ask a third student: 'And in words — why does equal alternate angles prove the lines are parallel?' (Feedback). Build a class-constructed explanation linking all three representations to the proof. Write the connection on the board.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain leverages Rajan's diagram work and builds a shared explanation linking all three representations to the proof. It gives the middle group a concrete, class-built connection. But the chain is driven by students who can articulate their reasoning — Siti, who is still copying the scaffold, may follow the chain without connecting it to her own representations."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on single-mode reasoning",
+          "label": "AQS (Affirm-Question-Suggest) feedback on single-mode reasoning",
           "elaboration": "Write the most common single-mode explanation on the board anonymously: 'The angles are equal because they are alternate angles, so the lines are parallel.' Ask the class to give AQS feedback: Affirm what is correct ('The reason is right — alternate angles are equal when lines are parallel'), Question what is missing ('Where is the diagram? Where is the equation? What are the actual angle values?'), Suggest the connection ('Add: draw the diagram, mark ∠1 = ∠2 = 72°, and write the reason in formal proof format'). Take responses from multiple students and build a complete AQS response. Then ask all students to add the missing representations to their proof.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure makes the missing representations explicit and gives the single-mode triads a concrete model of what a complete proof looks like. It is based on real student reasoning, which makes it concrete. But it interrupts the triad work momentum. Siti, who was echoing her partners, will likely copy the AQS response from the board without making the connection herself."

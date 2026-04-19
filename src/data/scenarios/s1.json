@@ -67,7 +67,7 @@
         },
         {
           "id": "2",
-          "label": "Flex grouping with AQS peer feedback",
+          "label": "Flex grouping with AQS (Affirm-Question-Suggest) peer feedback",
           "elaboration": "Use the MCQ evidence to form flexible pairs: students who got both questions right (like Rajan) are paired with students who made the halving error (like Nur). The stronger student gives AQS feedback on their partner's working: Affirm what is correct (\"You moved the constant correctly\"), Question the step that went wrong (\"Why did you square 8 instead of halving it?\"), Suggest the correct move (\"Try halving 8 first, then squaring the result\"). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS feedback with the class.",
           "theoryKey": "Tomlinson_Flex_Grouping",
           "tradeoff": "Flex grouping (Tomlinson) leverages the expertise already in the room and gives Rajan a cognitively demanding task — explaining is harder than doing. The AQS structure ensures feedback is specific and actionable. But the quality of peer explanation varies widely. Some students like Rajan can explain clearly; others may just give the answer without the reasoning. If Siti is paired with a student who cannot explain well, she may copy the procedure without understanding it. You also lose some control over the accuracy of the feedback being given."
@@ -79,7 +79,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "IRF probe: explain the halving step without the scaffold",
+          "label": "IRF (Initiate-Response-Feedback) probe: explain the halving step without the scaffold",
           "elaboration": "Pause the class and collect the scaffold cards. Ask the whole class: \"Without looking at the card — can someone explain in your own words why we halve the coefficient of x?\" Take the first response (Initiation). Then ask a second student: \"Can you build on what [first student] said? What would you add?\" (Response). Then ask a third student: \"Do you agree? Is there anything you would correct or clarify?\" (Feedback). Use the IRF chain to construct a complete, class-built explanation. Write the final explanation on the board and ask students to copy it into their notes.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "The IRF chain (common in Singapore classrooms) reveals whether understanding is genuine or scaffold-dependent. It builds a shared explanation that is richer than any single student would produce alone. But putting students on the spot risks freezing those who are still fragile. Siti is unlikely to volunteer, and if called on, may say \"I don't know\" or give a memorized answer without understanding. The public nature of the probe may also embarrass students who realize they were just copying the scaffold."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS feedback on the common error",
+          "label": "AQS (Affirm-Question-Suggest) feedback on the common error",
           "elaboration": "Write the most common error on the board anonymously: \"x² + 6x + 5 = 0 → (x + 6)² = ...\" Ask the class to give AQS feedback on this working as if it were a peer's work. Use the structure: Affirm what is correct (\"The constant was moved correctly\"), Question the step that went wrong (\"Why was 6 squared instead of halved?\"), Suggest the fix (\"Halve the coefficient first: 6 ÷ 2 = 3, then square: 3² = 9\"). Take responses from multiple students and build a complete AQS response together. Then ask all students to re-attempt the question using the correct method.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS structure (Affirm, Question, Suggest) turns the evidence from the pair talk into structured, actionable feedback for the whole class. It is concrete because it is based on real student work, and it models the kind of feedback students should be giving each other. But publicly displaying the error — even anonymously — may embarrass the students whose reasoning it came from. Some students will recognize their own work on the board. The move also interrupts the pair work momentum and shifts back to teacher-led instruction."

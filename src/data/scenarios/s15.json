@@ -60,14 +60,14 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS peer feedback on decomposition reasoning",
+          "label": "AQS (Affirm-Question-Suggest) peer feedback on decomposition reasoning",
           "elaboration": "Use the thumbometer evidence to form pairs: students who showed thumbs up (like Rajan) are paired with students who showed thumbs sideways (like Nur and Wei Jie). Ask the confident student to give AQS feedback on their partner's diagnostic response: Affirm what is correct ('You got the right volume'), Question the decomposition ('You said you used one formula — can you show me how you split the solid into parts?'), Suggest how to think about it ('Try identifying the component shapes first: this solid is a ___ on top of a ___'). Circulate and listen for the quality of explanations. After 4 minutes, ask one pair to share their AQS exchange.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "AQS feedback gives quiet students structured practice in talking about their decomposition reasoning. The Affirm-Question-Suggest structure ensures feedback is specific and actionable. Pairing confident with unsure students leverages the expertise in the room. But the quality of peer explanation varies. Rajan may give minimal explanations because he is not used to articulating his reasoning. Siti, who has a substitution error, needs her specific error addressed — not just a general prompt to decompose."
         },
         {
           "id": "2",
-          "label": "IRF chains on decomposition reasoning",
+          "label": "IRF (Initiate-Response-Feedback) chains on decomposition reasoning",
           "elaboration": "Select 3–4 students who got both diagnostic questions right and can explain their decomposition. Run an IRF chain with the whole class: 'Why do we split a composite solid into parts before calculating volume? What is the reasoning?' Take the first student's response (Initiation). Then ask a second student: 'Can you add to what [first student] said?' (Response). Then ask a third student: 'Do you agree? Is there anything you would clarify or correct?' (Feedback). Build a complete, class-constructed explanation. Write the final reasoning on the board and ask all students to copy it into their notes.",
           "theoryKey": "IRF_Chains",
           "tradeoff": "IRF chains build a shared explanation that is richer than any single student would produce. It makes the decomposition reasoning visible and public. But the chain is driven by the students who are already confident and can articulate their thinking. The majority of quiet students remain passive observers. Siti, who has a substitution error, may copy the board explanation without correcting her underlying error."
@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "1",
-          "label": "AQS gallery critique on decomposition claims",
+          "label": "AQS (Affirm-Question-Suggest) gallery critique on decomposition claims",
           "elaboration": "Ask each pair to write their Accountable Talk claim on a sticky note: 'I claim the volume is ___ because ___. I decomposed it by ___ because ___.' Post four notes on the board: one with clear decomposition reasoning, one with answer-only ('because I calculated it'), one with a decomposition error, one with no decomposition explanation. Run a whole-class AQS session on the answer-only note: Affirm what they attempted ('They used the stem structure and got the right answer'), Question what is missing ('How did you decompose the solid? What are the component shapes?'), Suggest how to deepen it ('Try adding: I split the solid into a cylinder and a cone because they have different volume formulas'). Ask all pairs to revise their sticky notes.",
           "theoryKey": "AQS_Feedback",
           "tradeoff": "The AQS gallery critique makes the difference between answer-confirmation and decomposition reasoning visible to the whole class. It gives the shallow pairs a concrete model of what genuine decomposition reasoning looks like. But the pairs whose notes are displayed may feel exposed. Siti's pair will likely produce a shallow or incorrect note, and the AQS feedback may feel abstract to students who have not yet articulated the decomposition method."
