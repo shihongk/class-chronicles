@@ -131,9 +131,9 @@ function renderLanding() {
 // 6. Setup screen
 // -----------------------------------------------------------------------------
 const LEVELS = [
-  { value: 'lower_sec', label: 'Lower Secondary', desc: 'Sec 1–2' },
-  { value: 'upper_sec', label: 'Upper Secondary', desc: 'Sec 3–5' },
-  { value: 'jc',        label: 'Junior College',  desc: 'JC1–JC2' }
+  { value: 'lower_sec', label: 'Lower Secondary', desc: 'Sec 1–2',  disabled: true },
+  { value: 'upper_sec', label: 'Upper Secondary', desc: 'Sec 3–4' },
+  { value: 'jc',        label: 'Junior College',  desc: 'JC1–JC2', disabled: true }
 ];
 
 const PROFILES = [
@@ -154,8 +154,8 @@ const VALID_COMBOS = {
 
 function renderSetup() {
   const levelHtml = LEVELS.map(l => `
-    <button class="pill${state.level === l.value ? ' pill--selected' : ''}"
-            data-group="level" data-value="${l.value}">
+    <button class="pill${state.level === l.value ? ' pill--selected' : ''}${l.disabled ? ' pill--disabled' : ''}"
+            data-group="level" data-value="${l.value}"${l.disabled ? ' disabled title="Please contact admin to unlock the remaining scenarios."' : ''}>
       <span class="pill__label">${l.label}</span>
       <span class="pill__desc">${l.desc}</span>
     </button>`).join('');
